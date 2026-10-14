@@ -1,0 +1,6 @@
+numpy
+torch>=1.10
+torchvision
+tqdm
+Pillow
+tensorboard_logger
