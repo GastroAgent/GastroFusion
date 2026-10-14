@@ -1,0 +1,1252 @@
+{
+  "stage": "mllm_candidate_service_full_scoremap",
+  "city": "南充",
+  "organ": "食管",
+  "source_json": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/huaxi_mllm_fsl_agent/external9_agent831_few_way/南充食管_agent.json",
+  "mllm_endpoint": "http://gpu35:8031/v1/vision/candidate_diseases",
+  "top_k": 5,
+  "use_teacher_forcing": true,
+  "score_softmax_temperature": 1.0,
+  "length_normalize": true,
+  "summary": {
+    "total": 16,
+    "success": 16,
+    "failure": 0,
+    "mllm_correct": 9,
+    "mllm_acc": 0.5625
+  },
+  "results": [
+    {
+      "image_id": "食管__刘荣_21",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__刘荣_21.jpeg",
+      "ground_truth_name": "Esophageal Glycogenic Acanthosis",
+      "support_classes": [
+        {
+          "label_name": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__刘荣_21.jpeg",
+      "ground_truth": "Esophageal Glycogenic Acanthosis",
+      "mllm_diag": "食管癌",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "Esophageal Glycogenic Acanthosis": {
+          "log_prob": -6.58468,
+          "mean_log_prob": -0.658468,
+          "norm_prob": 0.34137,
+          "token_count": 10.0
+        },
+        "食管癌": {
+          "log_prob": -0.003817,
+          "mean_log_prob": -0.001272,
+          "norm_prob": 0.65863,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "Esophageal Glycogenic Acanthosis"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.65863,
+          "log_prob": -0.003817,
+          "mean_log_prob": -0.001272
+        },
+        {
+          "rank": 2,
+          "disease": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.34137,
+          "log_prob": -6.58468,
+          "mean_log_prob": -0.658468
+        }
+      ],
+      "mllm_visual_evidence": "内镜图像显示黏膜表面不规则、颜色暗沉，伴有明显的血管纹理紊乱和局部隆起，符合恶性病变的典型形态学特征；NBI增强下可见异常血管分布及黏膜破坏，提示可能存在浸润性肿瘤。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"食管乳头状瘤\"],\n  \"visual_evidence\": \"内镜图像显示黏膜表面不规则、颜色暗沉，伴有明显的血管纹理紊乱和局部隆起，符合恶性病变的典型形态学特征；NBI增强下可见异常血管分布及黏膜破坏，提示可能存在浸润性肿瘤。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.843648910522461,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__刘荣_6",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__刘荣_6.jpeg",
+      "ground_truth_name": "Esophageal Glycogenic Acanthosis",
+      "support_classes": [
+        {
+          "label_name": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__刘荣_6.jpeg",
+      "ground_truth": "Esophageal Glycogenic Acanthosis",
+      "mllm_diag": "食管癌",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "Esophageal Glycogenic Acanthosis": {
+          "log_prob": -6.204384,
+          "mean_log_prob": -0.620438,
+          "norm_prob": 0.350323,
+          "token_count": 10.0
+        },
+        "食管癌": {
+          "log_prob": -0.008459,
+          "mean_log_prob": -0.00282,
+          "norm_prob": 0.649677,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "Esophageal Glycogenic Acanthosis"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.649677,
+          "log_prob": -0.008459,
+          "mean_log_prob": -0.00282
+        },
+        {
+          "rank": 2,
+          "disease": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.350323,
+          "log_prob": -6.204384,
+          "mean_log_prob": -0.620438
+        }
+      ],
+      "mllm_visual_evidence": "食管黏膜表面可见不规则隆起、颜色暗沉的病变区域，伴有血管纹理紊乱和局部狭窄，提示可能存在恶性肿瘤性增生。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"食管乳头状瘤\"],\n  \"visual_evidence\": \"食管黏膜表面可见不规则隆起、颜色暗沉的病变区域，伴有血管纹理紊乱和局部狭窄，提示可能存在恶性肿瘤性增生。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.125444412231445,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__王小燕_57",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__王小燕_57.jpeg",
+      "ground_truth_name": "Esophageal Glycogenic Acanthosis",
+      "support_classes": [
+        {
+          "label_name": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__王小燕_57.jpeg",
+      "ground_truth": "Esophageal Glycogenic Acanthosis",
+      "mllm_diag": "食管癌",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "Esophageal Glycogenic Acanthosis": {
+          "log_prob": -4.900868,
+          "mean_log_prob": -0.490087,
+          "norm_prob": 0.382181,
+          "token_count": 10.0
+        },
+        "食管癌": {
+          "log_prob": -0.029354,
+          "mean_log_prob": -0.009785,
+          "norm_prob": 0.617819,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "Esophageal Glycogenic Acanthosis"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.617819,
+          "log_prob": -0.029354,
+          "mean_log_prob": -0.009785
+        },
+        {
+          "rank": 2,
+          "disease": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.382181,
+          "log_prob": -4.900868,
+          "mean_log_prob": -0.490087
+        }
+      ],
+      "mllm_visual_evidence": "图像显示食管黏膜表面出现不规则隆起、颜色较深且边界模糊的病变区域，中心可见凹陷或溃疡样改变，周围黏膜纹理紊乱，提示可能存在恶性肿瘤特征。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"食管乳头状瘤\"],\n  \"visual_evidence\": \"图像显示食管黏膜表面出现不规则隆起、颜色较深且边界模糊的病变区域，中心可见凹陷或溃疡样改变，周围黏膜纹理紊乱，提示可能存在恶性肿瘤特征。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.509648561477661,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__王小燕_58",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__王小燕_58.jpeg",
+      "ground_truth_name": "Esophageal Glycogenic Acanthosis",
+      "support_classes": [
+        {
+          "label_name": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__王小燕_58.jpeg",
+      "ground_truth": "Esophageal Glycogenic Acanthosis",
+      "mllm_diag": "食管癌",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "Esophageal Glycogenic Acanthosis": {
+          "log_prob": -4.375446,
+          "mean_log_prob": -0.437545,
+          "norm_prob": 0.3943,
+          "token_count": 10.0
+        },
+        "食管癌": {
+          "log_prob": -0.024815,
+          "mean_log_prob": -0.008272,
+          "norm_prob": 0.6057,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "Esophageal Glycogenic Acanthosis"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.6057,
+          "log_prob": -0.024815,
+          "mean_log_prob": -0.008272
+        },
+        {
+          "rank": 2,
+          "disease": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis",
+          "source": "open_generation",
+          "norm_prob": 0.3943,
+          "log_prob": -4.375446,
+          "mean_log_prob": -0.437545
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面可见不规则隆起及糜烂区域，伴有局部颜色改变和表面凹陷，提示可能存在肿瘤性病变；同时黏膜纹理紊乱，缺乏正常食管的光滑结构。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"Esophageal Glycogenic Acanthosis\"],\n  \"visual_evidence\": \"黏膜表面可见不规则隆起及糜烂区域，伴有局部颜色改变和表面凹陷，提示可能存在肿瘤性病变；同时黏膜纹理紊乱，缺乏正常食管的光滑结构。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.909721374511719,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__王小燕_63",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__王小燕_63.jpeg",
+      "ground_truth_name": "Esophageal Glycogenic Acanthosis",
+      "support_classes": [
+        {
+          "label_name": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__王小燕_63.jpeg",
+      "ground_truth": "Esophageal Glycogenic Acanthosis",
+      "mllm_diag": "食管癌",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "Esophageal Glycogenic Acanthosis": {
+          "log_prob": -4.215303,
+          "mean_log_prob": -0.42153,
+          "norm_prob": 0.39836,
+          "token_count": 10.0
+        },
+        "食管癌": {
+          "log_prob": -0.027681,
+          "mean_log_prob": -0.009227,
+          "norm_prob": 0.60164,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "Esophageal Glycogenic Acanthosis"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.60164,
+          "log_prob": -0.027681,
+          "mean_log_prob": -0.009227
+        },
+        {
+          "rank": 2,
+          "disease": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.39836,
+          "log_prob": -4.215303,
+          "mean_log_prob": -0.42153
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面可见不规则隆起及糜烂区域，局部颜色较周围组织暗沉，形态呈菜花状或结节样改变，提示可能存在恶性病变。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"食管乳头状瘤\"],\n  \"visual_evidence\": \"黏膜表面可见不规则隆起及糜烂区域，局部颜色较周围组织暗沉，形态呈菜花状或结节样改变，提示可能存在恶性病变。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.637375593185425,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__王能钊_5",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__王能钊_5.jpeg",
+      "ground_truth_name": "Esophageal Glycogenic Acanthosis",
+      "support_classes": [
+        {
+          "label_name": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__王能钊_5.jpeg",
+      "ground_truth": "Esophageal Glycogenic Acanthosis",
+      "mllm_diag": "Esophageal Glycogenic Acanthosis",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "Esophageal Glycogenic Acanthosis": {
+          "log_prob": -3.307287,
+          "mean_log_prob": -0.330729,
+          "norm_prob": 0.421998,
+          "token_count": 10.0
+        },
+        "食管癌": {
+          "log_prob": -0.048457,
+          "mean_log_prob": -0.016152,
+          "norm_prob": 0.578002,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "Esophageal Glycogenic Acanthosis",
+        "食管癌"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis",
+          "source": "open_generation",
+          "norm_prob": 0.421998,
+          "log_prob": -3.307287,
+          "mean_log_prob": -0.330729
+        },
+        {
+          "rank": 2,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.578002,
+          "log_prob": -0.048457,
+          "mean_log_prob": -0.016152
+        }
+      ],
+      "mllm_visual_evidence": "食管黏膜表面可见多处白色或淡黄色的隆起斑块，呈疣状或颗粒状分布，伴有明显的血管网显露，符合糖原性增生的典型内镜表现；未见溃疡、糜烂或明显狭窄等恶性病变特征。",
+      "mllm_risk_level": "low",
+      "mllm_raw_text": "{\n  \"diag\": \"Esophageal Glycogenic Acanthosis\",\n  \"topk\": [\"Esophageal Glycogenic Acanthosis\", \"食管癌\"],\n  \"visual_evidence\": \"食管黏膜表面可见多处白色或淡黄色的隆起斑块，呈疣状或颗粒状分布，伴有明显的血管网显露，符合糖原性增生的典型内镜表现；未见溃疡、糜烂或明显狭窄等恶性病变特征。\",\n  \"risk_level\": \"low\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 6.010438680648804,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__王能钊_9",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__王能钊_9.jpeg",
+      "ground_truth_name": "Esophageal Glycogenic Acanthosis",
+      "support_classes": [
+        {
+          "label_name": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__王能钊_9.jpeg",
+      "ground_truth": "Esophageal Glycogenic Acanthosis",
+      "mllm_diag": "食管癌",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "Esophageal Glycogenic Acanthosis": {
+          "log_prob": -4.063689,
+          "mean_log_prob": -0.406369,
+          "norm_prob": 0.401735,
+          "token_count": 10.0
+        },
+        "食管癌": {
+          "log_prob": -0.024387,
+          "mean_log_prob": -0.008129,
+          "norm_prob": 0.598265,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "Esophageal Glycogenic Acanthosis"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.598265,
+          "log_prob": -0.024387,
+          "mean_log_prob": -0.008129
+        },
+        {
+          "rank": 2,
+          "disease": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis",
+          "source": "open_generation",
+          "norm_prob": 0.401735,
+          "log_prob": -4.063689,
+          "mean_log_prob": -0.406369
+        }
+      ],
+      "mllm_visual_evidence": "食管黏膜呈现不规则的深色病变区域，伴有表面糜烂和局部隆起，边缘模糊，提示恶性肿瘤可能；同时可见少量渗出物及黏膜破坏，与良性增生性病变如糖原性乳头状瘤的典型光滑、均匀外观不同。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"Esophageal Glycogenic Acanthosis\"],\n  \"visual_evidence\": \"食管黏膜呈现不规则的深色病变区域，伴有表面糜烂和局部隆起，边缘模糊，提示恶性肿瘤可能；同时可见少量渗出物及黏膜破坏，与良性增生性病变如糖原性乳头状瘤的典型光滑、均匀外观不同。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 6.067788600921631,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__章能鹏_6",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__章能鹏_6.jpeg",
+      "ground_truth_name": "Esophageal Glycogenic Acanthosis",
+      "support_classes": [
+        {
+          "label_name": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__章能鹏_6.jpeg",
+      "ground_truth": "Esophageal Glycogenic Acanthosis",
+      "mllm_diag": "食管癌",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "Esophageal Glycogenic Acanthosis": {
+          "log_prob": -3.375431,
+          "mean_log_prob": -0.337543,
+          "norm_prob": 0.420068,
+          "token_count": 10.0
+        },
+        "食管癌": {
+          "log_prob": -0.045147,
+          "mean_log_prob": -0.015049,
+          "norm_prob": 0.579932,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "Esophageal Glycogenic Acanthosis"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.579932,
+          "log_prob": -0.045147,
+          "mean_log_prob": -0.015049
+        },
+        {
+          "rank": 2,
+          "disease": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis",
+          "source": "open_generation",
+          "norm_prob": 0.420068,
+          "log_prob": -3.375431,
+          "mean_log_prob": -0.337543
+        }
+      ],
+      "mllm_visual_evidence": "食管黏膜呈现不规则的隆起和溃疡样改变，表面粗糙、颜色暗沉，伴有明显的血管纹理紊乱及环状狭窄，提示恶性病变可能。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"Esophageal Glycogenic Acanthosis\"],\n  \"visual_evidence\": \"食管黏膜呈现不规则的隆起和溃疡样改变，表面粗糙、颜色暗沉，伴有明显的血管纹理紊乱及环状狭窄，提示恶性病变可能。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.429046154022217,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__src1__食管__任启建_50",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__任启建_50.jpeg",
+      "ground_truth_name": "食管癌",
+      "support_classes": [
+        {
+          "label_name": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__任启建_50.jpeg",
+      "ground_truth": "食管癌",
+      "mllm_diag": "食管癌",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "Esophageal Glycogenic Acanthosis": {
+          "log_prob": -10.3952,
+          "mean_log_prob": -1.03952,
+          "norm_prob": 0.261267,
+          "token_count": 10.0
+        },
+        "食管癌": {
+          "log_prob": -0.000382,
+          "mean_log_prob": -0.000127,
+          "norm_prob": 0.738733,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "Esophageal Glycogenic Acanthosis"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.738733,
+          "log_prob": -0.000382,
+          "mean_log_prob": -0.000127
+        },
+        {
+          "rank": 2,
+          "disease": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.261267,
+          "log_prob": -10.3952,
+          "mean_log_prob": -1.03952
+        }
+      ],
+      "mllm_visual_evidence": "食管黏膜表面可见不规则隆起、糜烂及白色或灰白色斑块样病变，伴有局部充血和渗出，提示可能存在恶性肿瘤性改变。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"食管鳞状上皮增生\"],\n  \"visual_evidence\": \"食管黏膜表面可见不规则隆起、糜烂及白色或灰白色斑块样病变，伴有局部充血和渗出，提示可能存在恶性肿瘤性改变。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.45798134803772,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__src1__食管__李善富_5",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__李善富_5.jpeg",
+      "ground_truth_name": "食管癌",
+      "support_classes": [
+        {
+          "label_name": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__李善富_5.jpeg",
+      "ground_truth": "食管癌",
+      "mllm_diag": "食管癌",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "Esophageal Glycogenic Acanthosis": {
+          "log_prob": -11.313521,
+          "mean_log_prob": -1.131352,
+          "norm_prob": 0.243955,
+          "token_count": 10.0
+        },
+        "食管癌": {
+          "log_prob": -0.000698,
+          "mean_log_prob": -0.000233,
+          "norm_prob": 0.756045,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "Esophageal Glycogenic Acanthosis"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.756045,
+          "log_prob": -0.000698,
+          "mean_log_prob": -0.000233
+        },
+        {
+          "rank": 2,
+          "disease": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.243955,
+          "log_prob": -11.313521,
+          "mean_log_prob": -1.131352
+        }
+      ],
+      "mllm_visual_evidence": "可见黏膜表面有不规则隆起、菜花状或溃疡样病变，伴有白色或黄色坏死组织覆盖，边缘隆起且与周围正常黏膜界限不清，符合恶性肿瘤的典型内镜表现。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"食管乳头状瘤\"],\n  \"visual_evidence\": \"可见黏膜表面有不规则隆起、菜花状或溃疡样病变，伴有白色或黄色坏死组织覆盖，边缘隆起且与周围正常黏膜界限不清，符合恶性肿瘤的典型内镜表现。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.656913995742798,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__src1__食管__罗其东_60",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__罗其东_60.jpeg",
+      "ground_truth_name": "食管癌",
+      "support_classes": [
+        {
+          "label_name": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__罗其东_60.jpeg",
+      "ground_truth": "食管癌",
+      "mllm_diag": "食管癌",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "Esophageal Glycogenic Acanthosis": {
+          "log_prob": -18.137598,
+          "mean_log_prob": -1.81376,
+          "norm_prob": 0.140187,
+          "token_count": 10.0
+        },
+        "食管癌": {
+          "log_prob": -7.6e-05,
+          "mean_log_prob": -2.5e-05,
+          "norm_prob": 0.859813,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "Esophageal Glycogenic Acanthosis"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.859813,
+          "log_prob": -7.6e-05,
+          "mean_log_prob": -2.5e-05
+        },
+        {
+          "rank": 2,
+          "disease": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.140187,
+          "log_prob": -18.137598,
+          "mean_log_prob": -1.81376
+        }
+      ],
+      "mllm_visual_evidence": "图像显示食管黏膜明显增厚、不规则隆起，表面呈菜花状或溃疡样改变，伴有出血和糜烂，局部组织颜色异常发红且质地粗糙，符合恶性肿瘤的典型内镜表现。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"食管黏膜白斑\"],\n  \"visual_evidence\": \"图像显示食管黏膜明显增厚、不规则隆起，表面呈菜花状或溃疡样改变，伴有出血和糜烂，局部组织颜色异常发红且质地粗糙，符合恶性肿瘤的典型内镜表现。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.534589767456055,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__src1__食管__胡明珍_43",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__胡明珍_43.jpeg",
+      "ground_truth_name": "食管癌",
+      "support_classes": [
+        {
+          "label_name": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__胡明珍_43.jpeg",
+      "ground_truth": "食管癌",
+      "mllm_diag": "食管癌",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "Esophageal Glycogenic Acanthosis": {
+          "log_prob": -5.85126,
+          "mean_log_prob": -0.585126,
+          "norm_prob": 0.358178,
+          "token_count": 10.0
+        },
+        "食管癌": {
+          "log_prob": -0.005537,
+          "mean_log_prob": -0.001846,
+          "norm_prob": 0.641822,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "Esophageal Glycogenic Acanthosis"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.641822,
+          "log_prob": -0.005537,
+          "mean_log_prob": -0.001846
+        },
+        {
+          "rank": 2,
+          "disease": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.358178,
+          "log_prob": -5.85126,
+          "mean_log_prob": -0.585126
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面可见不规则隆起、糜烂及溃疡样改变，伴有白色或灰白色斑块和局部狭窄，提示恶性病变可能；同时存在黏膜破坏和形态异常，不符合良性增生性病变特征。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"食管乳头状瘤\"],\n  \"visual_evidence\": \"黏膜表面可见不规则隆起、糜烂及溃疡样改变，伴有白色或灰白色斑块和局部狭窄，提示恶性病变可能；同时存在黏膜破坏和形态异常，不符合良性增生性病变特征。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.802571535110474,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__src1__食管__胡锦义_6",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__胡锦义_6.jpeg",
+      "ground_truth_name": "食管癌",
+      "support_classes": [
+        {
+          "label_name": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__胡锦义_6.jpeg",
+      "ground_truth": "食管癌",
+      "mllm_diag": "食管癌",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "Esophageal Glycogenic Acanthosis": {
+          "log_prob": -4.677737,
+          "mean_log_prob": -0.467774,
+          "norm_prob": 0.386262,
+          "token_count": 10.0
+        },
+        "食管癌": {
+          "log_prob": -0.014169,
+          "mean_log_prob": -0.004723,
+          "norm_prob": 0.613738,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "Esophageal Glycogenic Acanthosis"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.613738,
+          "log_prob": -0.014169,
+          "mean_log_prob": -0.004723
+        },
+        {
+          "rank": 2,
+          "disease": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.386262,
+          "log_prob": -4.677737,
+          "mean_log_prob": -0.467774
+        }
+      ],
+      "mllm_visual_evidence": "食管黏膜呈现不规则隆起、表面粗糙及颜色改变，伴有糜烂和溃疡样改变，管腔狭窄明显，符合恶性肿瘤的典型内镜表现。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"食管乳头状瘤\"],\n  \"visual_evidence\": \"食管黏膜呈现不规则隆起、表面粗糙及颜色改变，伴有糜烂和溃疡样改变，管腔狭窄明显，符合恶性肿瘤的典型内镜表现。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.185545921325684,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__src1__食管__覃国胜_4",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__覃国胜_4.jpeg",
+      "ground_truth_name": "食管癌",
+      "support_classes": [
+        {
+          "label_name": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__覃国胜_4.jpeg",
+      "ground_truth": "食管癌",
+      "mllm_diag": "食管癌",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "Esophageal Glycogenic Acanthosis": {
+          "log_prob": -16.117071,
+          "mean_log_prob": -1.611707,
+          "norm_prob": 0.166363,
+          "token_count": 10.0
+        },
+        "食管癌": {
+          "log_prob": -0.000238,
+          "mean_log_prob": -7.9e-05,
+          "norm_prob": 0.833637,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "Esophageal Glycogenic Acanthosis"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.833637,
+          "log_prob": -0.000238,
+          "mean_log_prob": -7.9e-05
+        },
+        {
+          "rank": 2,
+          "disease": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis",
+          "source": "open_generation",
+          "norm_prob": 0.166363,
+          "log_prob": -16.117071,
+          "mean_log_prob": -1.611707
+        }
+      ],
+      "mllm_visual_evidence": "图像显示一不规则、隆起的肿块，表面呈菜花状或结节样，颜色苍白伴部分糜烂，周围黏膜充血水肿，符合恶性肿瘤的典型内镜表现。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"Esophageal Glycogenic Acanthosis\"],\n  \"visual_evidence\": \"图像显示一不规则、隆起的肿块，表面呈菜花状或结节样，颜色苍白伴部分糜烂，周围黏膜充血水肿，符合恶性肿瘤的典型内镜表现。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.553467512130737,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__src1__食管__贾德珍_46",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__贾德珍_46.jpeg",
+      "ground_truth_name": "食管癌",
+      "support_classes": [
+        {
+          "label_name": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__贾德珍_46.jpeg",
+      "ground_truth": "食管癌",
+      "mllm_diag": "食管癌",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "Esophageal Glycogenic Acanthosis": {
+          "log_prob": -22.006907,
+          "mean_log_prob": -2.200691,
+          "norm_prob": 0.09969,
+          "token_count": 10.0
+        },
+        "食管癌": {
+          "log_prob": -4.3e-05,
+          "mean_log_prob": -1.4e-05,
+          "norm_prob": 0.90031,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "Esophageal Glycogenic Acanthosis"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.90031,
+          "log_prob": -4.3e-05,
+          "mean_log_prob": -1.4e-05
+        },
+        {
+          "rank": 2,
+          "disease": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.09969,
+          "log_prob": -22.006907,
+          "mean_log_prob": -2.200691
+        }
+      ],
+      "mllm_visual_evidence": "图像显示食管腔内存在不规则、隆起的病变，表面粗糙、颜色暗沉，伴有糜烂和坏死组织，局部黏膜结构破坏明显，符合恶性肿瘤的典型内镜表现。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"食管黏膜白斑\"],\n  \"visual_evidence\": \"图像显示食管腔内存在不规则、隆起的病变，表面粗糙、颜色暗沉，伴有糜烂和坏死组织，局部黏膜结构破坏明显，符合恶性肿瘤的典型内镜表现。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 4.722463130950928,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__src1__食管__青秀华_49",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__青秀华_49.jpeg",
+      "ground_truth_name": "食管癌",
+      "support_classes": [
+        {
+          "label_name": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__青秀华_49.jpeg",
+      "ground_truth": "食管癌",
+      "mllm_diag": "食管癌",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "Esophageal Glycogenic Acanthosis": {
+          "log_prob": -16.892057,
+          "mean_log_prob": -1.689206,
+          "norm_prob": 0.155884,
+          "token_count": 10.0
+        },
+        "食管癌": {
+          "log_prob": -7.3e-05,
+          "mean_log_prob": -2.4e-05,
+          "norm_prob": 0.844116,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "Esophageal Glycogenic Acanthosis"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.844116,
+          "log_prob": -7.3e-05,
+          "mean_log_prob": -2.4e-05
+        },
+        {
+          "rank": 2,
+          "disease": "Esophageal Glycogenic Acanthosis",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.155884,
+          "log_prob": -16.892057,
+          "mean_log_prob": -1.689206
+        }
+      ],
+      "mllm_visual_evidence": "图像显示食管黏膜表面不规则隆起、质地粗糙，伴有糜烂和溃疡样改变，局部可见白色或灰白色斑块及出血点，符合恶性肿瘤的典型内镜表现。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"食管鳞状上皮增生\"],\n  \"visual_evidence\": \"图像显示食管黏膜表面不规则隆起、质地粗糙，伴有糜烂和溃疡样改变，局部可见白色或灰白色斑块及出血点，符合恶性肿瘤的典型内镜表现。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.701120615005493,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    }
+  ]
+}
