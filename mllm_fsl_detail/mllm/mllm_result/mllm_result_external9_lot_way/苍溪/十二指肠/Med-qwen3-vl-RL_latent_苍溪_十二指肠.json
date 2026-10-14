@@ -1,0 +1,2900 @@
+{
+  "stage": "mllm_candidate_service_full_scoremap",
+  "city": "苍溪",
+  "organ": "十二指肠",
+  "source_json": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/huaxi_mllm_fsl_agent/external9_agent831_lot_way/苍溪十二指肠_agent.json",
+  "mllm_endpoint": "http://gpu35:8030/v1/vision/candidate_diseases",
+  "top_k": 5,
+  "use_teacher_forcing": true,
+  "score_softmax_temperature": 1.0,
+  "length_normalize": true,
+  "summary": {
+    "total": 18,
+    "success": 18,
+    "failure": 0,
+    "mllm_correct": 10,
+    "mllm_acc": 0.5555555555555556
+  },
+  "results": [
+    {
+      "image_id": "十二指肠球部__吴从秀_src1__十二指肠球部__32-1f374af6da7b",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠球部__吴从秀_src1__十二指肠球部__32-1f374af6da7b.JPG",
+      "ground_truth_name": "十二指肠溃疡",
+      "support_classes": [
+        {
+          "label_name": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+        },
+        {
+          "label_name": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+        },
+        {
+          "label_name": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+        },
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        },
+        {
+          "label_name": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+        },
+        {
+          "label_name": "十二指肠钩虫",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠球部__吴从秀_src1__十二指肠球部__32-1f374af6da7b.JPG",
+      "ground_truth": "十二指肠溃疡",
+      "mllm_diag": "十二指肠溃疡",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠副乳头": {
+          "log_prob": -0.260855,
+          "mean_log_prob": -0.043476,
+          "norm_prob": 0.27045,
+          "token_count": 6.0
+        },
+        "十二指肠憩室": {
+          "log_prob": -5.22168,
+          "mean_log_prob": -1.044336,
+          "norm_prob": 0.099408,
+          "token_count": 5.0
+        },
+        "十二指肠正常": {
+          "log_prob": -1.746741,
+          "mean_log_prob": -0.436685,
+          "norm_prob": 0.182524,
+          "token_count": 4.0
+        },
+        "十二指肠溃疡": {
+          "log_prob": -4.152789,
+          "mean_log_prob": -1.038197,
+          "norm_prob": 0.10002,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -4.746981,
+          "mean_log_prob": -1.186745,
+          "norm_prob": 0.086213,
+          "token_count": 4.0
+        },
+        "十二指肠球部息肉": {
+          "log_prob": -4.281994,
+          "mean_log_prob": -0.611713,
+          "norm_prob": 0.153216,
+          "token_count": 7.0
+        },
+        "十二指肠钩虫": {
+          "log_prob": -4.799321,
+          "mean_log_prob": -0.959864,
+          "norm_prob": 0.10817,
+          "token_count": 5.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠溃疡",
+        "十二指肠炎",
+        "十二指肠正常",
+        "十二指肠副乳头",
+        "十二指肠球部息肉"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.10002,
+          "log_prob": -4.152789,
+          "mean_log_prob": -1.038197
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.086213,
+          "log_prob": -4.746981,
+          "mean_log_prob": -1.186745
+        },
+        {
+          "rank": 3,
+          "disease": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+          "source": "open_generation",
+          "norm_prob": 0.182524,
+          "log_prob": -1.746741,
+          "mean_log_prob": -0.436685
+        },
+        {
+          "rank": 4,
+          "disease": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+          "source": "open_generation",
+          "norm_prob": 0.27045,
+          "log_prob": -0.260855,
+          "mean_log_prob": -0.043476
+        },
+        {
+          "rank": 5,
+          "disease": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+          "source": "open_generation",
+          "norm_prob": 0.153216,
+          "log_prob": -4.281994,
+          "mean_log_prob": -0.611713
+        }
+      ],
+      "mllm_visual_evidence": "图像显示十二指肠黏膜表面存在不规则的红色糜烂区域，伴有局部隆起和周围充血，符合溃疡性病变特征；同时可见少量气泡和黏液覆盖，提示炎症或渗出反应。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠溃疡\",\n  \"topk\": [\"十二指肠溃疡\", \"十二指肠炎\", \"十二指肠正常\", \"十二指肠副乳头\", \"十二指肠球部息肉\"],\n  \"visual_evidence\": \"图像显示十二指肠黏膜表面存在不规则的红色糜烂区域，伴有局部隆起和周围充血，符合溃疡性病变特征；同时可见少量气泡和黏液覆盖，提示炎症或渗出反应。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 10.122036218643188,
+      "mllm_full_score_class_count": 7,
+      "mllm_candidate_count": 5,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠球部__吴从秀_src1__十二指肠球部__32",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠球部__吴从秀_src1__十二指肠球部__32.JPG",
+      "ground_truth_name": "十二指肠溃疡",
+      "support_classes": [
+        {
+          "label_name": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+        },
+        {
+          "label_name": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+        },
+        {
+          "label_name": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+        },
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        },
+        {
+          "label_name": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+        },
+        {
+          "label_name": "十二指肠钩虫",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠球部__吴从秀_src1__十二指肠球部__32.JPG",
+      "ground_truth": "十二指肠溃疡",
+      "mllm_diag": "十二指肠溃疡",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠副乳头": {
+          "log_prob": -0.260855,
+          "mean_log_prob": -0.043476,
+          "norm_prob": 0.27045,
+          "token_count": 6.0
+        },
+        "十二指肠憩室": {
+          "log_prob": -5.22168,
+          "mean_log_prob": -1.044336,
+          "norm_prob": 0.099408,
+          "token_count": 5.0
+        },
+        "十二指肠正常": {
+          "log_prob": -1.746741,
+          "mean_log_prob": -0.436685,
+          "norm_prob": 0.182524,
+          "token_count": 4.0
+        },
+        "十二指肠溃疡": {
+          "log_prob": -4.152789,
+          "mean_log_prob": -1.038197,
+          "norm_prob": 0.10002,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -4.746981,
+          "mean_log_prob": -1.186745,
+          "norm_prob": 0.086213,
+          "token_count": 4.0
+        },
+        "十二指肠球部息肉": {
+          "log_prob": -4.281994,
+          "mean_log_prob": -0.611713,
+          "norm_prob": 0.153216,
+          "token_count": 7.0
+        },
+        "十二指肠钩虫": {
+          "log_prob": -4.799321,
+          "mean_log_prob": -0.959864,
+          "norm_prob": 0.10817,
+          "token_count": 5.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠溃疡",
+        "十二指肠炎",
+        "十二指肠正常",
+        "十二指肠副乳头",
+        "十二指肠球部息肉"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.10002,
+          "log_prob": -4.152789,
+          "mean_log_prob": -1.038197
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.086213,
+          "log_prob": -4.746981,
+          "mean_log_prob": -1.186745
+        },
+        {
+          "rank": 3,
+          "disease": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+          "source": "open_generation",
+          "norm_prob": 0.182524,
+          "log_prob": -1.746741,
+          "mean_log_prob": -0.436685
+        },
+        {
+          "rank": 4,
+          "disease": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+          "source": "open_generation",
+          "norm_prob": 0.27045,
+          "log_prob": -0.260855,
+          "mean_log_prob": -0.043476
+        },
+        {
+          "rank": 5,
+          "disease": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+          "source": "open_generation",
+          "norm_prob": 0.153216,
+          "log_prob": -4.281994,
+          "mean_log_prob": -0.611713
+        }
+      ],
+      "mllm_visual_evidence": "图像显示十二指肠黏膜表面存在不规则的红色糜烂区域，伴有局部隆起和周围充血，符合溃疡性病变特征；同时可见少量气泡和黏液覆盖，提示炎症或渗出反应。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠溃疡\",\n  \"topk\": [\"十二指肠溃疡\", \"十二指肠炎\", \"十二指肠正常\", \"十二指肠副乳头\", \"十二指肠球部息肉\"],\n  \"visual_evidence\": \"图像显示十二指肠黏膜表面存在不规则的红色糜烂区域，伴有局部隆起和周围充血，符合溃疡性病变特征；同时可见少量气泡和黏液覆盖，提示炎症或渗出反应。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 10.063098907470703,
+      "mllm_full_score_class_count": 7,
+      "mllm_candidate_count": 5,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__谭光福_53-076d4e49e4c7",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_53-076d4e49e4c7.JPG",
+      "ground_truth_name": "十二指肠溃疡",
+      "support_classes": [
+        {
+          "label_name": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+        },
+        {
+          "label_name": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+        },
+        {
+          "label_name": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+        },
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        },
+        {
+          "label_name": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+        },
+        {
+          "label_name": "十二指肠钩虫",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_53-076d4e49e4c7.JPG",
+      "ground_truth": "十二指肠溃疡",
+      "mllm_diag": "十二指肠溃疡",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠副乳头": {
+          "log_prob": -6.587671,
+          "mean_log_prob": -1.097945,
+          "norm_prob": 0.11955,
+          "token_count": 6.0
+        },
+        "十二指肠憩室": {
+          "log_prob": -5.829128,
+          "mean_log_prob": -1.165826,
+          "norm_prob": 0.111705,
+          "token_count": 5.0
+        },
+        "十二指肠正常": {
+          "log_prob": -9.403961,
+          "mean_log_prob": -2.35099,
+          "norm_prob": 0.034148,
+          "token_count": 4.0
+        },
+        "十二指肠溃疡": {
+          "log_prob": -0.043867,
+          "mean_log_prob": -0.010967,
+          "norm_prob": 0.354503,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -3.666603,
+          "mean_log_prob": -0.916651,
+          "norm_prob": 0.143313,
+          "token_count": 4.0
+        },
+        "十二指肠球部息肉": {
+          "log_prob": -4.644608,
+          "mean_log_prob": -0.663515,
+          "norm_prob": 0.184596,
+          "token_count": 7.0
+        },
+        "十二指肠钩虫": {
+          "log_prob": -9.634342,
+          "mean_log_prob": -1.926868,
+          "norm_prob": 0.052186,
+          "token_count": 5.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠溃疡",
+        "十二指肠炎",
+        "十二指肠正常",
+        "十二指肠球部息肉",
+        "十二指肠副乳头"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.354503,
+          "log_prob": -0.043867,
+          "mean_log_prob": -0.010967
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.143313,
+          "log_prob": -3.666603,
+          "mean_log_prob": -0.916651
+        },
+        {
+          "rank": 3,
+          "disease": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+          "source": "open_generation",
+          "norm_prob": 0.034148,
+          "log_prob": -9.403961,
+          "mean_log_prob": -2.35099
+        },
+        {
+          "rank": 4,
+          "disease": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.184596,
+          "log_prob": -4.644608,
+          "mean_log_prob": -0.663515
+        },
+        {
+          "rank": 5,
+          "disease": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.11955,
+          "log_prob": -6.587671,
+          "mean_log_prob": -1.097945
+        }
+      ],
+      "mllm_visual_evidence": "图像显示十二指肠黏膜表面有明显的红色糜烂区域，伴有浅表性溃疡灶及周围充血水肿，局部可见少量渗出物和黄色分泌物，符合活动性溃疡的典型内镜表现。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠溃疡\",\n  \"topk\": [\"十二指肠溃疡\", \"十二指肠炎\", \"十二指肠正常\"],\n  \"visual_evidence\": \"图像显示十二指肠黏膜表面有明显的红色糜烂区域，伴有浅表性溃疡灶及周围充血水肿，局部可见少量渗出物和黄色分泌物，符合活动性溃疡的典型内镜表现。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 9.451785326004028,
+      "mllm_full_score_class_count": 7,
+      "mllm_candidate_count": 5,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__谭光福_55-842097eb4dd7",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_55-842097eb4dd7.JPG",
+      "ground_truth_name": "十二指肠溃疡",
+      "support_classes": [
+        {
+          "label_name": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+        },
+        {
+          "label_name": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+        },
+        {
+          "label_name": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+        },
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        },
+        {
+          "label_name": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+        },
+        {
+          "label_name": "十二指肠钩虫",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_55-842097eb4dd7.JPG",
+      "ground_truth": "十二指肠溃疡",
+      "mllm_diag": "十二指肠溃疡",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠副乳头": {
+          "log_prob": -1.840196,
+          "mean_log_prob": -0.306699,
+          "norm_prob": 0.173262,
+          "token_count": 6.0
+        },
+        "十二指肠憩室": {
+          "log_prob": -2.774934,
+          "mean_log_prob": -0.554987,
+          "norm_prob": 0.135168,
+          "token_count": 5.0
+        },
+        "十二指肠正常": {
+          "log_prob": -1.398559,
+          "mean_log_prob": -0.34964,
+          "norm_prob": 0.16598,
+          "token_count": 4.0
+        },
+        "十二指肠溃疡": {
+          "log_prob": -1.1893,
+          "mean_log_prob": -0.297325,
+          "norm_prob": 0.174894,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -2.008377,
+          "mean_log_prob": -0.502094,
+          "norm_prob": 0.14251,
+          "token_count": 4.0
+        },
+        "十二指肠球部息肉": {
+          "log_prob": -2.497863,
+          "mean_log_prob": -0.356838,
+          "norm_prob": 0.164789,
+          "token_count": 7.0
+        },
+        "十二指肠钩虫": {
+          "log_prob": -8.455483,
+          "mean_log_prob": -1.691097,
+          "norm_prob": 0.043398,
+          "token_count": 5.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠溃疡",
+        "十二指肠炎",
+        "十二指肠正常",
+        "十二指肠球部息肉",
+        "十二指肠副乳头"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.174894,
+          "log_prob": -1.1893,
+          "mean_log_prob": -0.297325
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.14251,
+          "log_prob": -2.008377,
+          "mean_log_prob": -0.502094
+        },
+        {
+          "rank": 3,
+          "disease": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+          "source": "open_generation",
+          "norm_prob": 0.16598,
+          "log_prob": -1.398559,
+          "mean_log_prob": -0.34964
+        },
+        {
+          "rank": 4,
+          "disease": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+          "source": "open_generation",
+          "norm_prob": 0.164789,
+          "log_prob": -2.497863,
+          "mean_log_prob": -0.356838
+        },
+        {
+          "rank": 5,
+          "disease": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+          "source": "open_generation",
+          "norm_prob": 0.173262,
+          "log_prob": -1.840196,
+          "mean_log_prob": -0.306699
+        }
+      ],
+      "mllm_visual_evidence": "可见黏膜表面有不规则的红色糜烂区域，伴有浅表性渗出物和局部隆起，符合溃疡灶的典型内镜表现；周围黏膜充血水肿，提示炎症反应。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠溃疡\",\n  \"topk\": [\"十二指肠溃疡\", \"十二指肠炎\", \"十二指肠正常\", \"十二指肠球部息肉\", \"十二指肠副乳头\"],\n  \"visual_evidence\": \"可见黏膜表面有不规则的红色糜烂区域，伴有浅表性渗出物和局部隆起，符合溃疡灶的典型内镜表现；周围黏膜充血水肿，提示炎症反应。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 10.141272068023682,
+      "mllm_full_score_class_count": 7,
+      "mllm_candidate_count": 5,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__谭光福_src1__十二指肠降部__30-215f6e69aad1",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_src1__十二指肠降部__30-215f6e69aad1.JPG",
+      "ground_truth_name": "十二指肠溃疡",
+      "support_classes": [
+        {
+          "label_name": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+        },
+        {
+          "label_name": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+        },
+        {
+          "label_name": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+        },
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        },
+        {
+          "label_name": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+        },
+        {
+          "label_name": "十二指肠钩虫",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_src1__十二指肠降部__30-215f6e69aad1.JPG",
+      "ground_truth": "十二指肠溃疡",
+      "mllm_diag": "十二指肠溃疡",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠副乳头": {
+          "log_prob": -3.847759,
+          "mean_log_prob": -0.641293,
+          "norm_prob": 0.137912,
+          "token_count": 6.0
+        },
+        "十二指肠憩室": {
+          "log_prob": -3.112434,
+          "mean_log_prob": -0.622487,
+          "norm_prob": 0.14053,
+          "token_count": 5.0
+        },
+        "十二指肠正常": {
+          "log_prob": -3.864111,
+          "mean_log_prob": -0.966028,
+          "norm_prob": 0.099671,
+          "token_count": 4.0
+        },
+        "十二指肠溃疡": {
+          "log_prob": -0.40618,
+          "mean_log_prob": -0.101545,
+          "norm_prob": 0.236598,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -1.675669,
+          "mean_log_prob": -0.418917,
+          "norm_prob": 0.172257,
+          "token_count": 4.0
+        },
+        "十二指肠球部息肉": {
+          "log_prob": -3.08851,
+          "mean_log_prob": -0.441216,
+          "norm_prob": 0.168459,
+          "token_count": 7.0
+        },
+        "十二指肠钩虫": {
+          "log_prob": -8.853795,
+          "mean_log_prob": -1.770759,
+          "norm_prob": 0.044574,
+          "token_count": 5.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠溃疡",
+        "十二指肠炎",
+        "十二指肠正常",
+        "十二指肠球部息肉",
+        "十二指肠憩室"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.236598,
+          "log_prob": -0.40618,
+          "mean_log_prob": -0.101545
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.172257,
+          "log_prob": -1.675669,
+          "mean_log_prob": -0.418917
+        },
+        {
+          "rank": 3,
+          "disease": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+          "source": "open_generation",
+          "norm_prob": 0.099671,
+          "log_prob": -3.864111,
+          "mean_log_prob": -0.966028
+        },
+        {
+          "rank": 4,
+          "disease": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.168459,
+          "log_prob": -3.08851,
+          "mean_log_prob": -0.441216
+        },
+        {
+          "rank": 5,
+          "disease": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.14053,
+          "log_prob": -3.112434,
+          "mean_log_prob": -0.622487
+        }
+      ],
+      "mllm_visual_evidence": "可见黏膜表面有不规则的糜烂和浅表溃疡灶，伴有局部充血、渗出及少量白色坏死组织覆盖，符合活动性溃疡的典型内镜表现。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠溃疡\",\n  \"topk\": [\"十二指肠溃疡\", \"十二指肠炎\", \"十二指肠正常\"],\n  \"visual_evidence\": \"可见黏膜表面有不规则的糜烂和浅表溃疡灶，伴有局部充血、渗出及少量白色坏死组织覆盖，符合活动性溃疡的典型内镜表现。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 9.238848447799683,
+      "mllm_full_score_class_count": 7,
+      "mllm_candidate_count": 5,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__谭光福_src1__十二指肠降部__32-48023ebf1a14",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_src1__十二指肠降部__32-48023ebf1a14.JPG",
+      "ground_truth_name": "十二指肠溃疡",
+      "support_classes": [
+        {
+          "label_name": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+        },
+        {
+          "label_name": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+        },
+        {
+          "label_name": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+        },
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        },
+        {
+          "label_name": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+        },
+        {
+          "label_name": "十二指肠钩虫",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_src1__十二指肠降部__32-48023ebf1a14.JPG",
+      "ground_truth": "十二指肠溃疡",
+      "mllm_diag": "十二指肠溃疡",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠副乳头": {
+          "log_prob": -1.949353,
+          "mean_log_prob": -0.324892,
+          "norm_prob": 0.182766,
+          "token_count": 6.0
+        },
+        "十二指肠憩室": {
+          "log_prob": -3.092062,
+          "mean_log_prob": -0.618412,
+          "norm_prob": 0.136277,
+          "token_count": 5.0
+        },
+        "十二指肠正常": {
+          "log_prob": -4.755466,
+          "mean_log_prob": -1.188867,
+          "norm_prob": 0.077033,
+          "token_count": 4.0
+        },
+        "十二指肠溃疡": {
+          "log_prob": -0.439844,
+          "mean_log_prob": -0.109961,
+          "norm_prob": 0.226589,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -2.500147,
+          "mean_log_prob": -0.625037,
+          "norm_prob": 0.135377,
+          "token_count": 4.0
+        },
+        "十二指肠球部息肉": {
+          "log_prob": -2.767777,
+          "mean_log_prob": -0.395397,
+          "norm_prob": 0.170324,
+          "token_count": 7.0
+        },
+        "十二指肠钩虫": {
+          "log_prob": -6.307611,
+          "mean_log_prob": -1.261522,
+          "norm_prob": 0.071635,
+          "token_count": 5.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠溃疡",
+        "十二指肠炎",
+        "十二指肠正常",
+        "十二指肠副乳头",
+        "十二指肠球部息肉"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.226589,
+          "log_prob": -0.439844,
+          "mean_log_prob": -0.109961
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.135377,
+          "log_prob": -2.500147,
+          "mean_log_prob": -0.625037
+        },
+        {
+          "rank": 3,
+          "disease": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+          "source": "open_generation",
+          "norm_prob": 0.077033,
+          "log_prob": -4.755466,
+          "mean_log_prob": -1.188867
+        },
+        {
+          "rank": 4,
+          "disease": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.182766,
+          "log_prob": -1.949353,
+          "mean_log_prob": -0.324892
+        },
+        {
+          "rank": 5,
+          "disease": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.170324,
+          "log_prob": -2.767777,
+          "mean_log_prob": -0.395397
+        }
+      ],
+      "mllm_visual_evidence": "可见黏膜表面有不规则的糜烂和浅表溃疡灶，伴有周围充血、水肿及少量渗出物，符合活动性溃疡的典型内镜表现。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠溃疡\",\n  \"topk\": [\"十二指肠溃疡\", \"十二指肠炎\", \"十二指肠正常\"],\n  \"visual_evidence\": \"可见黏膜表面有不规则的糜烂和浅表溃疡灶，伴有周围充血、水肿及少量渗出物，符合活动性溃疡的典型内镜表现。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 9.119050979614258,
+      "mllm_full_score_class_count": 7,
+      "mllm_candidate_count": 5,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__谭光福_src1__十二指肠降部__33",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_src1__十二指肠降部__33.JPG",
+      "ground_truth_name": "十二指肠溃疡",
+      "support_classes": [
+        {
+          "label_name": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+        },
+        {
+          "label_name": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+        },
+        {
+          "label_name": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+        },
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        },
+        {
+          "label_name": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+        },
+        {
+          "label_name": "十二指肠钩虫",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_src1__十二指肠降部__33.JPG",
+      "ground_truth": "十二指肠溃疡",
+      "mllm_diag": "十二指肠溃疡",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠副乳头": {
+          "log_prob": -1.520006,
+          "mean_log_prob": -0.253334,
+          "norm_prob": 0.18578,
+          "token_count": 6.0
+        },
+        "十二指肠憩室": {
+          "log_prob": -2.108009,
+          "mean_log_prob": -0.421602,
+          "norm_prob": 0.157008,
+          "token_count": 5.0
+        },
+        "十二指肠正常": {
+          "log_prob": -2.763437,
+          "mean_log_prob": -0.690859,
+          "norm_prob": 0.119946,
+          "token_count": 4.0
+        },
+        "十二指肠溃疡": {
+          "log_prob": -0.852617,
+          "mean_log_prob": -0.213154,
+          "norm_prob": 0.193397,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -2.389849,
+          "mean_log_prob": -0.597462,
+          "norm_prob": 0.131688,
+          "token_count": 4.0
+        },
+        "十二指肠球部息肉": {
+          "log_prob": -2.701154,
+          "mean_log_prob": -0.385879,
+          "norm_prob": 0.162718,
+          "token_count": 7.0
+        },
+        "十二指肠钩虫": {
+          "log_prob": -7.883255,
+          "mean_log_prob": -1.576651,
+          "norm_prob": 0.049464,
+          "token_count": 5.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠溃疡",
+        "十二指肠炎",
+        "十二指肠正常",
+        "十二指肠副乳头",
+        "十二指肠球部息肉"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.193397,
+          "log_prob": -0.852617,
+          "mean_log_prob": -0.213154
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.131688,
+          "log_prob": -2.389849,
+          "mean_log_prob": -0.597462
+        },
+        {
+          "rank": 3,
+          "disease": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+          "source": "open_generation",
+          "norm_prob": 0.119946,
+          "log_prob": -2.763437,
+          "mean_log_prob": -0.690859
+        },
+        {
+          "rank": 4,
+          "disease": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.18578,
+          "log_prob": -1.520006,
+          "mean_log_prob": -0.253334
+        },
+        {
+          "rank": 5,
+          "disease": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.162718,
+          "log_prob": -2.701154,
+          "mean_log_prob": -0.385879
+        }
+      ],
+      "mllm_visual_evidence": "图像显示十二指肠黏膜表面存在不规则的糜烂和浅表溃疡灶，伴有局部充血、渗出及轻微出血点，周围黏膜呈隆起状改变，符合活动性溃疡的典型内镜表现。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠溃疡\",\n  \"topk\": [\"十二指肠溃疡\", \"十二指肠炎\", \"十二指肠正常\"],\n  \"visual_evidence\": \"图像显示十二指肠黏膜表面存在不规则的糜烂和浅表溃疡灶，伴有局部充血、渗出及轻微出血点，周围黏膜呈隆起状改变，符合活动性溃疡的典型内镜表现。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 9.561872720718384,
+      "mllm_full_score_class_count": 7,
+      "mllm_candidate_count": 5,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠球部__十二指肠球部__34-a5bf2eb4a639",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__34-a5bf2eb4a639.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+        },
+        {
+          "label_name": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+        },
+        {
+          "label_name": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+        },
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        },
+        {
+          "label_name": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+        },
+        {
+          "label_name": "十二指肠钩虫",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__34-a5bf2eb4a639.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠副乳头": {
+          "log_prob": -1.994762,
+          "mean_log_prob": -0.33246,
+          "norm_prob": 0.17666,
+          "token_count": 6.0
+        },
+        "十二指肠憩室": {
+          "log_prob": -3.835466,
+          "mean_log_prob": -0.767093,
+          "norm_prob": 0.114388,
+          "token_count": 5.0
+        },
+        "十二指肠正常": {
+          "log_prob": -0.981891,
+          "mean_log_prob": -0.245473,
+          "norm_prob": 0.192715,
+          "token_count": 4.0
+        },
+        "十二指肠溃疡": {
+          "log_prob": -2.641526,
+          "mean_log_prob": -0.660382,
+          "norm_prob": 0.127269,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -1.062217,
+          "mean_log_prob": -0.265554,
+          "norm_prob": 0.188884,
+          "token_count": 4.0
+        },
+        "十二指肠球部息肉": {
+          "log_prob": -3.278764,
+          "mean_log_prob": -0.468395,
+          "norm_prob": 0.154206,
+          "token_count": 7.0
+        },
+        "十二指肠钩虫": {
+          "log_prob": -8.403394,
+          "mean_log_prob": -1.680679,
+          "norm_prob": 0.045879,
+          "token_count": 5.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠炎",
+        "十二指肠溃疡",
+        "十二指肠正常",
+        "十二指肠副乳头",
+        "十二指肠憩室"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.188884,
+          "log_prob": -1.062217,
+          "mean_log_prob": -0.265554
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.127269,
+          "log_prob": -2.641526,
+          "mean_log_prob": -0.660382
+        },
+        {
+          "rank": 3,
+          "disease": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+          "source": "open_generation",
+          "norm_prob": 0.192715,
+          "log_prob": -0.981891,
+          "mean_log_prob": -0.245473
+        },
+        {
+          "rank": 4,
+          "disease": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+          "source": "open_generation",
+          "norm_prob": 0.17666,
+          "log_prob": -1.994762,
+          "mean_log_prob": -0.33246
+        },
+        {
+          "rank": 5,
+          "disease": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室",
+          "source": "open_generation",
+          "norm_prob": 0.114388,
+          "log_prob": -3.835466,
+          "mean_log_prob": -0.767093
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面可见散在红斑和轻微糜烂，伴有少量气泡和轻度水肿，提示炎症改变；未见明显溃疡龛影或隆起病变。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠炎\",\n  \"topk\": [\"十二指肠炎\", \"十二指肠溃疡\", \"十二指肠正常\", \"十二指肠副乳头\", \"十二指肠憩室\"],\n  \"visual_evidence\": \"黏膜表面可见散在红斑和轻微糜烂，伴有少量气泡和轻度水肿，提示炎症改变；未见明显溃疡龛影或隆起病变。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 9.574653387069702,
+      "mllm_full_score_class_count": 7,
+      "mllm_candidate_count": 5,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠球部__十二指肠球部__59-56cc170f1625",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__59-56cc170f1625.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+        },
+        {
+          "label_name": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+        },
+        {
+          "label_name": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+        },
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        },
+        {
+          "label_name": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+        },
+        {
+          "label_name": "十二指肠钩虫",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__59-56cc170f1625.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠溃疡",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "十二指肠副乳头": {
+          "log_prob": -1.628454,
+          "mean_log_prob": -0.271409,
+          "norm_prob": 0.182464,
+          "token_count": 6.0
+        },
+        "十二指肠憩室": {
+          "log_prob": -3.560819,
+          "mean_log_prob": -0.712164,
+          "norm_prob": 0.117424,
+          "token_count": 5.0
+        },
+        "十二指肠正常": {
+          "log_prob": -1.477092,
+          "mean_log_prob": -0.369273,
+          "norm_prob": 0.165453,
+          "token_count": 4.0
+        },
+        "十二指肠溃疡": {
+          "log_prob": -1.089506,
+          "mean_log_prob": -0.272376,
+          "norm_prob": 0.182287,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -2.000339,
+          "mean_log_prob": -0.500085,
+          "norm_prob": 0.145165,
+          "token_count": 4.0
+        },
+        "十二指肠球部息肉": {
+          "log_prob": -2.768996,
+          "mean_log_prob": -0.395571,
+          "norm_prob": 0.161158,
+          "token_count": 7.0
+        },
+        "十二指肠钩虫": {
+          "log_prob": -8.241358,
+          "mean_log_prob": -1.648272,
+          "norm_prob": 0.046048,
+          "token_count": 5.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠溃疡",
+        "十二指肠炎",
+        "十二指肠正常",
+        "十二指肠副乳头",
+        "十二指肠球部息肉"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.182287,
+          "log_prob": -1.089506,
+          "mean_log_prob": -0.272376
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.145165,
+          "log_prob": -2.000339,
+          "mean_log_prob": -0.500085
+        },
+        {
+          "rank": 3,
+          "disease": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+          "source": "open_generation",
+          "norm_prob": 0.165453,
+          "log_prob": -1.477092,
+          "mean_log_prob": -0.369273
+        },
+        {
+          "rank": 4,
+          "disease": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.182464,
+          "log_prob": -1.628454,
+          "mean_log_prob": -0.271409
+        },
+        {
+          "rank": 5,
+          "disease": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.161158,
+          "log_prob": -2.768996,
+          "mean_log_prob": -0.395571
+        }
+      ],
+      "mllm_visual_evidence": "图像显示十二指肠黏膜表面存在一处不规则的浅表糜烂区域，伴有局部黄色渗出物和轻微出血点，周围黏膜充血水肿，符合溃疡性病变的典型内镜表现。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠溃疡\",\n  \"topk\": [\"十二指肠溃疡\", \"十二指肠炎\", \"十二指肠正常\"],\n  \"visual_evidence\": \"图像显示十二指肠黏膜表面存在一处不规则的浅表糜烂区域，伴有局部黄色渗出物和轻微出血点，周围黏膜充血水肿，符合溃疡性病变的典型内镜表现。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 9.43767499923706,
+      "mllm_full_score_class_count": 7,
+      "mllm_candidate_count": 5,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠球部__十二指肠球部__60-c98a3ad54ba2",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__60-c98a3ad54ba2.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+        },
+        {
+          "label_name": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+        },
+        {
+          "label_name": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+        },
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        },
+        {
+          "label_name": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+        },
+        {
+          "label_name": "十二指肠钩虫",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__60-c98a3ad54ba2.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠溃疡",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "十二指肠副乳头": {
+          "log_prob": -3.174873,
+          "mean_log_prob": -0.529146,
+          "norm_prob": 0.145463,
+          "token_count": 6.0
+        },
+        "十二指肠憩室": {
+          "log_prob": -3.743334,
+          "mean_log_prob": -0.748667,
+          "norm_prob": 0.116793,
+          "token_count": 5.0
+        },
+        "十二指肠正常": {
+          "log_prob": -1.763943,
+          "mean_log_prob": -0.440986,
+          "norm_prob": 0.158869,
+          "token_count": 4.0
+        },
+        "十二指肠溃疡": {
+          "log_prob": -0.920057,
+          "mean_log_prob": -0.230014,
+          "norm_prob": 0.196184,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -1.234028,
+          "mean_log_prob": -0.308507,
+          "norm_prob": 0.181374,
+          "token_count": 4.0
+        },
+        "十二指肠球部息肉": {
+          "log_prob": -2.861741,
+          "mean_log_prob": -0.40882,
+          "norm_prob": 0.164062,
+          "token_count": 7.0
+        },
+        "十二指肠钩虫": {
+          "log_prob": -9.456306,
+          "mean_log_prob": -1.891261,
+          "norm_prob": 0.037256,
+          "token_count": 5.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠溃疡",
+        "十二指肠炎",
+        "十二指肠正常",
+        "十二指肠球部息肉",
+        "十二指肠副乳头"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.196184,
+          "log_prob": -0.920057,
+          "mean_log_prob": -0.230014
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.181374,
+          "log_prob": -1.234028,
+          "mean_log_prob": -0.308507
+        },
+        {
+          "rank": 3,
+          "disease": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+          "source": "open_generation",
+          "norm_prob": 0.158869,
+          "log_prob": -1.763943,
+          "mean_log_prob": -0.440986
+        },
+        {
+          "rank": 4,
+          "disease": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.164062,
+          "log_prob": -2.861741,
+          "mean_log_prob": -0.40882
+        },
+        {
+          "rank": 5,
+          "disease": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.145463,
+          "log_prob": -3.174873,
+          "mean_log_prob": -0.529146
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面可见不规则的浅表糜烂区域，伴有局部充血和少量渗出物，符合溃疡性病变特征；周围黏膜呈红肿状态，提示炎症反应。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠溃疡\",\n  \"topk\": [\"十二指肠溃疡\", \"十二指肠炎\", \"十二指肠正常\"],\n  \"visual_evidence\": \"黏膜表面可见不规则的浅表糜烂区域，伴有局部充血和少量渗出物，符合溃疡性病变特征；周围黏膜呈红肿状态，提示炎症反应。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 9.260015726089478,
+      "mllm_full_score_class_count": 7,
+      "mllm_candidate_count": 5,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠球部__十二指肠球部__72-e289e55b3940",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__72-e289e55b3940.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+        },
+        {
+          "label_name": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+        },
+        {
+          "label_name": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+        },
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        },
+        {
+          "label_name": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+        },
+        {
+          "label_name": "十二指肠钩虫",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__72-e289e55b3940.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠副乳头": {
+          "log_prob": -3.090201,
+          "mean_log_prob": -0.515033,
+          "norm_prob": 0.147148,
+          "token_count": 6.0
+        },
+        "十二指肠憩室": {
+          "log_prob": -3.453289,
+          "mean_log_prob": -0.690658,
+          "norm_prob": 0.123447,
+          "token_count": 5.0
+        },
+        "十二指肠正常": {
+          "log_prob": -1.069664,
+          "mean_log_prob": -0.267416,
+          "norm_prob": 0.188492,
+          "token_count": 4.0
+        },
+        "十二指肠溃疡": {
+          "log_prob": -1.958792,
+          "mean_log_prob": -0.489698,
+          "norm_prob": 0.150924,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -0.981675,
+          "mean_log_prob": -0.245419,
+          "norm_prob": 0.192685,
+          "token_count": 4.0
+        },
+        "十二指肠球部息肉": {
+          "log_prob": -3.035525,
+          "mean_log_prob": -0.433646,
+          "norm_prob": 0.159625,
+          "token_count": 7.0
+        },
+        "十二指肠钩虫": {
+          "log_prob": -9.386907,
+          "mean_log_prob": -1.877381,
+          "norm_prob": 0.037679,
+          "token_count": 5.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠炎",
+        "十二指肠溃疡",
+        "十二指肠正常",
+        "十二指肠副乳头",
+        "十二指肠憩室"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.192685,
+          "log_prob": -0.981675,
+          "mean_log_prob": -0.245419
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.150924,
+          "log_prob": -1.958792,
+          "mean_log_prob": -0.489698
+        },
+        {
+          "rank": 3,
+          "disease": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+          "source": "open_generation",
+          "norm_prob": 0.188492,
+          "log_prob": -1.069664,
+          "mean_log_prob": -0.267416
+        },
+        {
+          "rank": 4,
+          "disease": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+          "source": "open_generation",
+          "norm_prob": 0.147148,
+          "log_prob": -3.090201,
+          "mean_log_prob": -0.515033
+        },
+        {
+          "rank": 5,
+          "disease": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室",
+          "source": "open_generation",
+          "norm_prob": 0.123447,
+          "log_prob": -3.453289,
+          "mean_log_prob": -0.690658
+        }
+      ],
+      "mllm_visual_evidence": "黏膜呈弥漫性红肿，表面可见散在糜烂及浅表出血点，伴有少量黄色渗出物，符合炎症改变特征。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠炎\",\n  \"topk\": [\"十二指肠炎\", \"十二指肠溃疡\", \"十二指肠正常\", \"十二指肠副乳头\", \"十二指肠憩室\"],\n  \"visual_evidence\": \"黏膜呈弥漫性红肿，表面可见散在糜烂及浅表出血点，伴有少量黄色渗出物，符合炎症改变特征。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 9.420182943344116,
+      "mllm_full_score_class_count": 7,
+      "mllm_candidate_count": 5,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__十二指肠降部__62-93c8221a4fd2",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__62-93c8221a4fd2.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+        },
+        {
+          "label_name": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+        },
+        {
+          "label_name": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+        },
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        },
+        {
+          "label_name": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+        },
+        {
+          "label_name": "十二指肠钩虫",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__62-93c8221a4fd2.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠副乳头": {
+          "log_prob": -2.77512,
+          "mean_log_prob": -0.46252,
+          "norm_prob": 0.155841,
+          "token_count": 6.0
+        },
+        "十二指肠憩室": {
+          "log_prob": -2.940082,
+          "mean_log_prob": -0.588016,
+          "norm_prob": 0.137461,
+          "token_count": 5.0
+        },
+        "十二指肠正常": {
+          "log_prob": -0.606319,
+          "mean_log_prob": -0.15158,
+          "norm_prob": 0.212677,
+          "token_count": 4.0
+        },
+        "十二指肠溃疡": {
+          "log_prob": -2.195734,
+          "mean_log_prob": -0.548933,
+          "norm_prob": 0.14294,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -1.710058,
+          "mean_log_prob": -0.427515,
+          "norm_prob": 0.161393,
+          "token_count": 4.0
+        },
+        "十二指肠球部息肉": {
+          "log_prob": -3.275568,
+          "mean_log_prob": -0.467938,
+          "norm_prob": 0.154999,
+          "token_count": 7.0
+        },
+        "十二指肠钩虫": {
+          "log_prob": -9.824612,
+          "mean_log_prob": -1.964922,
+          "norm_prob": 0.034689,
+          "token_count": 5.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠炎",
+        "十二指肠溃疡",
+        "十二指肠正常",
+        "十二指肠副乳头",
+        "十二指肠憩室"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.161393,
+          "log_prob": -1.710058,
+          "mean_log_prob": -0.427515
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.14294,
+          "log_prob": -2.195734,
+          "mean_log_prob": -0.548933
+        },
+        {
+          "rank": 3,
+          "disease": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+          "source": "open_generation",
+          "norm_prob": 0.212677,
+          "log_prob": -0.606319,
+          "mean_log_prob": -0.15158
+        },
+        {
+          "rank": 4,
+          "disease": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+          "source": "open_generation",
+          "norm_prob": 0.155841,
+          "log_prob": -2.77512,
+          "mean_log_prob": -0.46252
+        },
+        {
+          "rank": 5,
+          "disease": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室",
+          "source": "open_generation",
+          "norm_prob": 0.137461,
+          "log_prob": -2.940082,
+          "mean_log_prob": -0.588016
+        }
+      ],
+      "mllm_visual_evidence": "黏膜呈弥漫性红肿，表面可见散在白色渗出物及轻微糜烂，符合炎症改变；未见明显溃疡龛影或隆起病变。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠炎\",\n  \"topk\": [\"十二指肠炎\", \"十二指肠溃疡\", \"十二指肠正常\", \"十二指肠副乳头\", \"十二指肠憩室\"],\n  \"visual_evidence\": \"黏膜呈弥漫性红肿，表面可见散在白色渗出物及轻微糜烂，符合炎症改变；未见明显溃疡龛影或隆起病变。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 9.586688995361328,
+      "mllm_full_score_class_count": 7,
+      "mllm_candidate_count": 5,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__十二指肠降部__65-18f55906c4a5",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__65-18f55906c4a5.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+        },
+        {
+          "label_name": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+        },
+        {
+          "label_name": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+        },
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        },
+        {
+          "label_name": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+        },
+        {
+          "label_name": "十二指肠钩虫",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__65-18f55906c4a5.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠正常",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "十二指肠副乳头": {
+          "log_prob": -8.304523,
+          "mean_log_prob": -1.384087,
+          "norm_prob": 0.115118,
+          "token_count": 6.0
+        },
+        "十二指肠憩室": {
+          "log_prob": -7.007497,
+          "mean_log_prob": -1.401499,
+          "norm_prob": 0.113131,
+          "token_count": 5.0
+        },
+        "十二指肠正常": {
+          "log_prob": -0.002726,
+          "mean_log_prob": -0.000682,
+          "norm_prob": 0.459145,
+          "token_count": 4.0
+        },
+        "十二指肠溃疡": {
+          "log_prob": -8.451119,
+          "mean_log_prob": -2.11278,
+          "norm_prob": 0.055549,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -7.684459,
+          "mean_log_prob": -1.921115,
+          "norm_prob": 0.067285,
+          "token_count": 4.0
+        },
+        "十二指肠球部息肉": {
+          "log_prob": -7.096564,
+          "mean_log_prob": -1.013795,
+          "norm_prob": 0.166709,
+          "token_count": 7.0
+        },
+        "十二指肠钩虫": {
+          "log_prob": -14.959283,
+          "mean_log_prob": -2.991857,
+          "norm_prob": 0.023062,
+          "token_count": 5.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠正常",
+        "十二指肠炎",
+        "十二指肠溃疡",
+        "十二指肠球部息肉",
+        "十二指肠副乳头"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+          "source": "open_generation",
+          "norm_prob": 0.459145,
+          "log_prob": -0.002726,
+          "mean_log_prob": -0.000682
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.067285,
+          "log_prob": -7.684459,
+          "mean_log_prob": -1.921115
+        },
+        {
+          "rank": 3,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.055549,
+          "log_prob": -8.451119,
+          "mean_log_prob": -2.11278
+        },
+        {
+          "rank": 4,
+          "disease": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.166709,
+          "log_prob": -7.096564,
+          "mean_log_prob": -1.013795
+        },
+        {
+          "rank": 5,
+          "disease": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.115118,
+          "log_prob": -8.304523,
+          "mean_log_prob": -1.384087
+        }
+      ],
+      "mllm_visual_evidence": "黏膜呈均匀粉红色，表面光滑，可见正常的环状皱襞结构，无糜烂、溃疡或息肉样隆起，无明显炎症或寄生虫迹象。",
+      "mllm_risk_level": "low",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠正常\",\n  \"topk\": [\"十二指肠正常\", \"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜呈均匀粉红色，表面光滑，可见正常的环状皱襞结构，无糜烂、溃疡或息肉样隆起，无明显炎症或寄生虫迹象。\",\n  \"risk_level\": \"low\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 9.281275749206543,
+      "mllm_full_score_class_count": 7,
+      "mllm_candidate_count": 5,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__十二指肠降部__66-5699787c039f",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__66-5699787c039f.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+        },
+        {
+          "label_name": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+        },
+        {
+          "label_name": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+        },
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        },
+        {
+          "label_name": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+        },
+        {
+          "label_name": "十二指肠钩虫",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__66-5699787c039f.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠正常",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "十二指肠副乳头": {
+          "log_prob": -6.571299,
+          "mean_log_prob": -1.095216,
+          "norm_prob": 0.129671,
+          "token_count": 6.0
+        },
+        "十二指肠憩室": {
+          "log_prob": -5.538837,
+          "mean_log_prob": -1.107767,
+          "norm_prob": 0.128054,
+          "token_count": 5.0
+        },
+        "十二指肠正常": {
+          "log_prob": -0.012757,
+          "mean_log_prob": -0.003189,
+          "norm_prob": 0.386461,
+          "token_count": 4.0
+        },
+        "十二指肠溃疡": {
+          "log_prob": -6.68557,
+          "mean_log_prob": -1.671392,
+          "norm_prob": 0.072881,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -6.249729,
+          "mean_log_prob": -1.562432,
+          "norm_prob": 0.081271,
+          "token_count": 4.0
+        },
+        "十二指肠球部息肉": {
+          "log_prob": -5.534078,
+          "mean_log_prob": -0.790583,
+          "norm_prob": 0.175851,
+          "token_count": 7.0
+        },
+        "十二指肠钩虫": {
+          "log_prob": -13.547316,
+          "mean_log_prob": -2.709463,
+          "norm_prob": 0.02581,
+          "token_count": 5.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠正常",
+        "十二指肠炎",
+        "十二指肠溃疡",
+        "十二指肠球部息肉",
+        "十二指肠副乳头"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+          "source": "open_generation",
+          "norm_prob": 0.386461,
+          "log_prob": -0.012757,
+          "mean_log_prob": -0.003189
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.081271,
+          "log_prob": -6.249729,
+          "mean_log_prob": -1.562432
+        },
+        {
+          "rank": 3,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.072881,
+          "log_prob": -6.68557,
+          "mean_log_prob": -1.671392
+        },
+        {
+          "rank": 4,
+          "disease": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.175851,
+          "log_prob": -5.534078,
+          "mean_log_prob": -0.790583
+        },
+        {
+          "rank": 5,
+          "disease": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.129671,
+          "log_prob": -6.571299,
+          "mean_log_prob": -1.095216
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面光滑、色泽红润，可见正常环状皱襞和少量生理性分泌物，无溃疡、糜烂、息肉或异常隆起等病变表现。",
+      "mllm_risk_level": "low",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠正常\",\n  \"topk\": [\"十二指肠正常\", \"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜表面光滑、色泽红润，可见正常环状皱襞和少量生理性分泌物，无溃疡、糜烂、息肉或异常隆起等病变表现。\",\n  \"risk_level\": \"low\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 9.11851191520691,
+      "mllm_full_score_class_count": 7,
+      "mllm_candidate_count": 5,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__十二指肠降部__67-29e12e248e8f",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__67-29e12e248e8f.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+        },
+        {
+          "label_name": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+        },
+        {
+          "label_name": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+        },
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        },
+        {
+          "label_name": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+        },
+        {
+          "label_name": "十二指肠钩虫",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__67-29e12e248e8f.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠正常",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "十二指肠副乳头": {
+          "log_prob": -7.300233,
+          "mean_log_prob": -1.216705,
+          "norm_prob": 0.119675,
+          "token_count": 6.0
+        },
+        "十二指肠憩室": {
+          "log_prob": -5.368937,
+          "mean_log_prob": -1.073787,
+          "norm_prob": 0.138062,
+          "token_count": 5.0
+        },
+        "十二指肠正常": {
+          "log_prob": -0.010285,
+          "mean_log_prob": -0.002571,
+          "norm_prob": 0.402992,
+          "token_count": 4.0
+        },
+        "十二指肠溃疡": {
+          "log_prob": -7.270682,
+          "mean_log_prob": -1.817671,
+          "norm_prob": 0.065616,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -6.592238,
+          "mean_log_prob": -1.64806,
+          "norm_prob": 0.077745,
+          "token_count": 4.0
+        },
+        "十二指肠球部息肉": {
+          "log_prob": -5.926816,
+          "mean_log_prob": -0.846688,
+          "norm_prob": 0.173261,
+          "token_count": 7.0
+        },
+        "十二指肠钩虫": {
+          "log_prob": -14.406691,
+          "mean_log_prob": -2.881338,
+          "norm_prob": 0.02265,
+          "token_count": 5.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠正常",
+        "十二指肠炎",
+        "十二指肠溃疡",
+        "十二指肠球部息肉",
+        "十二指肠憩室"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+          "source": "open_generation",
+          "norm_prob": 0.402992,
+          "log_prob": -0.010285,
+          "mean_log_prob": -0.002571
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.077745,
+          "log_prob": -6.592238,
+          "mean_log_prob": -1.64806
+        },
+        {
+          "rank": 3,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.065616,
+          "log_prob": -7.270682,
+          "mean_log_prob": -1.817671
+        },
+        {
+          "rank": 4,
+          "disease": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.173261,
+          "log_prob": -5.926816,
+          "mean_log_prob": -0.846688
+        },
+        {
+          "rank": 5,
+          "disease": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.138062,
+          "log_prob": -5.368937,
+          "mean_log_prob": -1.073787
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面光滑、色泽红润，无明显糜烂、溃疡或息肉样隆起，可见正常环状皱襞和少量生理性分泌物，符合健康十二指肠的典型内镜表现。",
+      "mllm_risk_level": "low",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠正常\",\n  \"topk\": [\"十二指肠正常\", \"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜表面光滑、色泽红润，无明显糜烂、溃疡或息肉样隆起，可见正常环状皱襞和少量生理性分泌物，符合健康十二指肠的典型内镜表现。\",\n  \"risk_level\": \"low\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 9.474733591079712,
+      "mllm_full_score_class_count": 7,
+      "mllm_candidate_count": 5,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__十二指肠降部__68-f20756d3560f",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__68-f20756d3560f.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+        },
+        {
+          "label_name": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+        },
+        {
+          "label_name": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+        },
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        },
+        {
+          "label_name": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+        },
+        {
+          "label_name": "十二指肠钩虫",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__68-f20756d3560f.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠正常",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "十二指肠副乳头": {
+          "log_prob": -3.669225,
+          "mean_log_prob": -0.611538,
+          "norm_prob": 0.174261,
+          "token_count": 6.0
+        },
+        "十二指肠憩室": {
+          "log_prob": -3.324726,
+          "mean_log_prob": -0.664945,
+          "norm_prob": 0.165198,
+          "token_count": 5.0
+        },
+        "十二指肠正常": {
+          "log_prob": -0.083803,
+          "mean_log_prob": -0.020951,
+          "norm_prob": 0.31455,
+          "token_count": 4.0
+        },
+        "十二指肠溃疡": {
+          "log_prob": -6.145123,
+          "mean_log_prob": -1.536281,
+          "norm_prob": 0.069118,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -5.855478,
+          "mean_log_prob": -1.46387,
+          "norm_prob": 0.074308,
+          "token_count": 4.0
+        },
+        "十二指肠球部息肉": {
+          "log_prob": -4.323509,
+          "mean_log_prob": -0.617644,
+          "norm_prob": 0.1732,
+          "token_count": 7.0
+        },
+        "十二指肠钩虫": {
+          "log_prob": -11.96149,
+          "mean_log_prob": -2.392298,
+          "norm_prob": 0.029365,
+          "token_count": 5.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠正常",
+        "十二指肠炎",
+        "十二指肠溃疡",
+        "十二指肠副乳头",
+        "十二指肠球部息肉"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+          "source": "open_generation",
+          "norm_prob": 0.31455,
+          "log_prob": -0.083803,
+          "mean_log_prob": -0.020951
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.074308,
+          "log_prob": -5.855478,
+          "mean_log_prob": -1.46387
+        },
+        {
+          "rank": 3,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.069118,
+          "log_prob": -6.145123,
+          "mean_log_prob": -1.536281
+        },
+        {
+          "rank": 4,
+          "disease": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.174261,
+          "log_prob": -3.669225,
+          "mean_log_prob": -0.611538
+        },
+        {
+          "rank": 5,
+          "disease": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.1732,
+          "log_prob": -4.323509,
+          "mean_log_prob": -0.617644
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面光滑、色泽红润，无明显糜烂、溃疡或息肉样隆起，可见正常环状皱襞和少量生理性分泌物，符合健康十二指肠的典型内镜表现。",
+      "mllm_risk_level": "low",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠正常\",\n  \"topk\": [\"十二指肠正常\", \"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜表面光滑、色泽红润，无明显糜烂、溃疡或息肉样隆起，可见正常环状皱襞和少量生理性分泌物，符合健康十二指肠的典型内镜表现。\",\n  \"risk_level\": \"low\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 9.37428593635559,
+      "mllm_full_score_class_count": 7,
+      "mllm_candidate_count": 5,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__十二指肠降部__69-c20f53218d23",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__69-c20f53218d23.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+        },
+        {
+          "label_name": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+        },
+        {
+          "label_name": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+        },
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        },
+        {
+          "label_name": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+        },
+        {
+          "label_name": "十二指肠钩虫",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__69-c20f53218d23.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠正常",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "十二指肠副乳头": {
+          "log_prob": -1.887202,
+          "mean_log_prob": -0.314534,
+          "norm_prob": 0.217164,
+          "token_count": 6.0
+        },
+        "十二指肠憩室": {
+          "log_prob": -2.610161,
+          "mean_log_prob": -0.522032,
+          "norm_prob": 0.176471,
+          "token_count": 5.0
+        },
+        "十二指肠正常": {
+          "log_prob": -0.291887,
+          "mean_log_prob": -0.072972,
+          "norm_prob": 0.276502,
+          "token_count": 4.0
+        },
+        "十二指肠溃疡": {
+          "log_prob": -6.247545,
+          "mean_log_prob": -1.561886,
+          "norm_prob": 0.062384,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -6.301641,
+          "mean_log_prob": -1.57541,
+          "norm_prob": 0.061546,
+          "token_count": 4.0
+        },
+        "十二指肠球部息肉": {
+          "log_prob": -3.758083,
+          "mean_log_prob": -0.536869,
+          "norm_prob": 0.173872,
+          "token_count": 7.0
+        },
+        "十二指肠钩虫": {
+          "log_prob": -11.137634,
+          "mean_log_prob": -2.227527,
+          "norm_prob": 0.032062,
+          "token_count": 5.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠正常",
+        "十二指肠炎",
+        "十二指肠溃疡",
+        "十二指肠副乳头",
+        "十二指肠憩室"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+          "source": "open_generation",
+          "norm_prob": 0.276502,
+          "log_prob": -0.291887,
+          "mean_log_prob": -0.072972
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.061546,
+          "log_prob": -6.301641,
+          "mean_log_prob": -1.57541
+        },
+        {
+          "rank": 3,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.062384,
+          "log_prob": -6.247545,
+          "mean_log_prob": -1.561886
+        },
+        {
+          "rank": 4,
+          "disease": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.217164,
+          "log_prob": -1.887202,
+          "mean_log_prob": -0.314534
+        },
+        {
+          "rank": 5,
+          "disease": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.176471,
+          "log_prob": -2.610161,
+          "mean_log_prob": -0.522032
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面光滑、色泽红润，无明显糜烂、溃疡或息肉样隆起，可见正常环状皱襞结构，符合健康十二指肠的典型内镜表现。",
+      "mllm_risk_level": "low",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠正常\",\n  \"topk\": [\"十二指肠正常\", \"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜表面光滑、色泽红润，无明显糜烂、溃疡或息肉样隆起，可见正常环状皱襞结构，符合健康十二指肠的典型内镜表现。\",\n  \"risk_level\": \"low\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 9.22928524017334,
+      "mllm_full_score_class_count": 7,
+      "mllm_candidate_count": 5,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__十二指肠降部__70-6c6d041c4eae",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__70-6c6d041c4eae.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+        },
+        {
+          "label_name": "十二指肠憩室",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+        },
+        {
+          "label_name": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+        },
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        },
+        {
+          "label_name": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+        },
+        {
+          "label_name": "十二指肠钩虫",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__70-6c6d041c4eae.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠正常",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "十二指肠副乳头": {
+          "log_prob": -6.038151,
+          "mean_log_prob": -1.006358,
+          "norm_prob": 0.137545,
+          "token_count": 6.0
+        },
+        "十二指肠憩室": {
+          "log_prob": -5.235405,
+          "mean_log_prob": -1.047081,
+          "norm_prob": 0.132057,
+          "token_count": 5.0
+        },
+        "十二指肠正常": {
+          "log_prob": -0.016321,
+          "mean_log_prob": -0.00408,
+          "norm_prob": 0.37474,
+          "token_count": 4.0
+        },
+        "十二指肠溃疡": {
+          "log_prob": -6.568377,
+          "mean_log_prob": -1.642094,
+          "norm_prob": 0.072837,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -5.840673,
+          "mean_log_prob": -1.460168,
+          "norm_prob": 0.087369,
+          "token_count": 4.0
+        },
+        "十二指肠球部息肉": {
+          "log_prob": -5.548667,
+          "mean_log_prob": -0.792667,
+          "norm_prob": 0.170314,
+          "token_count": 7.0
+        },
+        "十二指肠钩虫": {
+          "log_prob": -13.529737,
+          "mean_log_prob": -2.705947,
+          "norm_prob": 0.025138,
+          "token_count": 5.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠正常",
+        "十二指肠炎",
+        "十二指肠溃疡",
+        "十二指肠球部息肉",
+        "十二指肠副乳头"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠正常",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常",
+          "source": "open_generation",
+          "norm_prob": 0.37474,
+          "log_prob": -0.016321,
+          "mean_log_prob": -0.00408
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.087369,
+          "log_prob": -5.840673,
+          "mean_log_prob": -1.460168
+        },
+        {
+          "rank": 3,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.072837,
+          "log_prob": -6.568377,
+          "mean_log_prob": -1.642094
+        },
+        {
+          "rank": 4,
+          "disease": "十二指肠球部息肉",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.170314,
+          "log_prob": -5.548667,
+          "mean_log_prob": -0.792667
+        },
+        {
+          "rank": 5,
+          "disease": "十二指肠副乳头",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头",
+          "source": "teacher_force_fill",
+          "norm_prob": 0.137545,
+          "log_prob": -6.038151,
+          "mean_log_prob": -1.006358
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面光滑、色泽红润，可见正常的环状皱襞结构，无明显糜烂、溃疡或异常隆起，符合健康十二指肠的典型内镜表现。",
+      "mllm_risk_level": "low",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠正常\",\n  \"topk\": [\"十二指肠正常\", \"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜表面光滑、色泽红润，可见正常的环状皱襞结构，无明显糜烂、溃疡或异常隆起，符合健康十二指肠的典型内镜表现。\",\n  \"risk_level\": \"low\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 9.20385479927063,
+      "mllm_full_score_class_count": 7,
+      "mllm_candidate_count": 5,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    }
+  ]
+}

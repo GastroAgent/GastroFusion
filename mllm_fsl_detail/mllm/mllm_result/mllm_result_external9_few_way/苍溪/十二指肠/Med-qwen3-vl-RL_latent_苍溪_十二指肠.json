@@ -1,0 +1,1406 @@
+{
+  "stage": "mllm_candidate_service_full_scoremap",
+  "city": "苍溪",
+  "organ": "十二指肠",
+  "source_json": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/huaxi_mllm_fsl_agent/external9_agent831_few_way/苍溪十二指肠_agent.json",
+  "mllm_endpoint": "http://gpu35:8031/v1/vision/candidate_diseases",
+  "top_k": 5,
+  "use_teacher_forcing": true,
+  "score_softmax_temperature": 1.0,
+  "length_normalize": true,
+  "summary": {
+    "total": 18,
+    "success": 18,
+    "failure": 0,
+    "mllm_correct": 15,
+    "mllm_acc": 0.8333333333333334
+  },
+  "results": [
+    {
+      "image_id": "十二指肠球部__吴从秀_src1__十二指肠球部__32-1f374af6da7b",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠球部__吴从秀_src1__十二指肠球部__32-1f374af6da7b.JPG",
+      "ground_truth_name": "十二指肠溃疡",
+      "support_classes": [
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠球部__吴从秀_src1__十二指肠球部__32-1f374af6da7b.JPG",
+      "ground_truth": "十二指肠溃疡",
+      "mllm_diag": "十二指肠炎",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "十二指肠溃疡": {
+          "log_prob": -1.382269,
+          "mean_log_prob": -0.345567,
+          "norm_prob": 0.432181,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -0.290434,
+          "mean_log_prob": -0.072608,
+          "norm_prob": 0.567819,
+          "token_count": 4.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠炎",
+        "十二指肠溃疡"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.567819,
+          "log_prob": -0.290434,
+          "mean_log_prob": -0.072608
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.432181,
+          "log_prob": -1.382269,
+          "mean_log_prob": -0.345567
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面可见弥漫性充血、糜烂及散在小泡状结构，局部有轻微出血点，符合炎症改变；未见明显圆形或椭圆形溃疡龛影，提示非典型溃疡表现。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠炎\",\n  \"topk\": [\"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜表面可见弥漫性充血、糜烂及散在小泡状结构，局部有轻微出血点，符合炎症改变；未见明显圆形或椭圆形溃疡龛影，提示非典型溃疡表现。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.719950199127197,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠球部__吴从秀_src1__十二指肠球部__32",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠球部__吴从秀_src1__十二指肠球部__32.JPG",
+      "ground_truth_name": "十二指肠溃疡",
+      "support_classes": [
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠球部__吴从秀_src1__十二指肠球部__32.JPG",
+      "ground_truth": "十二指肠溃疡",
+      "mllm_diag": "十二指肠炎",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "十二指肠溃疡": {
+          "log_prob": -1.382269,
+          "mean_log_prob": -0.345567,
+          "norm_prob": 0.432181,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -0.290434,
+          "mean_log_prob": -0.072608,
+          "norm_prob": 0.567819,
+          "token_count": 4.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠炎",
+        "十二指肠溃疡"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.567819,
+          "log_prob": -0.290434,
+          "mean_log_prob": -0.072608
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.432181,
+          "log_prob": -1.382269,
+          "mean_log_prob": -0.345567
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面可见弥漫性充血、糜烂及散在小泡状结构，局部有轻微出血点，符合炎症改变；未见明显圆形或椭圆形溃疡龛影，提示非典型溃疡表现。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠炎\",\n  \"topk\": [\"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜表面可见弥漫性充血、糜烂及散在小泡状结构，局部有轻微出血点，符合炎症改变；未见明显圆形或椭圆形溃疡龛影，提示非典型溃疡表现。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.862760305404663,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__谭光福_53-076d4e49e4c7",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_53-076d4e49e4c7.JPG",
+      "ground_truth_name": "十二指肠溃疡",
+      "support_classes": [
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_53-076d4e49e4c7.JPG",
+      "ground_truth": "十二指肠溃疡",
+      "mllm_diag": "十二指肠溃疡",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠溃疡": {
+          "log_prob": -0.004572,
+          "mean_log_prob": -0.001143,
+          "norm_prob": 0.794749,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -5.419736,
+          "mean_log_prob": -1.354934,
+          "norm_prob": 0.205251,
+          "token_count": 4.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠溃疡",
+        "十二指肠炎"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.794749,
+          "log_prob": -0.004572,
+          "mean_log_prob": -0.001143
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.205251,
+          "log_prob": -5.419736,
+          "mean_log_prob": -1.354934
+        }
+      ],
+      "mllm_visual_evidence": "可见黏膜表面有明显的圆形或椭圆形缺损，边缘隆起且周围伴有充血和糜烂，中心区域呈浅黄色或灰白色坏死组织，符合溃疡典型形态；同时局部黏膜皱襞增厚、水肿，提示炎症反应。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠溃疡\",\n  \"topk\": [\"十二指肠溃疡\", \"十二指肠炎\"],\n  \"visual_evidence\": \"可见黏膜表面有明显的圆形或椭圆形缺损，边缘隆起且周围伴有充血和糜烂，中心区域呈浅黄色或灰白色坏死组织，符合溃疡典型形态；同时局部黏膜皱襞增厚、水肿，提示炎症反应。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 6.010874032974243,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__谭光福_55-842097eb4dd7",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_55-842097eb4dd7.JPG",
+      "ground_truth_name": "十二指肠溃疡",
+      "support_classes": [
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_55-842097eb4dd7.JPG",
+      "ground_truth": "十二指肠溃疡",
+      "mllm_diag": "十二指肠炎",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "十二指肠溃疡": {
+          "log_prob": -0.548975,
+          "mean_log_prob": -0.137244,
+          "norm_prob": 0.519631,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -0.863233,
+          "mean_log_prob": -0.215808,
+          "norm_prob": 0.480369,
+          "token_count": 4.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠炎",
+        "十二指肠溃疡"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.480369,
+          "log_prob": -0.863233,
+          "mean_log_prob": -0.215808
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.519631,
+          "log_prob": -0.548975,
+          "mean_log_prob": -0.137244
+        }
+      ],
+      "mllm_visual_evidence": "黏膜呈现弥漫性充血、水肿，局部可见糜烂及浅表出血点，符合炎症改变；未见明显圆形或椭圆形溃疡龛影，无显著边缘隆起或周围环状皱襞增厚。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠炎\",\n  \"topk\": [\"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜呈现弥漫性充血、水肿，局部可见糜烂及浅表出血点，符合炎症改变；未见明显圆形或椭圆形溃疡龛影，无显著边缘隆起或周围环状皱襞增厚。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.714017152786255,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__谭光福_src1__十二指肠降部__30-215f6e69aad1",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_src1__十二指肠降部__30-215f6e69aad1.JPG",
+      "ground_truth_name": "十二指肠溃疡",
+      "support_classes": [
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_src1__十二指肠降部__30-215f6e69aad1.JPG",
+      "ground_truth": "十二指肠溃疡",
+      "mllm_diag": "十二指肠溃疡",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠溃疡": {
+          "log_prob": -0.197009,
+          "mean_log_prob": -0.049252,
+          "norm_prob": 0.594322,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -1.724463,
+          "mean_log_prob": -0.431116,
+          "norm_prob": 0.405678,
+          "token_count": 4.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠溃疡",
+        "十二指肠炎"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.594322,
+          "log_prob": -0.197009,
+          "mean_log_prob": -0.049252
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.405678,
+          "log_prob": -1.724463,
+          "mean_log_prob": -0.431116
+        }
+      ],
+      "mllm_visual_evidence": "可见黏膜表面存在不规则的浅表糜烂及白色渗出物，局部组织隆起并伴有充血和水肿，符合溃疡性病变特征；同时周围黏膜呈炎症改变，提示可能存在继发性炎症反应。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠溃疡\",\n  \"topk\": [\"十二指肠溃疡\", \"十二指肠炎\"],\n  \"visual_evidence\": \"可见黏膜表面存在不规则的浅表糜烂及白色渗出物，局部组织隆起并伴有充血和水肿，符合溃疡性病变特征；同时周围黏膜呈炎症改变，提示可能存在继发性炎症反应。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.623852729797363,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__谭光福_src1__十二指肠降部__32-48023ebf1a14",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_src1__十二指肠降部__32-48023ebf1a14.JPG",
+      "ground_truth_name": "十二指肠溃疡",
+      "support_classes": [
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_src1__十二指肠降部__32-48023ebf1a14.JPG",
+      "ground_truth": "十二指肠溃疡",
+      "mllm_diag": "十二指肠溃疡",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠溃疡": {
+          "log_prob": -0.064944,
+          "mean_log_prob": -0.016236,
+          "norm_prob": 0.663123,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -2.773911,
+          "mean_log_prob": -0.693478,
+          "norm_prob": 0.336877,
+          "token_count": 4.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠溃疡",
+        "十二指肠炎"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.663123,
+          "log_prob": -0.064944,
+          "mean_log_prob": -0.016236
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.336877,
+          "log_prob": -2.773911,
+          "mean_log_prob": -0.693478
+        }
+      ],
+      "mllm_visual_evidence": "可见黏膜表面存在不规则的浅表糜烂及白色渗出物，局部组织隆起并伴有充血和水肿，符合溃疡性病变特征；同时周围黏膜呈炎症改变，提示可能存在继发性炎症反应。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠溃疡\",\n  \"topk\": [\"十二指肠溃疡\", \"十二指肠炎\"],\n  \"visual_evidence\": \"可见黏膜表面存在不规则的浅表糜烂及白色渗出物，局部组织隆起并伴有充血和水肿，符合溃疡性病变特征；同时周围黏膜呈炎症改变，提示可能存在继发性炎症反应。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.609203815460205,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__谭光福_src1__十二指肠降部__33",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_src1__十二指肠降部__33.JPG",
+      "ground_truth_name": "十二指肠溃疡",
+      "support_classes": [
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_src1__十二指肠降部__33.JPG",
+      "ground_truth": "十二指肠溃疡",
+      "mllm_diag": "十二指肠溃疡",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠溃疡": {
+          "log_prob": -0.181686,
+          "mean_log_prob": -0.045422,
+          "norm_prob": 0.599689,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -1.798362,
+          "mean_log_prob": -0.449591,
+          "norm_prob": 0.400311,
+          "token_count": 4.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠溃疡",
+        "十二指肠炎"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.599689,
+          "log_prob": -0.181686,
+          "mean_log_prob": -0.045422
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.400311,
+          "log_prob": -1.798362,
+          "mean_log_prob": -0.449591
+        }
+      ],
+      "mllm_visual_evidence": "可见黏膜表面存在不规则的浅表性糜烂及局部隆起，伴有少量渗出物和轻微出血点，符合溃疡性病变特征；周围黏膜充血水肿，提示炎症反应。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠溃疡\",\n  \"topk\": [\"十二指肠溃疡\", \"十二指肠炎\"],\n  \"visual_evidence\": \"可见黏膜表面存在不规则的浅表性糜烂及局部隆起，伴有少量渗出物和轻微出血点，符合溃疡性病变特征；周围黏膜充血水肿，提示炎症反应。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.37323522567749,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠球部__十二指肠球部__34-a5bf2eb4a639",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__34-a5bf2eb4a639.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__34-a5bf2eb4a639.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠溃疡": {
+          "log_prob": -4.936398,
+          "mean_log_prob": -1.2341,
+          "norm_prob": 0.225789,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -0.007415,
+          "mean_log_prob": -0.001854,
+          "norm_prob": 0.774211,
+          "token_count": 4.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠炎",
+        "十二指肠溃疡"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.774211,
+          "log_prob": -0.007415,
+          "mean_log_prob": -0.001854
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.225789,
+          "log_prob": -4.936398,
+          "mean_log_prob": -1.2341
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面可见散在红斑和轻微糜烂，伴有少量气泡，提示炎症改变；未见明显溃疡龛影或深部组织破坏。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠炎\",\n  \"topk\": [\"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜表面可见散在红斑和轻微糜烂，伴有少量气泡，提示炎症改变；未见明显溃疡龛影或深部组织破坏。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.006085395812988,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠球部__十二指肠球部__59-56cc170f1625",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__59-56cc170f1625.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__59-56cc170f1625.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠溃疡": {
+          "log_prob": -0.656669,
+          "mean_log_prob": -0.164167,
+          "norm_prob": 0.504764,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -0.73289,
+          "mean_log_prob": -0.183223,
+          "norm_prob": 0.495236,
+          "token_count": 4.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠炎",
+        "十二指肠溃疡"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.495236,
+          "log_prob": -0.73289,
+          "mean_log_prob": -0.183223
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.504764,
+          "log_prob": -0.656669,
+          "mean_log_prob": -0.164167
+        }
+      ],
+      "mllm_visual_evidence": "黏膜呈弥漫性红肿，表面可见少量渗出物及轻微糜烂，局部有黄色分泌物附着，符合炎症改变；未见明显溃疡龛影或边缘隆起，提示非典型溃疡表现。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠炎\",\n  \"topk\": [\"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜呈弥漫性红肿，表面可见少量渗出物及轻微糜烂，局部有黄色分泌物附着，符合炎症改变；未见明显溃疡龛影或边缘隆起，提示非典型溃疡表现。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.752400159835815,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠球部__十二指肠球部__60-c98a3ad54ba2",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__60-c98a3ad54ba2.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__60-c98a3ad54ba2.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠溃疡": {
+          "log_prob": -1.231808,
+          "mean_log_prob": -0.307952,
+          "norm_prob": 0.444873,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -0.346172,
+          "mean_log_prob": -0.086543,
+          "norm_prob": 0.555127,
+          "token_count": 4.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠炎",
+        "十二指肠溃疡"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.555127,
+          "log_prob": -0.346172,
+          "mean_log_prob": -0.086543
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.444873,
+          "log_prob": -1.231808,
+          "mean_log_prob": -0.307952
+        }
+      ],
+      "mllm_visual_evidence": "黏膜呈弥漫性红肿，表面可见散在糜烂及浅表渗出物，局部有轻度水肿和不规则充血，符合炎症性改变；未见明显圆形或椭圆形溃疡龛影及周围环形隆起，提示非典型溃疡表现。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠炎\",\n  \"topk\": [\"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜呈弥漫性红肿，表面可见散在糜烂及浅表渗出物，局部有轻度水肿和不规则充血，符合炎症性改变；未见明显圆形或椭圆形溃疡龛影及周围环形隆起，提示非典型溃疡表现。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.988929033279419,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠球部__十二指肠球部__72-e289e55b3940",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__72-e289e55b3940.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__72-e289e55b3940.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠溃疡": {
+          "log_prob": -3.085748,
+          "mean_log_prob": -0.771437,
+          "norm_prob": 0.31873,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -0.047285,
+          "mean_log_prob": -0.011821,
+          "norm_prob": 0.68127,
+          "token_count": 4.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠炎",
+        "十二指肠溃疡"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.68127,
+          "log_prob": -0.047285,
+          "mean_log_prob": -0.011821
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.31873,
+          "log_prob": -3.085748,
+          "mean_log_prob": -0.771437
+        }
+      ],
+      "mllm_visual_evidence": "黏膜呈弥漫性红肿，表面可见散在糜烂及浅表出血点，局部有轻度水肿和黏液附着，符合炎症性改变；未见明显圆形或椭圆形溃疡龛影，无显著边缘隆起或周围环状皱襞增厚。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠炎\",\n  \"topk\": [\"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜呈弥漫性红肿，表面可见散在糜烂及浅表出血点，局部有轻度水肿和黏液附着，符合炎症性改变；未见明显圆形或椭圆形溃疡龛影，无显著边缘隆起或周围环状皱襞增厚。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 6.090687036514282,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__十二指肠降部__62-93c8221a4fd2",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__62-93c8221a4fd2.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__62-93c8221a4fd2.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠溃疡": {
+          "log_prob": -2.71006,
+          "mean_log_prob": -0.677515,
+          "norm_prob": 0.340698,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -0.069321,
+          "mean_log_prob": -0.01733,
+          "norm_prob": 0.659302,
+          "token_count": 4.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠炎",
+        "十二指肠溃疡"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.659302,
+          "log_prob": -0.069321,
+          "mean_log_prob": -0.01733
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.340698,
+          "log_prob": -2.71006,
+          "mean_log_prob": -0.677515
+        }
+      ],
+      "mllm_visual_evidence": "黏膜呈弥漫性红肿，表面可见散在糜烂及浅表渗出物，局部有轻度水肿和黏液附着，符合炎症性改变；未见明显深部溃疡龛影或边缘隆起，提示非典型溃疡表现。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠炎\",\n  \"topk\": [\"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜呈弥漫性红肿，表面可见散在糜烂及浅表渗出物，局部有轻度水肿和黏液附着，符合炎症性改变；未见明显深部溃疡龛影或边缘隆起，提示非典型溃疡表现。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.765836715698242,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__十二指肠降部__65-18f55906c4a5",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__65-18f55906c4a5.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__65-18f55906c4a5.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠溃疡": {
+          "log_prob": -5.14378,
+          "mean_log_prob": -1.285945,
+          "norm_prob": 0.216809,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -0.006346,
+          "mean_log_prob": -0.001586,
+          "norm_prob": 0.783191,
+          "token_count": 4.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠炎",
+        "十二指肠溃疡"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.783191,
+          "log_prob": -0.006346,
+          "mean_log_prob": -0.001586
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.216809,
+          "log_prob": -5.14378,
+          "mean_log_prob": -1.285945
+        }
+      ],
+      "mllm_visual_evidence": "黏膜呈弥漫性充血、水肿，表面可见散在小泡和少量渗出物，管壁环状皱襞增厚且边缘模糊，符合慢性炎症改变；未见明显溃疡龛影或深部糜烂，提示非急性穿孔或深溃疡。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠炎\",\n  \"topk\": [\"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜呈弥漫性充血、水肿，表面可见散在小泡和少量渗出物，管壁环状皱襞增厚且边缘模糊，符合慢性炎症改变；未见明显溃疡龛影或深部糜烂，提示非急性穿孔或深溃疡。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 6.008421421051025,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__十二指肠降部__66-5699787c039f",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__66-5699787c039f.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__66-5699787c039f.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠溃疡": {
+          "log_prob": -4.049275,
+          "mean_log_prob": -1.012319,
+          "norm_prob": 0.267406,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -0.017984,
+          "mean_log_prob": -0.004496,
+          "norm_prob": 0.732594,
+          "token_count": 4.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠炎",
+        "十二指肠溃疡"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.732594,
+          "log_prob": -0.017984,
+          "mean_log_prob": -0.004496
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.267406,
+          "log_prob": -4.049275,
+          "mean_log_prob": -1.012319
+        }
+      ],
+      "mllm_visual_evidence": "黏膜呈弥漫性充血、水肿，表面可见散在小泡和黏液分泌物，管壁环状皱襞增厚，无明显溃疡龛影或边缘隆起，符合炎症性改变特征。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠炎\",\n  \"topk\": [\"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜呈弥漫性充血、水肿，表面可见散在小泡和黏液分泌物，管壁环状皱襞增厚，无明显溃疡龛影或边缘隆起，符合炎症性改变特征。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.852717638015747,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__十二指肠降部__67-29e12e248e8f",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__67-29e12e248e8f.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__67-29e12e248e8f.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠溃疡": {
+          "log_prob": -4.21947,
+          "mean_log_prob": -1.054868,
+          "norm_prob": 0.259022,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -0.015239,
+          "mean_log_prob": -0.00381,
+          "norm_prob": 0.740978,
+          "token_count": 4.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠炎",
+        "十二指肠溃疡"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.740978,
+          "log_prob": -0.015239,
+          "mean_log_prob": -0.00381
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.259022,
+          "log_prob": -4.21947,
+          "mean_log_prob": -1.054868
+        }
+      ],
+      "mllm_visual_evidence": "黏膜呈弥漫性充血、水肿，表面可见散在糜烂及浅表溃疡灶，伴有少量渗出物和粘液附着，符合炎症性改变；未见明显深大溃疡或环形狭窄等典型溃疡特征。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠炎\",\n  \"topk\": [\"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜呈弥漫性充血、水肿，表面可见散在糜烂及浅表溃疡灶，伴有少量渗出物和粘液附着，符合炎症性改变；未见明显深大溃疡或环形狭窄等典型溃疡特征。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.831524610519409,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__十二指肠降部__68-f20756d3560f",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__68-f20756d3560f.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__68-f20756d3560f.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠溃疡": {
+          "log_prob": -4.185872,
+          "mean_log_prob": -1.046468,
+          "norm_prob": 0.260657,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -0.015637,
+          "mean_log_prob": -0.003909,
+          "norm_prob": 0.739343,
+          "token_count": 4.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠炎",
+        "十二指肠溃疡"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.739343,
+          "log_prob": -0.015637,
+          "mean_log_prob": -0.003909
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.260657,
+          "log_prob": -4.185872,
+          "mean_log_prob": -1.046468
+        }
+      ],
+      "mllm_visual_evidence": "黏膜呈弥漫性充血、水肿，表面可见散在小片状糜烂及少量渗出物，管壁皱襞增粗，符合慢性炎症改变；未见明显圆形或椭圆形溃疡龛影。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠炎\",\n  \"topk\": [\"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜呈弥漫性充血、水肿，表面可见散在小片状糜烂及少量渗出物，管壁皱襞增粗，符合慢性炎症改变；未见明显圆形或椭圆形溃疡龛影。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.5232367515563965,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__十二指肠降部__69-c20f53218d23",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__69-c20f53218d23.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__69-c20f53218d23.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠溃疡": {
+          "log_prob": -3.330018,
+          "mean_log_prob": -0.832505,
+          "norm_prob": 0.305067,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -0.036886,
+          "mean_log_prob": -0.009221,
+          "norm_prob": 0.694933,
+          "token_count": 4.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠炎",
+        "十二指肠溃疡"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.694933,
+          "log_prob": -0.036886,
+          "mean_log_prob": -0.009221
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.305067,
+          "log_prob": -3.330018,
+          "mean_log_prob": -0.832505
+        }
+      ],
+      "mllm_visual_evidence": "黏膜呈弥漫性充血、水肿，表面可见散在糜烂及浅表溃疡灶，伴有黏液分泌物覆盖，符合炎症性改变；未见明显深大溃疡或环形狭窄等典型溃疡特征。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠炎\",\n  \"topk\": [\"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜呈弥漫性充血、水肿，表面可见散在糜烂及浅表溃疡灶，伴有黏液分泌物覆盖，符合炎症性改变；未见明显深大溃疡或环形狭窄等典型溃疡特征。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.525733947753906,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "十二指肠降部__十二指肠降部__70-6c6d041c4eae",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__70-6c6d041c4eae.JPG",
+      "ground_truth_name": "十二指肠炎",
+      "support_classes": [
+        {
+          "label_name": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+        },
+        {
+          "label_name": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__70-6c6d041c4eae.JPG",
+      "ground_truth": "十二指肠炎",
+      "mllm_diag": "十二指肠炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "十二指肠溃疡": {
+          "log_prob": -4.528879,
+          "mean_log_prob": -1.13222,
+          "norm_prob": 0.244267,
+          "token_count": 4.0
+        },
+        "十二指肠炎": {
+          "log_prob": -0.011168,
+          "mean_log_prob": -0.002792,
+          "norm_prob": 0.755733,
+          "token_count": 4.0
+        }
+      },
+      "candidate_diseases": [
+        "十二指肠炎",
+        "十二指肠溃疡"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "十二指肠炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎",
+          "source": "open_generation",
+          "norm_prob": 0.755733,
+          "log_prob": -0.011168,
+          "mean_log_prob": -0.002792
+        },
+        {
+          "rank": 2,
+          "disease": "十二指肠溃疡",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡",
+          "source": "open_generation",
+          "norm_prob": 0.244267,
+          "log_prob": -4.528879,
+          "mean_log_prob": -1.13222
+        }
+      ],
+      "mllm_visual_evidence": "黏膜呈弥漫性充血、水肿，表面可见散在糜烂及浅表溃疡灶，伴有少量渗出物和粘液覆盖，符合炎症性改变；未见明显深大溃疡或环形狭窄等典型溃疡特征。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"十二指肠炎\",\n  \"topk\": [\"十二指肠炎\", \"十二指肠溃疡\"],\n  \"visual_evidence\": \"黏膜呈弥漫性充血、水肿，表面可见散在糜烂及浅表溃疡灶，伴有少量渗出物和粘液覆盖，符合炎症性改变；未见明显深大溃疡或环形狭窄等典型溃疡特征。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.619692802429199,
+      "mllm_full_score_class_count": 2,
+      "mllm_candidate_count": 2,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    }
+  ]
+}
