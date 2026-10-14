@@ -1,0 +1,47 @@
+import numpy as np
+import torch
+
+
+class CategoriesSampler():
+
+    def __init__(self, label, n_batch, n_cls, n_per,):
+        self.n_batch = n_batch  # the number of iterations in the dataloader
+        self.n_cls = n_cls
+        self.n_per = n_per
+
+        label = np.array(label)  # all data label
+        self.m_ind = []  # the data index of each class
+        min_samples = float('inf')
+        for i in range(max(label) + 1):
+            ind = np.argwhere(label == i).reshape(-1)  # all data index of this class
+            ind = torch.from_numpy(ind)
+            self.m_ind.append(ind)
+            min_samples = min(min_samples, len(ind))
+
+        # Safety check: ensure we have enough samples per class.
+        # 医疗子集每类样本数很少（val/test 最少 1~3 张），而 n_per = n_way*(k_shot+k_query) 会大于 min_samples。
+        # 这里把硬报错改成自动 clamp：n_per 不超过 min_samples，且至少保留 2 个（保证至少能 sample k_shot+k_query）。
+        if min_samples < n_per:
+            new_n_per = max(2, min_samples)
+            print(f"[WARN][CategoriesSampler] n_per ({n_per}) exceeds available samples per class "
+                  f"(minimum {min_samples}). Auto-clamping n_per to {new_n_per}.")
+            n_per = new_n_per
+        self.n_per = n_per
+
+    def __len__(self):
+        return self.n_batch
+
+    def __iter__(self):
+        for i_batch in range(self.n_batch):
+            batch = []
+            classes = torch.randperm(len(self.m_ind))[:self.n_cls]  # random sample num_class indexs,e.g. 5
+            for c in classes:
+                l = self.m_ind[c]  # all data indexs of this class
+                pos = torch.randperm(len(l))[:self.n_per]  # sample n_per data index of this class
+                batch.append(l[pos])
+            batch = torch.stack(batch).t().reshape(-1)
+            # .gcn_t() transpose,
+            # due to it, the label is in the sequence of abcdabcdabcd form after reshape,
+            # instead of aaaabbbbccccdddd
+            yield batch
+
