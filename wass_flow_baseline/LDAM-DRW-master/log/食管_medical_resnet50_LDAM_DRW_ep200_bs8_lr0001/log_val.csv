@@ -1,0 +1,600 @@
+val Results: Prec@1 12.121 Loss 214.52669
+val Class Accuracy: 0.000,0.000,1.000,0.000,0.000,0.000,0.000
+Best Prec@1: 12.121
+val Results: Prec@1 42.424 Loss 75.38036
+val Class Accuracy: 0.429,1.000,0.000,0.000,0.000,0.800,0.000
+Best Prec@1: 42.424
+val Results: Prec@1 42.424 Loss 16.63193
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.000,0.000,0.000
+Best Prec@1: 42.424
+val Results: Prec@1 54.545 Loss 35.67529
+val Class Accuracy: 0.857,0.714,0.000,0.000,0.000,1.000,0.500
+Best Prec@1: 54.545
+val Results: Prec@1 45.455 Loss 12.39472
+val Class Accuracy: 0.286,1.000,0.000,1.000,0.000,0.000,0.750
+Best Prec@1: 54.545
+val Results: Prec@1 36.364 Loss 15.49633
+val Class Accuracy: 0.143,0.857,0.000,0.000,0.000,1.000,0.000
+Best Prec@1: 54.545
+val Results: Prec@1 54.545 Loss 10.79975
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.000,0.600,0.250
+Best Prec@1: 54.545
+val Results: Prec@1 30.303 Loss 12.61382
+val Class Accuracy: 0.143,1.000,0.000,0.000,0.333,0.000,0.250
+Best Prec@1: 54.545
+val Results: Prec@1 42.424 Loss 27.74213
+val Class Accuracy: 0.857,0.571,0.000,0.000,0.000,0.800,0.000
+Best Prec@1: 54.545
+val Results: Prec@1 45.455 Loss 93.71089
+val Class Accuracy: 0.571,0.429,0.000,0.000,0.000,0.800,1.000
+Best Prec@1: 54.545
+val Results: Prec@1 42.424 Loss 15.87693
+val Class Accuracy: 0.000,1.000,0.000,0.000,0.000,1.000,0.500
+Best Prec@1: 54.545
+val Results: Prec@1 45.455 Loss 18.80763
+val Class Accuracy: 0.286,1.000,0.250,0.000,0.000,1.000,0.000
+Best Prec@1: 54.545
+val Results: Prec@1 27.273 Loss 14.26137
+val Class Accuracy: 0.000,0.571,0.000,0.000,0.000,1.000,0.000
+Best Prec@1: 54.545
+val Results: Prec@1 54.545 Loss 11.57939
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.000,0.400,0.500
+Best Prec@1: 54.545
+val Results: Prec@1 51.515 Loss 11.61713
+val Class Accuracy: 0.429,1.000,0.000,0.000,0.667,0.800,0.250
+Best Prec@1: 54.545
+val Results: Prec@1 63.636 Loss 10.14909
+val Class Accuracy: 0.857,1.000,0.000,0.000,0.000,1.000,0.750
+Best Prec@1: 63.636
+val Results: Prec@1 60.606 Loss 11.10094
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.000,0.600,0.750
+Best Prec@1: 63.636
+val Results: Prec@1 36.364 Loss 15.18379
+val Class Accuracy: 0.857,0.143,0.000,0.333,0.000,0.000,1.000
+Best Prec@1: 63.636
+val Results: Prec@1 63.636 Loss 10.63399
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.000,0.600,1.000
+Best Prec@1: 63.636
+val Results: Prec@1 63.636 Loss 12.26980
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.000,0.600,1.000
+Best Prec@1: 63.636
+val Results: Prec@1 42.424 Loss 14.64255
+val Class Accuracy: 0.143,0.571,0.000,0.000,0.333,1.000,0.750
+Best Prec@1: 63.636
+val Results: Prec@1 51.515 Loss 14.26915
+val Class Accuracy: 0.857,0.286,0.000,0.000,0.000,1.000,1.000
+Best Prec@1: 63.636
+val Results: Prec@1 63.636 Loss 10.87466
+val Class Accuracy: 0.857,1.000,0.000,0.000,0.000,1.000,0.750
+Best Prec@1: 63.636
+val Results: Prec@1 57.576 Loss 9.95012
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.000,0.200,1.000
+Best Prec@1: 63.636
+val Results: Prec@1 57.576 Loss 9.67136
+val Class Accuracy: 0.857,1.000,0.000,0.000,0.667,0.000,1.000
+Best Prec@1: 63.636
+val Results: Prec@1 63.636 Loss 9.38048
+val Class Accuracy: 0.857,1.000,0.250,0.000,0.000,0.600,1.000
+Best Prec@1: 63.636
+val Results: Prec@1 63.636 Loss 10.08405
+val Class Accuracy: 0.857,1.000,0.000,0.000,0.000,1.000,0.750
+Best Prec@1: 63.636
+val Results: Prec@1 60.606 Loss 9.54036
+val Class Accuracy: 0.857,1.000,0.000,0.000,0.000,1.000,0.500
+Best Prec@1: 63.636
+val Results: Prec@1 72.727 Loss 9.81335
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.667,0.800,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 72.727 Loss 8.52063
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.333,1.000,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 60.606 Loss 10.69047
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.333,0.600,0.500
+Best Prec@1: 72.727
+val Results: Prec@1 66.667 Loss 8.09257
+val Class Accuracy: 0.857,1.000,0.000,0.000,0.000,1.000,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 60.606 Loss 11.28023
+val Class Accuracy: 1.000,0.857,0.000,0.000,0.000,0.600,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 66.667 Loss 8.50333
+val Class Accuracy: 0.857,1.000,0.000,0.000,0.000,1.000,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 66.667 Loss 9.78494
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.333,0.600,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 63.636 Loss 9.45159
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.000,0.600,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 66.667 Loss 9.71051
+val Class Accuracy: 1.000,1.000,0.500,0.000,0.000,0.600,0.750
+Best Prec@1: 72.727
+val Results: Prec@1 63.636 Loss 12.27845
+val Class Accuracy: 1.000,0.857,0.000,0.333,0.000,0.600,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 72.727 Loss 8.40335
+val Class Accuracy: 1.000,1.000,0.750,0.000,0.000,0.600,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 66.667 Loss 7.95612
+val Class Accuracy: 1.000,1.000,0.000,0.333,0.000,0.600,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 45.455 Loss 16.15785
+val Class Accuracy: 0.143,1.000,0.000,0.000,0.667,1.000,0.000
+Best Prec@1: 72.727
+val Results: Prec@1 57.576 Loss 10.48294
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.000,0.600,0.500
+Best Prec@1: 72.727
+val Results: Prec@1 63.636 Loss 10.53860
+val Class Accuracy: 0.857,0.857,0.250,0.000,0.000,0.800,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 57.576 Loss 14.51084
+val Class Accuracy: 1.000,0.857,0.000,0.000,0.000,0.600,0.750
+Best Prec@1: 72.727
+val Results: Prec@1 42.424 Loss 19.64842
+val Class Accuracy: 0.857,0.143,0.000,0.000,0.000,0.600,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 63.636 Loss 9.56952
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.000,0.600,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 60.606 Loss 11.48087
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.000,0.800,0.500
+Best Prec@1: 72.727
+val Results: Prec@1 60.606 Loss 10.00271
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.000,0.600,0.750
+Best Prec@1: 72.727
+val Results: Prec@1 30.303 Loss 30.15945
+val Class Accuracy: 0.143,1.000,0.000,0.000,0.333,0.000,0.250
+Best Prec@1: 72.727
+val Results: Prec@1 48.485 Loss 18.89458
+val Class Accuracy: 1.000,0.571,0.000,0.000,0.000,0.600,0.500
+Best Prec@1: 72.727
+val Results: Prec@1 63.636 Loss 9.45027
+val Class Accuracy: 0.857,1.000,0.000,0.000,0.667,1.000,0.250
+Best Prec@1: 72.727
+val Results: Prec@1 57.576 Loss 11.66483
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.000,0.200,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 66.667 Loss 9.54700
+val Class Accuracy: 1.000,1.000,0.000,0.333,0.333,0.600,0.750
+Best Prec@1: 72.727
+val Results: Prec@1 63.636 Loss 8.76057
+val Class Accuracy: 1.000,0.857,0.000,0.000,0.333,1.000,0.500
+Best Prec@1: 72.727
+val Results: Prec@1 63.636 Loss 10.24436
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.000,1.000,0.500
+Best Prec@1: 72.727
+val Results: Prec@1 45.455 Loss 12.91196
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.000,0.000,0.250
+Best Prec@1: 72.727
+val Results: Prec@1 57.576 Loss 13.63140
+val Class Accuracy: 1.000,1.000,0.000,0.333,0.333,0.000,0.750
+Best Prec@1: 72.727
+val Results: Prec@1 69.697 Loss 8.58481
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.000,1.000,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 69.697 Loss 11.92409
+val Class Accuracy: 1.000,1.000,0.750,0.000,0.000,0.400,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 57.576 Loss 10.30415
+val Class Accuracy: 0.857,0.857,0.000,0.000,0.000,0.600,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 57.576 Loss 10.74379
+val Class Accuracy: 0.857,0.714,0.000,0.000,0.333,1.000,0.500
+Best Prec@1: 72.727
+val Results: Prec@1 63.636 Loss 9.52769
+val Class Accuracy: 0.857,1.000,0.000,0.667,0.000,0.400,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 63.636 Loss 9.68006
+val Class Accuracy: 0.857,1.000,0.000,0.000,0.333,1.000,0.500
+Best Prec@1: 72.727
+val Results: Prec@1 63.636 Loss 9.22125
+val Class Accuracy: 1.000,0.857,0.000,0.333,0.000,0.600,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 72.727 Loss 7.42743
+val Class Accuracy: 1.000,1.000,0.000,0.667,0.000,1.000,0.750
+Best Prec@1: 72.727
+val Results: Prec@1 69.697 Loss 8.95762
+val Class Accuracy: 1.000,1.000,0.500,0.000,0.000,0.600,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 66.667 Loss 8.20387
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.333,0.800,0.750
+Best Prec@1: 72.727
+val Results: Prec@1 57.576 Loss 9.87415
+val Class Accuracy: 1.000,0.714,0.500,0.000,0.000,0.800,0.250
+Best Prec@1: 72.727
+val Results: Prec@1 60.606 Loss 10.14579
+val Class Accuracy: 1.000,0.714,0.000,0.000,0.333,1.000,0.500
+Best Prec@1: 72.727
+val Results: Prec@1 63.636 Loss 9.26160
+val Class Accuracy: 1.000,1.000,0.250,0.000,0.000,0.400,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 60.606 Loss 9.41276
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.000,0.600,0.750
+Best Prec@1: 72.727
+val Results: Prec@1 63.636 Loss 10.21170
+val Class Accuracy: 1.000,1.000,0.000,0.333,0.000,0.400,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 57.576 Loss 10.01414
+val Class Accuracy: 0.857,1.000,0.000,0.333,0.333,0.000,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 57.576 Loss 10.09354
+val Class Accuracy: 0.857,1.000,0.000,0.333,0.333,0.000,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 66.667 Loss 10.70714
+val Class Accuracy: 0.857,1.000,0.000,0.000,0.333,1.000,0.750
+Best Prec@1: 72.727
+val Results: Prec@1 66.667 Loss 10.62630
+val Class Accuracy: 1.000,1.000,0.000,0.333,0.333,0.600,0.750
+Best Prec@1: 72.727
+val Results: Prec@1 63.636 Loss 9.16626
+val Class Accuracy: 0.714,1.000,0.000,0.000,0.333,1.000,0.750
+Best Prec@1: 72.727
+val Results: Prec@1 69.697 Loss 8.20465
+val Class Accuracy: 1.000,1.000,0.000,0.667,0.000,0.600,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 60.606 Loss 9.07936
+val Class Accuracy: 1.000,0.714,0.000,0.000,0.000,0.800,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 63.636 Loss 7.69079
+val Class Accuracy: 1.000,1.000,0.000,0.000,0.000,0.800,0.750
+Best Prec@1: 72.727
+val Results: Prec@1 63.636 Loss 10.74954
+val Class Accuracy: 0.571,1.000,0.000,1.000,0.333,0.800,0.500
+Best Prec@1: 72.727
+val Results: Prec@1 57.576 Loss 13.10907
+val Class Accuracy: 1.000,1.000,0.000,0.333,0.000,0.600,0.250
+Best Prec@1: 72.727
+val Results: Prec@1 57.576 Loss 11.16686
+val Class Accuracy: 0.714,1.000,0.000,0.333,0.333,0.400,0.750
+Best Prec@1: 72.727
+val Results: Prec@1 63.636 Loss 9.06935
+val Class Accuracy: 1.000,1.000,0.000,0.333,0.000,0.400,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 54.545 Loss 13.65018
+val Class Accuracy: 0.857,0.571,0.000,0.333,0.333,0.800,0.500
+Best Prec@1: 72.727
+val Results: Prec@1 69.697 Loss 9.97993
+val Class Accuracy: 1.000,1.000,0.000,1.000,0.000,0.400,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 57.576 Loss 11.53106
+val Class Accuracy: 0.857,1.000,0.000,0.333,0.333,0.400,0.500
+Best Prec@1: 72.727
+val Results: Prec@1 66.667 Loss 9.47737
+val Class Accuracy: 0.857,1.000,0.000,0.333,0.333,0.600,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 66.667 Loss 10.38284
+val Class Accuracy: 0.857,1.000,0.250,0.667,0.667,0.400,0.500
+Best Prec@1: 72.727
+val Results: Prec@1 54.545 Loss 11.56062
+val Class Accuracy: 0.857,0.714,0.500,0.333,0.000,0.400,0.500
+Best Prec@1: 72.727
+val Results: Prec@1 63.636 Loss 10.15470
+val Class Accuracy: 0.714,1.000,0.000,0.333,0.667,0.800,0.500
+Best Prec@1: 72.727
+val Results: Prec@1 72.727 Loss 9.63354
+val Class Accuracy: 1.000,0.857,0.250,0.667,0.000,0.800,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 69.697 Loss 9.79472
+val Class Accuracy: 1.000,1.000,0.000,0.667,0.333,0.400,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 69.697 Loss 10.70457
+val Class Accuracy: 1.000,1.000,0.750,0.333,0.000,0.400,0.750
+Best Prec@1: 72.727
+val Results: Prec@1 66.667 Loss 10.90213
+val Class Accuracy: 0.714,1.000,0.250,0.667,0.333,0.400,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 69.697 Loss 9.38071
+val Class Accuracy: 0.714,1.000,0.750,0.667,0.000,0.600,0.750
+Best Prec@1: 72.727
+val Results: Prec@1 60.606 Loss 11.33521
+val Class Accuracy: 0.571,1.000,0.250,0.667,0.000,0.800,0.500
+Best Prec@1: 72.727
+val Results: Prec@1 60.606 Loss 10.24671
+val Class Accuracy: 0.714,1.000,0.250,0.333,0.000,0.400,1.000
+Best Prec@1: 72.727
+val Results: Prec@1 75.758 Loss 8.81064
+val Class Accuracy: 1.000,1.000,0.000,1.000,0.333,0.600,1.000
+Best Prec@1: 75.758
+val Results: Prec@1 63.636 Loss 9.73965
+val Class Accuracy: 0.857,1.000,0.250,0.333,0.333,0.400,0.750
+Best Prec@1: 75.758
+val Results: Prec@1 63.636 Loss 11.41973
+val Class Accuracy: 0.714,1.000,0.000,1.000,0.000,0.400,1.000
+Best Prec@1: 75.758
+val Results: Prec@1 54.545 Loss 13.12547
+val Class Accuracy: 0.714,0.714,0.500,0.333,0.000,0.600,0.500
+Best Prec@1: 75.758
+val Results: Prec@1 54.545 Loss 13.10893
+val Class Accuracy: 0.714,1.000,0.000,0.667,0.333,0.400,0.250
+Best Prec@1: 75.758
+val Results: Prec@1 66.667 Loss 10.53460
+val Class Accuracy: 0.857,1.000,0.500,0.333,0.000,0.400,1.000
+Best Prec@1: 75.758
+val Results: Prec@1 69.697 Loss 9.84147
+val Class Accuracy: 0.714,1.000,0.250,0.667,0.333,1.000,0.500
+Best Prec@1: 75.758
+val Results: Prec@1 60.606 Loss 12.67796
+val Class Accuracy: 0.857,1.000,0.000,0.667,0.000,0.400,0.750
+Best Prec@1: 75.758
+val Results: Prec@1 57.576 Loss 11.85532
+val Class Accuracy: 0.571,0.857,0.000,1.000,0.000,0.400,1.000
+Best Prec@1: 75.758
+val Results: Prec@1 69.697 Loss 9.25856
+val Class Accuracy: 0.857,1.000,0.750,0.667,0.000,0.200,1.000
+Best Prec@1: 75.758
+val Results: Prec@1 66.667 Loss 17.02544
+val Class Accuracy: 1.000,1.000,0.250,0.000,0.667,1.000,0.000
+Best Prec@1: 75.758
+val Results: Prec@1 78.788 Loss 9.17495
+val Class Accuracy: 1.000,1.000,0.750,1.000,0.000,0.400,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 72.727 Loss 8.79344
+val Class Accuracy: 0.857,1.000,0.750,1.000,0.000,0.200,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 66.667 Loss 10.32092
+val Class Accuracy: 0.857,1.000,0.750,0.667,0.000,0.400,0.500
+Best Prec@1: 78.788
+val Results: Prec@1 63.636 Loss 12.54428
+val Class Accuracy: 0.857,0.714,0.250,1.000,0.000,0.400,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 60.606 Loss 12.10262
+val Class Accuracy: 0.714,1.000,0.750,0.333,0.000,0.400,0.500
+Best Prec@1: 78.788
+val Results: Prec@1 63.636 Loss 12.43932
+val Class Accuracy: 0.571,1.000,0.750,0.667,0.000,0.200,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 63.636 Loss 9.42662
+val Class Accuracy: 0.714,1.000,0.750,0.333,0.000,0.400,0.750
+Best Prec@1: 78.788
+val Results: Prec@1 66.667 Loss 9.81039
+val Class Accuracy: 0.714,1.000,0.750,0.333,0.000,0.400,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 69.697 Loss 9.85983
+val Class Accuracy: 0.857,0.714,0.750,0.333,0.000,1.000,0.750
+Best Prec@1: 78.788
+val Results: Prec@1 69.697 Loss 9.26145
+val Class Accuracy: 0.857,1.000,0.500,1.000,0.000,0.600,0.500
+Best Prec@1: 78.788
+val Results: Prec@1 57.576 Loss 12.07042
+val Class Accuracy: 0.571,1.000,0.500,0.000,0.000,0.800,0.500
+Best Prec@1: 78.788
+val Results: Prec@1 72.727 Loss 9.48410
+val Class Accuracy: 0.714,1.000,0.750,1.000,0.000,0.400,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 66.667 Loss 9.60417
+val Class Accuracy: 0.857,1.000,1.000,0.000,0.000,0.200,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 63.636 Loss 10.90271
+val Class Accuracy: 0.714,1.000,0.500,0.333,0.000,0.400,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 66.667 Loss 13.85942
+val Class Accuracy: 0.571,1.000,0.500,1.000,0.000,0.400,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 57.576 Loss 16.83024
+val Class Accuracy: 0.429,0.857,0.750,1.000,0.000,0.400,0.500
+Best Prec@1: 78.788
+val Results: Prec@1 69.697 Loss 9.66186
+val Class Accuracy: 0.571,1.000,0.750,0.333,0.333,0.800,0.750
+Best Prec@1: 78.788
+val Results: Prec@1 57.576 Loss 14.50710
+val Class Accuracy: 0.714,0.857,1.000,0.333,0.000,0.200,0.500
+Best Prec@1: 78.788
+val Results: Prec@1 66.667 Loss 12.03624
+val Class Accuracy: 0.714,1.000,0.750,1.000,0.000,0.200,0.750
+Best Prec@1: 78.788
+val Results: Prec@1 69.697 Loss 10.06749
+val Class Accuracy: 0.714,1.000,0.750,1.000,0.000,0.600,0.500
+Best Prec@1: 78.788
+val Results: Prec@1 75.758 Loss 9.00319
+val Class Accuracy: 0.857,1.000,0.750,1.000,0.000,0.400,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 63.636 Loss 12.56312
+val Class Accuracy: 0.714,1.000,0.500,0.333,0.000,0.800,0.500
+Best Prec@1: 78.788
+val Results: Prec@1 57.576 Loss 13.01787
+val Class Accuracy: 0.571,1.000,0.750,0.333,0.000,0.400,0.500
+Best Prec@1: 78.788
+val Results: Prec@1 66.667 Loss 11.22169
+val Class Accuracy: 0.714,1.000,0.750,0.667,0.000,0.400,0.750
+Best Prec@1: 78.788
+val Results: Prec@1 66.667 Loss 10.79012
+val Class Accuracy: 0.714,1.000,0.750,0.667,0.000,0.400,0.750
+Best Prec@1: 78.788
+val Results: Prec@1 72.727 Loss 9.30498
+val Class Accuracy: 0.857,1.000,0.750,0.667,0.000,0.400,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 69.697 Loss 9.78338
+val Class Accuracy: 0.857,1.000,0.750,0.333,0.000,0.400,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 69.697 Loss 11.10874
+val Class Accuracy: 0.714,1.000,0.750,0.667,0.000,0.400,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 72.727 Loss 9.50760
+val Class Accuracy: 0.714,1.000,1.000,0.667,0.000,0.400,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 63.636 Loss 11.17067
+val Class Accuracy: 0.714,1.000,1.000,0.333,0.000,0.600,0.250
+Best Prec@1: 78.788
+val Results: Prec@1 69.697 Loss 9.40462
+val Class Accuracy: 0.714,1.000,1.000,1.000,0.000,0.400,0.500
+Best Prec@1: 78.788
+val Results: Prec@1 66.667 Loss 10.57332
+val Class Accuracy: 0.714,1.000,1.000,0.333,0.000,0.200,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 69.697 Loss 9.81777
+val Class Accuracy: 0.714,1.000,1.000,0.333,0.333,0.200,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 78.788 Loss 9.51948
+val Class Accuracy: 0.857,1.000,1.000,0.333,0.667,0.800,0.500
+Best Prec@1: 78.788
+val Results: Prec@1 63.636 Loss 9.15400
+val Class Accuracy: 0.714,1.000,1.000,0.333,0.000,0.400,0.500
+Best Prec@1: 78.788
+val Results: Prec@1 72.727 Loss 8.18477
+val Class Accuracy: 0.857,1.000,1.000,0.333,0.000,0.400,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 66.667 Loss 10.90726
+val Class Accuracy: 0.857,0.571,0.750,0.667,0.000,0.600,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 63.636 Loss 10.55229
+val Class Accuracy: 0.714,0.857,1.000,0.333,0.333,0.400,0.500
+Best Prec@1: 78.788
+val Results: Prec@1 66.667 Loss 9.72354
+val Class Accuracy: 0.714,1.000,1.000,0.000,0.333,0.600,0.500
+Best Prec@1: 78.788
+val Results: Prec@1 66.667 Loss 10.28973
+val Class Accuracy: 0.714,1.000,1.000,0.333,0.000,0.600,0.500
+Best Prec@1: 78.788
+val Results: Prec@1 66.667 Loss 10.63729
+val Class Accuracy: 0.714,1.000,1.000,0.667,0.000,0.600,0.250
+Best Prec@1: 78.788
+val Results: Prec@1 75.758 Loss 9.43160
+val Class Accuracy: 0.714,1.000,1.000,0.667,0.667,0.600,0.500
+Best Prec@1: 78.788
+val Results: Prec@1 75.758 Loss 8.12667
+val Class Accuracy: 0.714,1.000,1.000,0.667,0.333,0.800,0.500
+Best Prec@1: 78.788
+val Results: Prec@1 72.727 Loss 8.20146
+val Class Accuracy: 0.714,1.000,1.000,0.667,0.000,0.400,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 69.697 Loss 8.68343
+val Class Accuracy: 0.714,1.000,0.750,0.667,0.000,0.400,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 72.727 Loss 6.97245
+val Class Accuracy: 0.714,1.000,1.000,0.667,0.000,0.400,1.000
+Best Prec@1: 78.788
+val Results: Prec@1 84.848 Loss 6.70766
+val Class Accuracy: 0.714,1.000,1.000,1.000,0.667,0.600,1.000
+Best Prec@1: 84.848
+val Results: Prec@1 78.788 Loss 6.01990
+val Class Accuracy: 0.857,1.000,1.000,0.667,0.000,0.600,1.000
+Best Prec@1: 84.848
+val Results: Prec@1 81.818 Loss 6.81941
+val Class Accuracy: 0.857,1.000,0.750,0.667,0.333,0.800,1.000
+Best Prec@1: 84.848
+val Results: Prec@1 84.848 Loss 6.73833
+val Class Accuracy: 1.000,1.000,0.750,0.667,0.333,0.800,1.000
+Best Prec@1: 84.848
+val Results: Prec@1 78.788 Loss 7.35309
+val Class Accuracy: 1.000,1.000,1.000,0.667,0.333,0.600,0.500
+Best Prec@1: 84.848
+val Results: Prec@1 78.788 Loss 8.97027
+val Class Accuracy: 1.000,1.000,0.750,0.667,0.333,0.400,1.000
+Best Prec@1: 84.848
+val Results: Prec@1 81.818 Loss 7.19141
+val Class Accuracy: 1.000,1.000,0.750,1.000,0.333,0.400,1.000
+Best Prec@1: 84.848
+val Results: Prec@1 87.879 Loss 6.82609
+val Class Accuracy: 1.000,1.000,1.000,1.000,0.333,0.600,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 84.848 Loss 7.15686
+val Class Accuracy: 1.000,1.000,0.750,1.000,0.333,0.600,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 78.788 Loss 8.19631
+val Class Accuracy: 1.000,1.000,0.750,1.000,0.333,0.600,0.500
+Best Prec@1: 87.879
+val Results: Prec@1 81.818 Loss 7.85578
+val Class Accuracy: 0.857,1.000,0.750,1.000,0.333,0.600,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 75.758 Loss 7.52341
+val Class Accuracy: 0.857,1.000,0.750,1.000,0.000,0.400,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 78.788 Loss 8.34595
+val Class Accuracy: 0.857,1.000,0.750,1.000,0.000,0.600,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 72.727 Loss 8.21273
+val Class Accuracy: 0.857,1.000,0.750,1.000,0.000,0.600,0.500
+Best Prec@1: 87.879
+val Results: Prec@1 72.727 Loss 8.88689
+val Class Accuracy: 0.714,1.000,0.750,1.000,0.000,0.800,0.500
+Best Prec@1: 87.879
+val Results: Prec@1 69.697 Loss 9.20330
+val Class Accuracy: 0.857,1.000,0.750,1.000,0.000,0.400,0.500
+Best Prec@1: 87.879
+val Results: Prec@1 75.758 Loss 8.91222
+val Class Accuracy: 0.857,1.000,0.750,1.000,0.000,0.800,0.500
+Best Prec@1: 87.879
+val Results: Prec@1 78.788 Loss 9.06395
+val Class Accuracy: 0.857,1.000,0.750,1.000,0.333,0.400,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 72.727 Loss 9.09425
+val Class Accuracy: 0.857,1.000,0.750,1.000,0.000,0.600,0.500
+Best Prec@1: 87.879
+val Results: Prec@1 78.788 Loss 8.16270
+val Class Accuracy: 0.857,1.000,0.750,0.667,0.000,0.800,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 72.727 Loss 9.09888
+val Class Accuracy: 0.714,1.000,0.750,1.000,0.000,0.800,0.500
+Best Prec@1: 87.879
+val Results: Prec@1 75.758 Loss 8.68353
+val Class Accuracy: 0.857,1.000,0.750,1.000,0.000,0.800,0.500
+Best Prec@1: 87.879
+val Results: Prec@1 72.727 Loss 8.90141
+val Class Accuracy: 0.857,1.000,0.750,0.667,0.000,0.400,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 75.758 Loss 8.64899
+val Class Accuracy: 0.857,1.000,0.750,1.000,0.000,0.400,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 75.758 Loss 8.65300
+val Class Accuracy: 0.857,1.000,0.750,1.000,0.000,0.400,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 63.636 Loss 9.48382
+val Class Accuracy: 0.714,1.000,0.750,0.667,0.000,0.400,0.500
+Best Prec@1: 87.879
+val Results: Prec@1 78.788 Loss 7.31946
+val Class Accuracy: 0.857,1.000,1.000,1.000,0.000,0.400,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 75.758 Loss 7.80949
+val Class Accuracy: 0.857,1.000,0.750,1.000,0.000,0.400,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 66.667 Loss 9.90431
+val Class Accuracy: 0.714,1.000,0.750,0.667,0.000,0.400,0.750
+Best Prec@1: 87.879
+val Results: Prec@1 72.727 Loss 9.45449
+val Class Accuracy: 0.857,1.000,0.750,0.667,0.000,0.400,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 69.697 Loss 9.90257
+val Class Accuracy: 0.714,1.000,0.750,0.667,0.000,0.400,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 75.758 Loss 8.61645
+val Class Accuracy: 0.857,1.000,0.750,0.667,0.333,0.600,0.750
+Best Prec@1: 87.879
+val Results: Prec@1 69.697 Loss 9.61865
+val Class Accuracy: 0.714,1.000,0.750,0.667,0.000,0.600,0.750
+Best Prec@1: 87.879
+val Results: Prec@1 69.697 Loss 8.41604
+val Class Accuracy: 0.714,1.000,0.750,0.667,0.000,0.400,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 75.758 Loss 8.34036
+val Class Accuracy: 0.857,1.000,0.750,0.667,0.000,0.600,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 75.758 Loss 8.73500
+val Class Accuracy: 0.857,1.000,0.750,0.667,0.000,0.600,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 75.758 Loss 8.35100
+val Class Accuracy: 0.857,1.000,0.750,1.000,0.000,0.400,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 69.697 Loss 9.95403
+val Class Accuracy: 0.714,1.000,0.750,0.667,0.333,0.600,0.500
+Best Prec@1: 87.879
+val Results: Prec@1 72.727 Loss 8.48414
+val Class Accuracy: 0.857,1.000,0.750,0.667,0.000,0.400,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 75.758 Loss 8.45169
+val Class Accuracy: 0.857,1.000,0.750,0.667,0.000,0.600,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 75.758 Loss 7.71228
+val Class Accuracy: 0.857,1.000,0.750,1.000,0.000,0.400,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 75.758 Loss 8.65831
+val Class Accuracy: 0.857,1.000,0.750,1.000,0.000,0.400,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 69.697 Loss 9.13976
+val Class Accuracy: 0.857,1.000,0.750,0.667,0.000,0.400,0.750
+Best Prec@1: 87.879
+val Results: Prec@1 75.758 Loss 7.95912
+val Class Accuracy: 0.857,1.000,0.750,1.000,0.000,0.400,1.000
+Best Prec@1: 87.879
+val Results: Prec@1 69.697 Loss 9.57414
+val Class Accuracy: 0.857,1.000,0.750,0.667,0.000,0.400,0.750
+Best Prec@1: 87.879
