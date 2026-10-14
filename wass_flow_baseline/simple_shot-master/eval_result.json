@@ -1,0 +1,28 @@
+{
+  "dataset": "食管_1query",
+  "method": "SimpleShot",
+  "backbone": "ResNet18_S2M2_R",
+  "n_ways": 8,
+  "n_shot": 5,
+  "n_queries": 1,
+  "n_runs": 10000,
+  "results": {
+    "UN": {
+      "acc": 23.68,
+      "pm": 0.22699863351130553
+    },
+    "L2N": {
+      "acc": 27.9775,
+      "pm": 0.1745976578279331
+    },
+    "CL2N": {
+      "acc": 24.855,
+      "pm": 0.16815380767618676
+    }
+  },
+  "best": {
+    "method": "L2N",
+    "acc": 27.9775,
+    "pm": 0.1745976578279331
+  }
+}

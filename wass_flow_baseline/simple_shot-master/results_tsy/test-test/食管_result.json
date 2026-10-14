@@ -1,0 +1,31 @@
+{
+  "dataset": "食管_7way_1query",
+  "method": "SimpleShot",
+  "backbone": "ResNet18_S2M2_R",
+  "eval_mode": "test-test",
+  "support_split": "test",
+  "query_split": "test",
+  "n_ways": 7,
+  "n_shot": 5,
+  "n_queries": 1,
+  "n_runs": 100,
+  "results": {
+    "UN": {
+      "acc": 37.714285714285715,
+      "pm": 2.758248719749544
+    },
+    "L2N": {
+      "acc": 39.285714285714285,
+      "pm": 2.667358243656071
+    },
+    "CL2N": {
+      "acc": 38.857142857142854,
+      "pm": 2.5379802993719234
+    }
+  },
+  "best": {
+    "method": "L2N",
+    "acc": 39.285714285714285,
+    "pm": 2.667358243656071
+  }
+}

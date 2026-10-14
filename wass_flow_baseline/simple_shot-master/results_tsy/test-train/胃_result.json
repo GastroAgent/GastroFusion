@@ -1,0 +1,31 @@
+{
+  "dataset": "胃_7way_1query",
+  "method": "SimpleShot",
+  "backbone": "ResNet18_S2M2_R",
+  "eval_mode": "test-train",
+  "support_split": "train",
+  "query_split": "test",
+  "n_ways": 7,
+  "n_shot": 5,
+  "n_queries": 1,
+  "n_runs": 100,
+  "results": {
+    "UN": {
+      "acc": 26.142857142857135,
+      "pm": 2.687270734406937
+    },
+    "L2N": {
+      "acc": 27.28571428571428,
+      "pm": 3.12033587935658
+    },
+    "CL2N": {
+      "acc": 27.142857142857135,
+      "pm": 2.581472448042008
+    }
+  },
+  "best": {
+    "method": "L2N",
+    "acc": 27.28571428571428,
+    "pm": 3.12033587935658
+  }
+}

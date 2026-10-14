@@ -1,0 +1,123 @@
+filename,label
+train/Esophageal Glycogenic Acanthosis/01.2010051300109_2.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2013101100155_14.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2013101100155_14_masked_crop.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2013101100155_14_masked_crop_masked_crop.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2015102900343_17.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2015112400136_12.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2015112400136_12_masked_crop.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2015112400136_12_masked_crop_masked_crop.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2015112400136_6.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2017112900155_31.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2018022600218_20.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2018022600218_20_masked_crop.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2018022600218_20_masked_crop_masked_crop.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2018071700315_3.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2019052900398_15.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2019071500177_23.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2019092000194_25.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2019100500018_45.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2019100500018_45_masked_crop_masked_crop.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2019102900483_8.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2019111900101_5.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2019120900041_23.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2019121800505_1.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2019122300347_3.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2019122300347_3_masked_crop_masked_crop.jpg,0
+train/Esophageal Glycogenic Acanthosis/01.2020010600119_63.jpg,0
+train/嗜酸食管炎/01.0000001961408.21016.0030.10520100603.jpg,1
+train/嗜酸食管炎/01.0000001961408.21016.0031.10520600593.jpg,1
+train/嗜酸食管炎/01.0000001961408.21016.0032.10520800809.jpg,1
+train/嗜酸食管炎/01.0000001961408.21016.0032.10520800809_masked_crop.jpg,1
+train/嗜酸食管炎/01.0000001961408.21016.0034.10521900251_masked_crop.jpg,1
+train/嗜酸食管炎/01.0000001961408.21016.0039.10523700672.jpg,1
+train/嗜酸食管炎/01.0000001961408.21016.0049.10531600829.jpg,1
+train/嗜酸食管炎/食管_01.2019020200009_8.jpg,1
+train/嗜酸食管炎/食管_01.2019020200009_9.jpg,1
+train/巴雷特食管/01.0000001352453_14.jpg,2
+train/巴雷特食管/01.0000001365338_69.jpg,2
+train/巴雷特食管/01.0000001370675_16.jpg,2
+train/巴雷特食管/01.0000001370675_22.jpg,2
+train/巴雷特食管/01.0000001370675_24.jpg,2
+train/巴雷特食管/01.0000001370675_4.jpg,2
+train/巴雷特食管/01.0000001370675_8.jpg,2
+train/巴雷特食管/01.0000001370675_9.jpg,2
+train/巴雷特食管/01.0000001379472_45.jpg,2
+train/巴雷特食管/01.0000001398297_72.jpg,2
+train/巴雷特食管/01.0000001398297_72_masked_crop.jpg,2
+train/巴雷特食管/01.2018092000275_3.jpg,2
+train/巴雷特食管/01.2020030400432_14.jpg,2
+train/巴雷特食管/01.2020030400432_15.jpg,2
+train/巴雷特食管/01.2020031100013_29.jpg,2
+train/巴雷特食管/01.2020042000536_20.jpg,2
+train/巴雷特食管/01.2021011810334_9.jpg,2
+train/巴雷特食管/01.2021011810334_9_masked_crop.jpg,2
+train/巴雷特食管/01.2021042610079_36.jpg,2
+train/巴雷特食管/01.2021051410450_18.jpg,2
+train/巴雷特食管/01.2021051410450_19.jpg,2
+train/巴雷特食管/01.2021051410450_20.jpg,2
+train/巴雷特食管/01.2021051410450_21.jpg,2
+train/巴雷特食管/01.2021051410450_21_masked_crop.jpg,2
+train/巴雷特食管/01.2021052810271_14.jpg,2
+train/巴雷特食管/01.2021052810271_39.jpg,2
+train/巴雷特食管/01.2021070810390_7.jpg,2
+train/巴雷特食管/01.2021083110247_56.jpg,2
+train/巴雷特食管/01.2021083110247_59.jpg,2
+train/巴雷特食管/01.2021112410120_17.jpg,2
+train/巴雷特食管/01.2021112410120_51.jpg,2
+train/正常/01.0000001347524_2.jpg,3
+train/正常/01.0000001347524_4.jpg,3
+train/正常/01.0000001400850_40.jpg,3
+train/正常/01.0000001445906_25.jpg,3
+train/正常/01.0000001445906_25_masked_crop.jpg,3
+train/正常/01.2011103100013_1.jpg,3
+train/正常/01.2017011300127_3.jpg,3
+train/正常/01.2017030600117_25.jpg,3
+train/食管炎B级/01.2020112010306_8.jpg,4
+train/食管炎B级/01.2020120310190_3_masked_crop.jpg,4
+train/食管炎B级/01.2020120410110_2_masked_crop.jpg,4
+train/食管炎B级/01.2020122610066_17.jpg,4
+train/食管炎B级/01.2020122610066_21.jpg,4
+train/食管炎B级/01.2020122610066_35.jpg,4
+train/食管炎B级/01.2020122610066_6.jpg,4
+train/食管炎C级/01.0000001344043_65_masked_crop.jpg,5
+train/食管炎C级/01.0000001351477_8.jpg,5
+train/食管炎C级/01.0000001351477_9_masked_crop.jpg,5
+train/食管炎C级/01.2013032100215_7.jpg,5
+train/食管炎C级/01.2013081900113_10.jpg,5
+train/食管炎C级/01.2013101100099_14.jpg,5
+train/食管炎C级/01.2013101100099_14_masked_crop.jpg,5
+train/食管炎C级/01.2021062510097_38_masked_crop.jpg,5
+train/食管炎D级/01.0000001409486_17.jpg,6
+train/食管炎D级/01.0000001409486_38.jpg,6
+train/食管炎D级/01.0000001409486_39_masked_crop.jpg,6
+train/食管炎D级/01.0000001425048_60.jpg,6
+train/食管炎D级/01.0000001425048_60_masked_crop.jpg,6
+train/食管炎D级/01.2012021800035_2.jpg,6
+train/食管炎D级/01.2012123100178_5.jpg,6
+train/食管炎D级/01.2013012500214_3.jpg,6
+train/食管炎D级/01.2013022600411_2.jpg,6
+train/食管炎D级/01.2013032100215_9.jpg,6
+train/食管炎D级/01.2013081900113_2.jpg,6
+train/食管炎D级/01.2013081900113_3.jpg,6
+train/食管炎D级/01.2013081900113_4.jpg,6
+train/食管炎D级/01.2013081900113_4_masked_crop_masked_crop.jpg,6
+train/食管炎D级/01.2013101100099_13.jpg,6
+train/食管癌/01.2012090500050_1.jpg,7
+train/食管癌/01.2014030500015_16.jpg,7
+train/食管癌/01.2017051600219_132.jpg,7
+train/食管癌/01.2017051600219_135.jpg,7
+train/食管癌/01.2017051600219_135_masked_crop.jpg,7
+train/食管癌/01.2017051600219_239.jpg,7
+train/食管癌/01.2017051600219_273.jpg,7
+train/食管癌/01.2017060900178_31.jpg,7
+train/食管癌/01.2017060900178_31_masked_crop.jpg,7
+train/食管癌/01.2018042700221_37.jpg,7
+train/食管癌/01.2018061500287_40.jpg,7
+train/食管癌/01.2018082500061_2.jpg,7
+train/食管癌/01.2018082500061_21.jpg,7
+train/食管癌/01.2020051800477_23.jpg,7
+train/食管癌/01.2020051800477_23_masked_crop.jpg,7
+train/食管癌/01.2020051800477_32.jpg,7
+train/食管癌/01.2020051800477_42.jpg,7
+train/食管癌/01.2020051800477_42_masked_crop.jpg,7

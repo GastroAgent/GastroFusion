@@ -1,0 +1,31 @@
+{
+  "dataset": "十二指肠_7way_1query",
+  "method": "SimpleShot",
+  "backbone": "ResNet18_S2M2_R",
+  "eval_mode": "test-test",
+  "support_split": "test",
+  "query_split": "test",
+  "n_ways": 7,
+  "n_shot": 5,
+  "n_queries": 1,
+  "n_runs": 100,
+  "results": {
+    "UN": {
+      "acc": 13.428571428571425,
+      "pm": 2.4987548899401872
+    },
+    "L2N": {
+      "acc": 14.999999999999996,
+      "pm": 2.3216373532487795
+    },
+    "CL2N": {
+      "acc": 14.428571428571423,
+      "pm": 2.186690650274977
+    }
+  },
+  "best": {
+    "method": "L2N",
+    "acc": 14.999999999999996,
+    "pm": 2.3216373532487795
+  }
+}

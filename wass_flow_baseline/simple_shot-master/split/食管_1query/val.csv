@@ -1,0 +1,49 @@
+filename,label
+val/Esophageal Glycogenic Acanthosis/01.2013100700165_1.jpg,0
+val/Esophageal Glycogenic Acanthosis/01.2014063000196_27.jpg,0
+val/Esophageal Glycogenic Acanthosis/01.2018052200157_41.jpg,0
+val/Esophageal Glycogenic Acanthosis/01.2018122300031_4.jpg,0
+val/Esophageal Glycogenic Acanthosis/01.2019100500018_45_masked_crop.jpg,0
+val/Esophageal Glycogenic Acanthosis/01.2019122300347_3_masked_crop.jpg,0
+val/嗜酸食管炎/01.0000001961408.21016.0033.10521600996.jpg,1
+val/嗜酸食管炎/01.0000001961408.21016.0033.10521600996_masked_crop.jpg,1
+val/嗜酸食管炎/食管_01.2017061900343_23.jpg,1
+val/嗜酸食管炎/食管_01.2017061900343_24.jpg,1
+val/嗜酸食管炎/食管_01.2017061900343_3.jpg,1
+val/嗜酸食管炎/食管_01.2017061900343_4.jpg,1
+val/巴雷特食管/01.0000001370675_18.jpg,2
+val/巴雷特食管/01.0000001370675_5.jpg,2
+val/巴雷特食管/01.2011122300261_13.jpg,2
+val/巴雷特食管/01.2020031100013_29_masked_crop.jpg,2
+val/巴雷特食管/01.2020041400003_10.jpg,2
+val/巴雷特食管/01.2021042610079_37.jpg,2
+val/正常/01.0000001347524_7.jpg,3
+val/正常/01.0000001347524_7_masked_crop.jpg,3
+val/正常/01.0000001374930_2.jpg,3
+val/正常/01.0000001431464_5.jpg,3
+val/正常/01.0000001445906_29.jpg,3
+val/正常/01.2017073100279_2_masked_crop_masked_crop.jpg,3
+val/食管炎B级/01.2020112010306_7.jpg,4
+val/食管炎B级/01.2020120410110_2.jpg,4
+val/食管炎B级/01.2020122610066_24.jpg,4
+val/食管炎B级/01.2020122610066_24_masked_crop.jpg,4
+val/食管炎B级/01.2020122610066_35_masked_crop.jpg,4
+val/食管炎B级/01.2020122610066_4.jpg,4
+val/食管炎C级/01.0000001344043_5_masked_crop.jpg,5
+val/食管炎C级/01.0000001344043_65.jpg,5
+val/食管炎C级/01.0000001344043_70.jpg,5
+val/食管炎C级/01.0000001344043_9.jpg,5
+val/食管炎C级/01.2013032500444_3.jpg,5
+val/食管炎C级/01.2021062510097_38.jpg,5
+val/食管炎D级/01.0000001409486_39.jpg,6
+val/食管炎D级/01.2012021800035_2_masked_crop.jpg,6
+val/食管炎D级/01.2012021800035_3.jpg,6
+val/食管炎D级/01.2012123100178_3.jpg,6
+val/食管炎D级/01.2013022600411_2_masked_crop.jpg,6
+val/食管炎D级/01.2013081900113_3_masked_crop.jpg,6
+val/食管癌/01.2017051600219_144.jpg,7
+val/食管癌/01.2017051600219_264.jpg,7
+val/食管癌/01.2017051600219_28.jpg,7
+val/食管癌/01.2017051600219_38.jpg,7
+val/食管癌/01.2020051800477_17.jpg,7
+val/食管癌/01.2020051800477_48.jpg,7

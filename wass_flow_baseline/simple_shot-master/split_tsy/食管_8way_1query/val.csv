@@ -1,0 +1,39 @@
+filename,label
+val/Esophageal Glycogenic Acanthosis/01.2015102900343_17.jpg,0
+val/Esophageal Glycogenic Acanthosis/01.2015112400136_12.jpg,0
+val/Esophageal Glycogenic Acanthosis/01.2015112400136_12_masked_crop.jpg,0
+val/Esophageal Glycogenic Acanthosis/01.2015112400136_12_masked_crop_masked_crop.jpg,0
+val/Esophageal Glycogenic Acanthosis/01.2017120400230_10.jpg,0
+val/Esophageal Glycogenic Acanthosis/01.2019052900398_15.jpg,0
+val/Esophageal Glycogenic Acanthosis/01.2019071500177_23.jpg,0
+val/嗜酸食管炎/01.0000001961408.21016.0034.10521900251.jpg,1
+val/嗜酸食管炎/01.0000001961408.21016.0034.10521900251_masked_crop.jpg,1
+val/嗜酸食管炎/01.0000001961408.21016.0049.10531600829.jpg,1
+val/嗜酸食管炎/食管_01.2017061900343_24.jpg,1
+val/嗜酸食管炎/食管_01.2019020200009_9.jpg,1
+val/巴雷特食管/01.0000001352453_14.jpg,2
+val/巴雷特食管/01.0000001370675_16.jpg,2
+val/巴雷特食管/01.0000001370675_5.jpg,2
+val/巴雷特食管/01.2012010200030_7.jpg,2
+val/巴雷特食管/01.2020042000536_20.jpg,2
+val/巴雷特食管/01.2021051410450_18.jpg,2
+val/巴雷特食管/01.2021051410450_19.jpg,2
+val/正常/01.0000001347524_7.jpg,3
+val/正常/01.0000001347524_7_masked_crop.jpg,3
+val/正常/01.0000001374930_2.jpg,3
+val/正常/01.0000001445906_29.jpg,3
+val/食管炎B级/01.2020122610066_24.jpg,4
+val/食管炎B级/01.2020122610066_24_masked_crop.jpg,4
+val/食管炎B级/01.2020122610066_24_masked_crop_masked_crop.jpg,4
+val/食管炎C级/01.0000001344043_9.jpg,5
+val/食管炎C级/01.2013032100215_7.jpg,5
+val/食管炎C级/01.2020042300466_28.jpg,5
+val/食管炎D级/01.2013032100215_8.jpg,6
+val/食管炎D级/01.2013032100215_9.jpg,6
+val/食管炎D级/01.2013081900113_4.jpg,6
+val/食管炎D级/01.2013081900113_4_masked_crop.jpg,6
+val/食管炎D级/01.2013081900113_4_masked_crop_masked_crop.jpg,6
+val/食管癌/01.2018042700221_37.jpg,7
+val/食管癌/01.2018042700221_37_masked_crop.jpg,7
+val/食管癌/01.2018082500061_21.jpg,7
+val/食管癌/01.2020051800477_48.jpg,7
