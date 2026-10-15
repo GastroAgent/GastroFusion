@@ -1,0 +1,58 @@
+echo "Node: $(hostname)"
+
+swift rlhf \
+    --rlhf_type grpo \
+    --model /mnt/inaisfs/data/home/tansy_criait/jmf/wgw/ckpt/Qwen3-VL-8B-Instruct \
+    --dataset ./data/rl_train_8192_qwen3vl.json ./data/sft_train_8192_qwen3vl_sample.json \
+    --load_from_cache_file true \
+    --use_vllm true \
+    --vllm_mode server \
+    --vllm_server_host ${VLLM_SERVER_HOST} \
+    --vllm_server_port ${VLLM_SERVER_PORT} \
+    --vllm_server_pass_dataset true \
+    --vllm_enable_prefix_caching true \
+    --offload_optimizer false \
+    --offload_model false \
+    --sleep_level 0 \
+    --multi_turn_scheduler doc_crop_scheduler \
+    --external_plugins ./agentic_crop_plugin_async.py \
+    --reward_funcs doc_crop_reward \
+    --torch_dtype bfloat16 \
+    --max_completion_length 1024 \
+    --learning_rate 1e-5 \
+    --logging_steps 5 \
+    --warmup_ratio 0.05 \
+    --dataloader_num_workers 4 \
+    --dataset_num_proc 4 \
+    --beta 0.04 \
+    --temperature 1.0 \
+    --report_to wandb\
+    --log_completions true \
+    --tuner_type lora \
+    --lora_rank 32 \
+    --lora_alpha 32 \
+    --num_generations 8 \
+    --num_train_epochs 3 \
+    --freeze_aligner true \
+    --freeze_vit true \
+    --freeze_llm false \
+    --target_modules all-linear \
+    --per_device_train_batch_size 1 \
+    --gradient_accumulation_steps 2 \
+    --save_steps 30 \
+    --output_dir ${SAVE_CKPT_PATH} \
+    --epsilon_high 0.28 \
+    --epsilon 0.2 \
+    --dynamic_sample true \
+    --max_resample_times 3 \
+    --importance_sampling_level sequence \
+    --attn_impl flash_attention_2 \
+    --gradient_checkpointing true \
+    --deepspeed zero2 \
+    --run_name ${WANDB_NAME} \
+    --padding_free true \
+    --log_entropy true \
+    --sequence_parallel_size 4 \
+    --system ./data/sys_prompt.txt \
+    --add_version false \
+    --create_checkpoint_symlink true 

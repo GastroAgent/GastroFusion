@@ -1,0 +1,63 @@
+echo "Node: $(hostname)"
+
+export IMAGE_MAX_TOKEN_NUM=2048
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+
+swift rlhf \
+    --rlhf_type grpo \
+    --model /mnt/inaisfs/data/home/tansy_criait/jmf/wgw/think_with_image_zh_swift/output/Qwen3-VL-8B-Instruct-3epoch-sft/v0-20260401-104311/checkpoint-1128-merged \
+    --dataset /mnt/inaisfs/data/home/tansy_criait/jmf/work/think_with_image_zh_swift/data/medical_vqa_huaxi_train_rl.json \
+    --load_from_cache_file true \
+    --use_vllm true \
+    --vllm_mode server \
+    --vllm_server_host ${VLLM_SERVER_HOST} \
+    --vllm_server_port ${VLLM_SERVER_PORT} \
+    --vllm_server_pass_dataset true \
+    --vllm_enable_prefix_caching true \
+    --offload_optimizer false \
+    --offload_model false \
+    --sleep_level 0 \
+    --multi_turn_scheduler doc_crop_scheduler \
+    --external_plugins ./agentic_crop_plugin_async.py \
+    --reward_funcs doc_crop_reward \
+    --torch_dtype bfloat16 \
+    --max_completion_length 512 \
+    --learning_rate 1e-5 \
+    --logging_steps 5 \
+    --warmup_ratio 0.05 \
+    --dataloader_num_workers 4 \
+    --dataset_num_proc 4 \
+    --beta 0.04 \
+    --temperature 1.0 \
+    --report_to none \
+    --log_completions true \
+    --tuner_type lora \
+    --lora_rank 8 \
+    --lora_alpha 32 \
+    --num_generations 8 \
+    --num_train_epochs 3 \
+    --freeze_aligner true \
+    --freeze_vit true \
+    --freeze_llm false \
+    --target_modules all-linear \
+    --per_device_train_batch_size 1 \
+    --gradient_accumulation_steps 2 \
+    --save_steps 30 \
+    --output_dir ${SAVE_CKPT_PATH} \
+    --epsilon_high 0.28 \
+    --epsilon 0.2 \
+    --dynamic_sample true \
+    --max_resample_times 1 \
+    --importance_sampling_level sequence \
+    --attn_impl flash_attention_2 \
+    --gradient_checkpointing true \
+    --deepspeed zero2 \
+    --run_name ${WANDB_NAME} \
+    --padding_free true \
+    --log_entropy false \
+    --sequence_parallel_size 1 \
+    --system /mnt/inaisfs/data/home/tansy_criait/jmf/work/think_with_image_zh_swift/data/sys_prompt_gi_medical_vqa.txt \
+    --add_version false \
+    --create_checkpoint_symlink true \
+    --use_logits_to_keep true \
+    --group_by_length true
