@@ -327,11 +327,9 @@ GastroFusion/
 
 ## Visualizations
 
-![Benchmark comparison](assets/figure/dataset.png)
 
 ![Long-tail performance](assets/figure/kshot-case.png)
 
-![Workflow result](assets/figure/fsl-baseline-result.png)
 
 ---
 
