@@ -1,8 +1,0 @@
-Options: Namespace(data_path='/mnt/inaisfs/data/home/tansy_criait/qsz/qcjw/fsl_scoreboard/records', subset='十二指肠_1query', way=7, shot=5, query=1, n_runs=100, test_model_path='/mnt/inaisfs/data/home/tansy_criait/qsz/qcjw/fsl_scoreboard/simple-cnaps-master/model-checkpoints/meta-dataset-checkpoints/best_simple_cnaps.pt', feature_adaptation='film', pretrained_resnet_path='../model-checkpoints/pretrained_resnets/pretrained_resnet_meta_dataset.pt.tar', checkpoint_dir='./checkpoints/medical', output_json='/mnt/inaisfs/data/home/tansy_criait/qsz/qcjw/fsl_scoreboard/simple-cnaps-master/results_medical/十二指肠_1query.json', shuffle_dataset=True)
-
-Testing model: /mnt/inaisfs/data/home/tansy_criait/qsz/qcjw/fsl_scoreboard/simple-cnaps-master/model-checkpoints/meta-dataset-checkpoints/best_simple_cnaps.pt
-
-Dataset: 十二指肠_1query
-
-Result: 26.57 +/- 2.94
-

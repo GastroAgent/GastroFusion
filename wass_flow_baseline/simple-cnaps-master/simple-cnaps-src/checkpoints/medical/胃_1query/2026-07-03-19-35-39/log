@@ -1,8 +1,0 @@
-Options: Namespace(data_path='/mnt/inaisfs/data/home/tansy_criait/qsz/qcjw/fsl_scoreboard/records', subset='胃_1query', way=8, shot=5, query=1, n_runs=3, test_model_path='/mnt/inaisfs/data/home/tansy_criait/qsz/qcjw/fsl_scoreboard/simple-cnaps-master/model-checkpoints/meta-dataset-checkpoints/best_simple_cnaps.pt', feature_adaptation='film', pretrained_resnet_path='../model-checkpoints/pretrained_resnets/pretrained_resnet_meta_dataset.pt.tar', checkpoint_dir='./checkpoints/medical', output_json='', shuffle_dataset=True)
-
-Testing model: /mnt/inaisfs/data/home/tansy_criait/qsz/qcjw/fsl_scoreboard/simple-cnaps-master/model-checkpoints/meta-dataset-checkpoints/best_simple_cnaps.pt
-
-Dataset: 胃_1query
-
-Result: 50.00 +/- 11.55
-

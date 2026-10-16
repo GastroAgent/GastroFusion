@@ -1,6 +1,0 @@
-Options: Namespace(data_path='/mnt/inaisfs/data/home/tansy_criait/qsz/qcjw/fsl_scoreboard/records_tsy', subset='食管_8way_1query', eval_mode='test-train', way=8, shot=5, query=1, n_runs=100, seed=12667, test_model_path='/mnt/inaisfs/data/home/tansy_criait/qsz/qcjw/fsl_scoreboard/simple-cnaps-master/model-checkpoints/meta-dataset-checkpoints/best_simple_cnaps.pt', feature_adaptation='film', pretrained_resnet_path='/mnt/inaisfs/data/home/tansy_criait/qsz/qcjw/fsl_scoreboard/simple-cnaps-master/model-checkpoints/pretrained_resnets/pretrained_resnet_meta_dataset.pt.tar', checkpoint_dir='/mnt/inaisfs/data/home/tansy_criait/qsz/qcjw/fsl_scoreboard/simple-cnaps-master/simple-cnaps-src/checkpoints/medical_tsy', output_json='/mnt/inaisfs/data/home/tansy_criait/qsz/qcjw/fsl_scoreboard/simple-cnaps-master/results_tsy/test-train/食管_8way_1query_SimpleCNAPS_8way_5shot_1query_100ep.json', shuffle_dataset=True, sample_with_replacement=True)
-
-Testing model: /mnt/inaisfs/data/home/tansy_criait/qsz/qcjw/fsl_scoreboard/simple-cnaps-master/model-checkpoints/meta-dataset-checkpoints/best_simple_cnaps.pt
-
-Dataset: 食管_8way_1query | mode: test-train | Result: 63.88 +/- 3.00 (n_runs=100)
-
