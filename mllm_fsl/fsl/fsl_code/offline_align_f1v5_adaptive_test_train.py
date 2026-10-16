@@ -40,7 +40,7 @@ import torch
 
 SCRIPT_VERSION = "2026-09-17-flatjson-adaptive-f1v5-testtrain-v4-exactjson-dynamick-directtracefix"
 PROTOCOL = "TEST-TRAIN"
-EVAL_MODULE = "eval_f1_support_conditioned_lstm_v5_pretrain_m2_aligned_testtrain_reduce_m2_dit_reloaded"
+EVAL_MODULE = "eval_f1_support_conditioned_lstm_v5_pretrain_m2_aligned_testtrain_reduce_m2_dit"
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff", ".webp"}
 
 
