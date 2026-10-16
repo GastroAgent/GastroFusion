@@ -1,0 +1,172 @@
+{
+  "input_root": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/mllm_fsl_result/mllm_code/mllm_result_huaxi",
+  "output_root": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/mllm_fsl_result/result_huaxi_831_grid/v2_fusion_traj_tlast_rae_latent_tsy",
+  "cities": [
+    "华西"
+  ],
+  "organs": [
+    "十二指肠",
+    "胃",
+    "食管"
+  ],
+  "spaces": [
+    "latent"
+  ],
+  "modes": [
+    "traj"
+  ],
+  "region_override": null,
+  "v2_organ_params": {
+    "胃": {
+      "strategy": "gap_guard_fusion",
+      "alpha": 0.25,
+      "guard": 0.01,
+      "gap_thr": 0.05
+    },
+    "食管": {
+      "strategy": "high_conf_override",
+      "top1_thr": 0.2,
+      "fsl_thr": 0.1,
+      "gap_thr": 0.01
+    },
+    "十二指肠": {
+      "strategy": "very_high_conf_override",
+      "top1_thr": 0.8,
+      "fsl_thr": 0.03,
+      "gap_thr": null
+    }
+  },
+  "space_filter": "latent",
+  "rae_fsl_result_root": "/mnt/inaisfs/data/home/tansy_criait/qsz/qcjw/our_method/批量测试/result_831/huaxi",
+  "rae_latent_protocol": {
+    "mode": "uniform",
+    "score": "tolast_mean",
+    "support_aggregation": "min"
+  },
+  "discovered_file_pairs": 3,
+  "expected_jobs": 3,
+  "successful_jobs_this_run": 3,
+  "skipped_existing_outputs": 0,
+  "failed_jobs": 0,
+  "missing_file_pairs": 0,
+  "results": [
+    {
+      "city": "华西",
+      "organ": "十二指肠",
+      "space": "latent",
+      "region": "十二指肠",
+      "fsl_mode": "traj",
+      "strategy": "very_high_conf_override",
+      "total": 67,
+      "fsl_correct": 61,
+      "fsl_acc": 0.9104477611940298,
+      "mllm_correct": 24,
+      "mllm_acc": 0.3582089552238806,
+      "fusion_correct": 61,
+      "fusion_acc": 0.9104477611940298,
+      "fusion_minus_fsl_correct": 0,
+      "fusion_minus_mllm_correct": 37,
+      "fixed_fsl_errors": 0,
+      "broken_fsl_correct": 0,
+      "net_fixed": 0,
+      "guard_used": 0,
+      "override_used": 0,
+      "alignment_method": "mllm_main_direct_to_rae",
+      "fsl_source_field_counts": {
+        "rae_query_results:uniform/min/tolast_mean": 67
+      },
+      "alpha": null,
+      "guard": null,
+      "top1_thr": 0.8,
+      "fsl_thr": 0.03,
+      "gap_thr": null,
+      "fsl_cache_json": null,
+      "rae_fsl_source_json": "/mnt/inaisfs/data/home/tansy_criait/qsz/qcjw/our_method/批量测试/result_831/huaxi/十二指肠/query_results.json",
+      "rae_fsl_source_kind": "query_results",
+      "rae_fsl_mode": "uniform",
+      "rae_fsl_score": "tolast_mean",
+      "rae_fsl_support_agg": "min",
+      "mllm_json": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/mllm_fsl_result/mllm_code/mllm_result_huaxi/十二指肠/Med-qwen3-vl-RL_latent_十二指肠.json",
+      "output_json": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/mllm_fsl_result/result_huaxi_831_grid/v2_fusion_traj_tlast_rae_latent_tsy/十二指肠/Med-qwen3-vl-RL_latent_十二指肠_fusion_v2_traj.json"
+    },
+    {
+      "city": "华西",
+      "organ": "胃",
+      "space": "latent",
+      "region": "胃",
+      "fsl_mode": "traj",
+      "strategy": "gap_guard_fusion",
+      "total": 56,
+      "fsl_correct": 44,
+      "fsl_acc": 0.7857142857142857,
+      "mllm_correct": 15,
+      "mllm_acc": 0.26785714285714285,
+      "fusion_correct": 44,
+      "fusion_acc": 0.7857142857142857,
+      "fusion_minus_fsl_correct": 0,
+      "fusion_minus_mllm_correct": 29,
+      "fixed_fsl_errors": 0,
+      "broken_fsl_correct": 0,
+      "net_fixed": 0,
+      "guard_used": 50,
+      "override_used": 0,
+      "alignment_method": "mllm_main_direct_to_rae",
+      "fsl_source_field_counts": {
+        "rae_query_results:uniform/min/tolast_mean": 56
+      },
+      "alpha": 0.25,
+      "guard": 0.01,
+      "top1_thr": null,
+      "fsl_thr": null,
+      "gap_thr": 0.05,
+      "fsl_cache_json": null,
+      "rae_fsl_source_json": "/mnt/inaisfs/data/home/tansy_criait/qsz/qcjw/our_method/批量测试/result_831/huaxi/胃/query_results.json",
+      "rae_fsl_source_kind": "query_results",
+      "rae_fsl_mode": "uniform",
+      "rae_fsl_score": "tolast_mean",
+      "rae_fsl_support_agg": "min",
+      "mllm_json": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/mllm_fsl_result/mllm_code/mllm_result_huaxi/胃/Med-qwen3-vl-RL_latent_胃.json",
+      "output_json": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/mllm_fsl_result/result_huaxi_831_grid/v2_fusion_traj_tlast_rae_latent_tsy/胃/Med-qwen3-vl-RL_latent_胃_fusion_v2_traj.json"
+    },
+    {
+      "city": "华西",
+      "organ": "食管",
+      "space": "latent",
+      "region": "食管",
+      "fsl_mode": "traj",
+      "strategy": "high_conf_override",
+      "total": 43,
+      "fsl_correct": 38,
+      "fsl_acc": 0.8837209302325582,
+      "mllm_correct": 6,
+      "mllm_acc": 0.13953488372093023,
+      "fusion_correct": 38,
+      "fusion_acc": 0.8837209302325582,
+      "fusion_minus_fsl_correct": 0,
+      "fusion_minus_mllm_correct": 32,
+      "fixed_fsl_errors": 0,
+      "broken_fsl_correct": 0,
+      "net_fixed": 0,
+      "guard_used": 0,
+      "override_used": 0,
+      "alignment_method": "mllm_main_direct_to_rae",
+      "fsl_source_field_counts": {
+        "rae_query_results:uniform/min/tolast_mean": 43
+      },
+      "alpha": null,
+      "guard": null,
+      "top1_thr": 0.2,
+      "fsl_thr": 0.1,
+      "gap_thr": 0.01,
+      "fsl_cache_json": null,
+      "rae_fsl_source_json": "/mnt/inaisfs/data/home/tansy_criait/qsz/qcjw/our_method/批量测试/result_831/huaxi/食管/query_results.json",
+      "rae_fsl_source_kind": "query_results",
+      "rae_fsl_mode": "uniform",
+      "rae_fsl_score": "tolast_mean",
+      "rae_fsl_support_agg": "min",
+      "mllm_json": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/mllm_fsl_result/mllm_code/mllm_result_huaxi/食管/Med-qwen3-vl-RL_latent_食管.json",
+      "output_json": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/mllm_fsl_result/result_huaxi_831_grid/v2_fusion_traj_tlast_rae_latent_tsy/食管/Med-qwen3-vl-RL_latent_食管_fusion_v2_traj.json"
+    }
+  ],
+  "failures": []
+}
