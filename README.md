@@ -51,7 +51,7 @@ English | [简体中文](README_CN.md)
 - **Multimodal evaluation:** GastroMLLM achieved **94.99%** accuracy on **OmniMedVQA-GI (1,537 questions)**.
 - **Fusion complementarity:** External fusion yielded numerical gains of **1.24** and **0.75 percentage points** under cohort-aligned and full-organ label spaces, respectively. A branch-selection oracle revealed complementary diagnostic coverage between geometric and semantic predictions.
 
-![GastroFusion Workflow](assets/figures/overview-ill.jpg)
+![GastroFusion Workflow](assets/figures/overview-ill.png)
 
 ---
 
@@ -79,9 +79,9 @@ Different modules use **separate environments**.
 | Module | Environment |
 |---|---|
 | **GastroMLLM training** | Python 3.11 and CUDA 12.4; the recorded training environment uses ms-swift 4.0.3, PyTorch 2.8.0, and related packages. See [`mllm/README.md`](mllm/README.md). |
-| **Wasserstein-GastroFlow** | Uses the `flow` environment. See [`wass_flow/README_CN.md`](wass_flow/README_CN.md) for GPU/CUDA requirements and script settings. |
+| **Wasserstein-GastroFlow** | Uses the `flow` environment. See [`wass_flow/README.md`](wass_flow/README.md) for GPU/CUDA requirements and script settings. |
 | **GastroFusion fusion** | Runs the MLLM service, FSL inference, and fusion scripts separately; see the scripts under `mllm_fsl/`. |
-| **Baselines** | Dependencies and checkpoints vary by method; see [`wass_flow_baseline/README_CN.md`](wass_flow_baseline/README_CN.md). |
+| **Baselines** | Dependencies and checkpoints vary by method; see [`wass_flow_baseline/README.md`](wass_flow_baseline/README.md). |
 
 Linux with NVIDIA GPUs is recommended. Required GPU count, memory, and runtime depend on the model and experiment configuration. Multi-GPU training configurations should not be interpreted as minimum requirements for single-GPU inference.
 
@@ -108,7 +108,7 @@ pip install -r requirements.txt
 cd ..
 ```
 
-**Wasserstein-GastroFlow:** Configure the `flow` environment and dependencies as described in [`wass_flow/README_CN.md`](wass_flow/README_CN.md). Training, checkpoint loading, and evaluation require compatible CUDA and PyTorch versions.
+**Wasserstein-GastroFlow:** Configure the `flow` environment and dependencies as described in [`wass_flow/README.md`](wass_flow/README.md). Training, checkpoint loading, and evaluation require compatible CUDA and PyTorch versions.
 
 ---
 
@@ -128,7 +128,7 @@ Example download command (install the Hugging Face CLI and replace the destinati
 hf download GastroAgent/GastroFusion --local-dir <WEIGHT_DIR>
 ```
 
-After downloading, inspect the checkpoint filenames in the archives. Configure the RAE, MetricEncoder, DiT Flow, and Decay weight paths according to [`wass_flow/README_CN.md`](wass_flow/README_CN.md).
+After downloading, inspect the checkpoint filenames in the archives. Configure the RAE, MetricEncoder, DiT Flow, and Decay weight paths according to [`wass_flow/README.md`](wass_flow/README.md).
 
 ---
 
@@ -156,7 +156,7 @@ bash eval_q2l_q2last_q2mono_scorefuse_maxmin_testtest.sh
 
 `Q2Last` in the script names corresponds to **Q2L** in the manuscript, while `Q2Mono` corresponds to **Q2S-Retained**. Evaluation results, including predictions and summary statistics, are written to the configured `BASE_RESULT_DIR`.
 
-For complete setup, training, and evaluation protocols, see [`wass_flow/README_CN.md`](wass_flow/README_CN.md). If the repository instead provides only `wass_flow/README.md`, use that filename.
+For complete setup, training, and evaluation protocols, see [`wass_flow/README.md`](wass_flow/README.md). If the repository instead provides only `wass_flow/README.md`, use that filename.
 
 ### Demo B — GastroFusion Geometric–Semantic Fusion Inference
 
@@ -212,7 +212,7 @@ Result directory: `mllm_fsl/mllm_fsl_detail/mllm_fsl_result/`. Before fusion, en
 - **Long-tail baselines:** Evaluated using non-episodic classification as contextual comparators; their protocol is not identical to episodic FSL evaluation.
 - **Data separation:** Test-pool support examples are provided at inference; this does not imply optimization of model parameters using test-query samples.
 
-For each method's training/testing scripts, checkpoints, and data configuration, see [`wass_flow_baseline/README_CN.md`](wass_flow_baseline/README_CN.md).
+For each method's training/testing scripts, checkpoints, and data configuration, see [`wass_flow_baseline/README.md`](wass_flow_baseline/README.md).
 
 ---
 
@@ -281,7 +281,7 @@ sbatch train_dit_flow_spatial_sinkhorn_strict_intra_ot.sh
 sbatch submit_multinode_pretrain_f1_support_conditioned_lstm_v5.sh
 ```
 
-Medical-domain F1 adaptation uses the `train_f1_support_conditioned_lstm_v5_medical_manifest.*` entry points. For full parameters and evaluation protocols, see [`wass_flow/README_CN.md`](wass_flow/README_CN.md).
+Medical-domain F1 adaptation uses the `train_f1_support_conditioned_lstm_v5_medical_manifest.*` entry points. For full parameters and evaluation protocols, see [`wass_flow/README.md`](wass_flow/README.md).
 
 ### 3) GastroFusion Fusion
 
@@ -327,11 +327,11 @@ GastroFusion/
 
 ## Visualizations
 
-![Benchmark comparison](assets/figures/doctor-dataset.jpg)
+![Benchmark comparison](assets/figures/dataset.png)
 
-![Long-tail performance](assets/figures/kshot-case.jpg)
+![Long-tail performance](assets/figures/kshot-case.png)
 
-![Workflow result](assets/figures/workflow-result-ill.jpg)
+![Workflow result](assets/figures/fsl-baseline-result.png)
 
 ---
 
