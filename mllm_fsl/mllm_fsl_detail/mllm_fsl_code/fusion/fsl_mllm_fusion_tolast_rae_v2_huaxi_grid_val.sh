@@ -18,7 +18,7 @@ source /mnt/inaisfs/data/home/tansy_criait/miniconda3/bin/activate flow
 # =============================================================================
 # Python entry point
 # =============================================================================
-PY="/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/mllm_fsl_result/fsl_mllm_fusion_tolast_rae_v2_huaxi_grid_val.py"
+PY="/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/mllm_fsl_result/fsl_mllm_fusion_tolast_rae_v2_huaxi.py"
 
 # =============================================================================
 # Inputs and outputs
