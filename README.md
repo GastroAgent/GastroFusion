@@ -382,13 +382,17 @@ We thank the collaborating clinical centres, participating endoscopists, and the
 
 ## Data Availability
 
-This study uses an internal clinical cohort from WCH and data from three independent external centres. To support reproducibility, the project provides a subset of inference/evaluation data from the internal stomach experiments and the corresponding code. Other clinical images are not publicly released because of patient privacy, ethics, and data-use restrictions. Refer to the public repository for available files and to the manuscript's Data Availability statement for access conditions.
+The study includes clinical endoscopic images from West China Hospital (WCH) and three independent external centres. The complete clinical datasets are not publicly released because of patient privacy, ethical considerations, and data-use restrictions.
+
+To facilitate reproducibility, we provide a subset of the internal stomach endoscopy data for demonstration and evaluation, together with the corresponding Wasserstein-GastroFlow inference code and model checkpoints.
+
+The released demonstration subset should not be interpreted as the complete internal or external evaluation cohorts reported in the manuscript. Further information on clinical data availability is provided in the manuscript's Data Availability statement.
 
 ---
 
 ## License
 
-This project is released under the [Apache-2.0 License](LICENSE) (subject to the actual `LICENSE` file in the repository).
+This project is released under the [Apache-2.0 License](LICENSE).
 
 **Research use only:** The framework is not intended for direct clinical diagnosis or as a substitute for professional medical judgement.
 
