@@ -1,0 +1,242 @@
+[
+  {
+    "image_id": "食管__刘荣_21",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__刘荣_21.jpeg",
+    "ground_truth_name": "Esophageal Glycogenic Acanthosis",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__刘荣_6",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__刘荣_6.jpeg",
+    "ground_truth_name": "Esophageal Glycogenic Acanthosis",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__王小燕_57",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__王小燕_57.jpeg",
+    "ground_truth_name": "Esophageal Glycogenic Acanthosis",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__王小燕_58",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__王小燕_58.jpeg",
+    "ground_truth_name": "Esophageal Glycogenic Acanthosis",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__王小燕_63",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__王小燕_63.jpeg",
+    "ground_truth_name": "Esophageal Glycogenic Acanthosis",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__王能钊_5",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__王能钊_5.jpeg",
+    "ground_truth_name": "Esophageal Glycogenic Acanthosis",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__王能钊_9",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__王能钊_9.jpeg",
+    "ground_truth_name": "Esophageal Glycogenic Acanthosis",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__章能鹏_6",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/Esophageal Glycogenic Acanthosis/食管__章能鹏_6.jpeg",
+    "ground_truth_name": "Esophageal Glycogenic Acanthosis",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__src1__食管__任启建_50",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__任启建_50.jpeg",
+    "ground_truth_name": "食管癌",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__src1__食管__李善富_5",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__李善富_5.jpeg",
+    "ground_truth_name": "食管癌",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__src1__食管__罗其东_60",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__罗其东_60.jpeg",
+    "ground_truth_name": "食管癌",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__src1__食管__胡明珍_43",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__胡明珍_43.jpeg",
+    "ground_truth_name": "食管癌",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__src1__食管__胡锦义_6",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__胡锦义_6.jpeg",
+    "ground_truth_name": "食管癌",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__src1__食管__覃国胜_4",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__覃国胜_4.jpeg",
+    "ground_truth_name": "食管癌",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__src1__食管__贾德珍_46",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__贾德珍_46.jpeg",
+    "ground_truth_name": "食管癌",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__src1__食管__青秀华_49",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/食管/食管癌/食管__src1__食管__青秀华_49.jpeg",
+    "ground_truth_name": "食管癌",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  }
+]

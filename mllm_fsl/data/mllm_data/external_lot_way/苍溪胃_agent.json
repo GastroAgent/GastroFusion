@@ -1,0 +1,1484 @@
+[
+  {
+    "image_id": "胃窦__常思芬_src1__胃窦__25",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/慢性非萎缩性胃窦炎伴痘疹/胃窦__常思芬_src1__胃窦__25.JPG",
+    "ground_truth_name": "慢性非萎缩性胃窦炎伴痘疹",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__常思芬_src1__胃窦__26",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/慢性非萎缩性胃窦炎伴痘疹/胃窦__常思芬_src1__胃窦__26.JPG",
+    "ground_truth_name": "慢性非萎缩性胃窦炎伴痘疹",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__常思芬_src1__胃窦__26__dup1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/慢性非萎缩性胃窦炎伴痘疹/胃窦__常思芬_src1__胃窦__26__dup1.JPG",
+    "ground_truth_name": "慢性非萎缩性胃窦炎伴痘疹",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__常思芬_src1__胃窦__39-256c5d9aa15d",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/慢性非萎缩性胃窦炎伴痘疹/胃窦__常思芬_src1__胃窦__39-256c5d9aa15d.JPG",
+    "ground_truth_name": "慢性非萎缩性胃窦炎伴痘疹",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__王安平_src1__胃窦__40-f2b2bfe2034a",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/慢性非萎缩性胃窦炎伴痘疹/胃窦__王安平_src1__胃窦__40-f2b2bfe2034a.JPG",
+    "ground_truth_name": "慢性非萎缩性胃窦炎伴痘疹",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__王安平_src1__胃窦__41-e8b1d5c37a0c",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/慢性非萎缩性胃窦炎伴痘疹/胃窦__王安平_src1__胃窦__41-e8b1d5c37a0c.JPG",
+    "ground_truth_name": "慢性非萎缩性胃窦炎伴痘疹",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__王安平_src1__胃窦__59-c857226acf53",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/慢性非萎缩性胃窦炎伴痘疹/胃窦__王安平_src1__胃窦__59-c857226acf53.JPG",
+    "ground_truth_name": "慢性非萎缩性胃窦炎伴痘疹",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__王安平_src1__胃窦__74-567bb6f2fb03",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/慢性非萎缩性胃窦炎伴痘疹/胃窦__王安平_src1__胃窦__74-567bb6f2fb03.JPG",
+    "ground_truth_name": "慢性非萎缩性胃窦炎伴痘疹",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__王廷军_src1__胃窦__45",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/慢性非萎缩性胃窦炎伴痘疹/胃窦__王廷军_src1__胃窦__45.JPG",
+    "ground_truth_name": "慢性非萎缩性胃窦炎伴痘疹",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__王廷军_src1__胃窦__46",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/慢性非萎缩性胃窦炎伴痘疹/胃窦__王廷军_src1__胃窦__46.JPG",
+    "ground_truth_name": "慢性非萎缩性胃窦炎伴痘疹",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__王廷军_src1__胃窦__54",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/慢性非萎缩性胃窦炎伴痘疹/胃窦__王廷军_src1__胃窦__54.JPG",
+    "ground_truth_name": "慢性非萎缩性胃窦炎伴痘疹",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__王廷军_src1__胃窦__95",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/慢性非萎缩性胃窦炎伴痘疹/胃窦__王廷军_src1__胃窦__95.JPG",
+    "ground_truth_name": "慢性非萎缩性胃窦炎伴痘疹",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "幽门__谢东军_src1__幽门__34",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/正常胃窦/幽门__谢东军_src1__幽门__34.JPG",
+    "ground_truth_name": "正常胃窦",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__冉森宗_src1__胃体__57",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/正常胃窦/胃体__冉森宗_src1__胃体__57.JPG",
+    "ground_truth_name": "正常胃窦",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__王金华_src1__胃体__50",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/正常胃窦/胃体__王金华_src1__胃体__50.JPG",
+    "ground_truth_name": "正常胃窦",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__罗映菊_src1__胃体__61",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/正常胃窦/胃体__罗映菊_src1__胃体__61.JPG",
+    "ground_truth_name": "正常胃窦",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__冉森宗_src1__胃窦__29",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/正常胃窦/胃窦__冉森宗_src1__胃窦__29.JPG",
+    "ground_truth_name": "正常胃窦",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__罗映菊_src1__胃窦__40",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/正常胃窦/胃窦__罗映菊_src1__胃窦__40.JPG",
+    "ground_truth_name": "正常胃窦",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃角__冯金兰_src1__胃角__45",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/正常胃窦/胃角__冯金兰_src1__胃角__45.JPG",
+    "ground_truth_name": "正常胃窦",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "贲门__罗映菊_src1__贲门__68",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/正常胃窦/贲门__罗映菊_src1__贲门__68.JPG",
+    "ground_truth_name": "正常胃窦",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "贲门__赵胜勇_src1__贲门__48-8d7d567ac151",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/正常胃窦/贲门__赵胜勇_src1__贲门__48-8d7d567ac151.JPG",
+    "ground_truth_name": "正常胃窦",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__王学荟_src1__胃窦__34",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/胃窦溃疡（A1期）/胃窦__王学荟_src1__胃窦__34.JPG",
+    "ground_truth_name": "胃窦溃疡（A1期）",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__王正模_src1__胃窦__14",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/胃窦溃疡（A1期）/胃窦__王正模_src1__胃窦__14.JPG",
+    "ground_truth_name": "胃窦溃疡（A1期）",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__胃窦__25",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/胃窦溃疡（A1期）/胃窦__胃窦__25.JPG",
+    "ground_truth_name": "胃窦溃疡（A1期）",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__胃窦__27",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/胃窦溃疡（A1期）/胃窦__胃窦__27.JPG",
+    "ground_truth_name": "胃窦溃疡（A1期）",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__胃窦__35",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/胃窦溃疡（A1期）/胃窦__胃窦__35.JPG",
+    "ground_truth_name": "胃窦溃疡（A1期）",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__胃窦__38",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/胃窦溃疡（A1期）/胃窦__胃窦__38.JPG",
+    "ground_truth_name": "胃窦溃疡（A1期）",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__胃窦__39",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/胃窦溃疡（A1期）/胃窦__胃窦__39.JPG",
+    "ground_truth_name": "胃窦溃疡（A1期）",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__陈洪席_src1__胃窦__72",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/胃窦溃疡（A1期）/胃窦__陈洪席_src1__胃窦__72.JPG",
+    "ground_truth_name": "胃窦溃疡（A1期）",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__马淑会_43",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/胃窦溃疡（A1期）/胃窦__马淑会_43.JPG",
+    "ground_truth_name": "胃窦溃疡（A1期）",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__胃窦__16",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/胃窦溃疡（S1期）/胃窦__胃窦__16.JPG",
+    "ground_truth_name": "胃窦溃疡（S1期）",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__胃窦__19",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/胃窦溃疡（S1期）/胃窦__胃窦__19.JPG",
+    "ground_truth_name": "胃窦溃疡（S1期）",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__胃窦__24",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/胃窦溃疡（S1期）/胃窦__胃窦__24.JPG",
+    "ground_truth_name": "胃窦溃疡（S1期）",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__胃窦__29",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/胃窦溃疡（S1期）/胃窦__胃窦__29.JPG",
+    "ground_truth_name": "胃窦溃疡（S1期）",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__胃窦__31",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/胃窦溃疡（S1期）/胃窦__胃窦__31.JPG",
+    "ground_truth_name": "胃窦溃疡（S1期）",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__胃窦__51",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/胃窦溃疡（S1期）/胃窦__胃窦__51.JPG",
+    "ground_truth_name": "胃窦溃疡（S1期）",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__袁芬太_src1__胃窦__48",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/胃窦溃疡（S1期）/胃窦__袁芬太_src1__胃窦__48.JPG",
+    "ground_truth_name": "胃窦溃疡（S1期）",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__袁芬太_src1__胃窦__50",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/胃/胃窦溃疡（S1期）/胃窦__袁芬太_src1__胃窦__50.JPG",
+    "ground_truth_name": "胃窦溃疡（S1期）",
+    "support_classes": [
+      {
+        "label_name": "慢性非萎缩性胃窦炎伴痘疹",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/慢性非萎缩性胃窦炎伴痘疹"
+      },
+      {
+        "label_name": "正常胃窦",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/正常胃窦"
+      },
+      {
+        "label_name": "残胃炎伴胆汁反流",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/残胃炎伴胆汁反流"
+      },
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      },
+      {
+        "label_name": "胃窦溃疡（A1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（A1期）"
+      },
+      {
+        "label_name": "胃窦溃疡（S1期）",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃窦溃疡（S1期）"
+      }
+    ]
+  }
+]

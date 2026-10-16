@@ -1,0 +1,938 @@
+[
+  {
+    "image_id": "食管__牟玉芬_20260425_14",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_14.JPG",
+    "ground_truth_name": "嗜酸食管炎",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__牟玉芬_20260425_15",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_15.JPG",
+    "ground_truth_name": "嗜酸食管炎",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__牟玉芬_20260425_2",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_2.JPG",
+    "ground_truth_name": "嗜酸食管炎",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__牟玉芬_20260425_4",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_4.JPG",
+    "ground_truth_name": "嗜酸食管炎",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__牟玉芬_20260425_6",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_6.JPG",
+    "ground_truth_name": "嗜酸食管炎",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__牟玉芬_20260425_73",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_73.JPG",
+    "ground_truth_name": "嗜酸食管炎",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__牟玉芬_20260425_74",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_74.JPG",
+    "ground_truth_name": "嗜酸食管炎",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__牟玉芬_20260425_80",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_80.JPG",
+    "ground_truth_name": "嗜酸食管炎",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__20250711_66",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__20250711_66.JPG",
+    "ground_truth_name": "巴雷特食管",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__20250711_67",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__20250711_67.JPG",
+    "ground_truth_name": "巴雷特食管",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__20250711_69_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__20250711_69_cropped.JPG",
+    "ground_truth_name": "巴雷特食管",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__src1__食管__20250711_110_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__src1__食管__20250711_110_cropped.JPG",
+    "ground_truth_name": "巴雷特食管",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__src1__食管__20250711_4_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__src1__食管__20250711_4_cropped.JPG",
+    "ground_truth_name": "巴雷特食管",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__src1__食管__20250711_67_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__src1__食管__20250711_67_cropped.JPG",
+    "ground_truth_name": "巴雷特食管",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__袁凯_胃镜_20250711_110_cropped_1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__袁凯_胃镜_20250711_110_cropped_1.JPG",
+    "ground_truth_name": "巴雷特食管",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__袁凯_胃镜_20250711_131_cropped_1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__袁凯_胃镜_20250711_131_cropped_1.JPG",
+    "ground_truth_name": "巴雷特食管",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__20250711_28",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__20250711_28.JPG",
+    "ground_truth_name": "食管癌",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__何树君_胃镜_20250711_4_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__何树君_胃镜_20250711_4_cropped.JPG",
+    "ground_truth_name": "食管癌",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__食管__20250711_10_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__食管__20250711_10_cropped.JPG",
+    "ground_truth_name": "食管癌",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__食管__20250711_11_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__食管__20250711_11_cropped.JPG",
+    "ground_truth_name": "食管癌",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__食管__20250711_14_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__食管__20250711_14_cropped.JPG",
+    "ground_truth_name": "食管癌",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__食管__20250711_3_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__食管__20250711_3_cropped.JPG",
+    "ground_truth_name": "食管癌",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__食管__20250711_9_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__食管__20250711_9_cropped.JPG",
+    "ground_truth_name": "食管癌",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  },
+  {
+    "image_id": "食管__食管__20250713_25_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__食管__20250713_25_cropped.JPG",
+    "ground_truth_name": "食管癌",
+    "support_classes": [
+      {
+        "label_name": "Esophageal Glycogenic Acanthosis",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/Esophageal Glycogenic Acanthosis"
+      },
+      {
+        "label_name": "嗜酸食管炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+      },
+      {
+        "label_name": "巴雷特食管",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      },
+      {
+        "label_name": "正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/正常"
+      },
+      {
+        "label_name": "食管炎B级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎B级"
+      },
+      {
+        "label_name": "食管炎C级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎C级"
+      },
+      {
+        "label_name": "食管炎D级",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管炎D级"
+      },
+      {
+        "label_name": "食管癌",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      }
+    ]
+  }
+]
