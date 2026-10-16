@@ -10,7 +10,7 @@ set -euo pipefail
 source /mnt/inaisfs/data/apps/cuda12.4.sh
 source /mnt/inaisfs/data/home/tansy_criait/miniconda3/bin/activate flow
 
-PY="/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/mllm_fsl_result/fsl_mllm_fusion_tolast_rae_v2_external_uniform.py"
+PY="/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/mllm_fsl_result/fsl_mllm_fusion_tolast_rae_v2_external.py"
 INPUT_ROOT="/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/mllm_fsl_result/mllm_code/mllm_result_external9_lot_way"
 RAE_FSL_RESULT_ROOT="/mnt/inaisfs/data/home/tansy_criait/qsz/qcjw/our_method/批量测试/result_831/mllm_fsl_subset_agent_lot_way_91"
 OUTPUT_ROOT="/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/mllm_fsl_result/mllm_fsl_lot_way_subset_91/v2_fusion_traj_tlast_rae_latent"
