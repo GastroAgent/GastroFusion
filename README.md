@@ -114,23 +114,18 @@ cd ..
 
 ## Model Weights and Demo Data
 
-Available model files and publicly released demonstration data are listed at [Hugging Face — GastroFusion](https://huggingface.co/GastroAgent/GastroFusion).
+The released archives are available from [Hugging Face — GastroFusion](https://huggingface.co/GastroAgent/GastroFusion).
 
-| File or directory | Purpose |
+| Archive | Contents and use |
 |---|---|
-| `Qwen3-VL-8B-Instruct-3epoch-best.tar.gz` | GastroMLLM-related weights; verify the required inference stage and version before use. |
-| `wass-flow-stomach.zip` | Weight package for stomach-cohort Wasserstein-GastroFlow inference and evaluation. |
-| `stomach.zip` | Episodic few-shot testing input for Demo A; availability and use depend on the released files and script configuration. |
+| `demo_data.zip` | Stomach endoscopy images for Demo A, organized by disease class for episodic test-test evaluation. |
+| `demo-wass-flow-stomach.zip` | Wasserstein-GastroFlow stomach evaluation checkpoints, including F1/Decay, M2, DiT Flow, and related checkpoints. |
+| `Med-Qwen3-VL-8B-Instruct.zip` | GastroMLLM-related model files. |
 
-Example download command (install the Hugging Face CLI and replace the destination first):
+Download and extract `demo_data.zip` and `demo-wass-flow-stomach.zip` for Demo A. The evaluation scripts accept the class-image directory and checkpoint directory through `DATA_ROOT` and `WEIGHT_ROOT`.
 
-```bash
-hf download GastroAgent/GastroFusion --local-dir <WEIGHT_DIR>
-```
+Additional runtime dependencies include the RAE Decoder, RAE normalization statistics, EndoViT, and DINOv3 ViT-L/16. See [`wass_flow/README.md`](wass_flow/README.md) for configuration details.
 
-After downloading, inspect the checkpoint filenames in the archives. Configure the RAE, MetricEncoder, DiT Flow, and Decay weight paths according to [`wass_flow/README.md`](wass_flow/README.md).
-
----
 
 ## Quick Reproduction Demos
 
@@ -138,25 +133,56 @@ Below, `<PROJECT_ROOT>` denotes the repository root. Configure model, data, and 
 
 ### Demo A — Wasserstein-GastroFlow Inference and Evaluation
 
-This demo uses **internal stomach episodic few-shot data** to demonstrate inference and evaluation under the test-test support protocol, replacing the earlier Kvasir two-class demo.
+Demo A provides two stomach test-test few-shot evaluation entry points using the released, class-organized stomach endoscopy images:
 
-1. Download and extract the stomach-specific weights and released demo data, then configure the dataset, model checkpoints, and output directory in the scripts.
-2. Enter `wass_flow/` and activate its environment:
+- **F1 / Decay:** Support-conditioned trajectory evaluation using the F1/Decay, M2, and DiT checkpoints.
+- **Q2L / Q2S-Retained:** Evaluates final-step matching (`Q2Last` in the script), retained-step aggregation (`Q2Mono` in the script), and their score-level fusion using the stomach Q2L and DiT checkpoints.
+
+The default evaluation setup is **5-shot, 1-query, 100 episodes, seed 42**.
+
+**1. Download and extract the Demo A archives:**
 
 ```bash
-cd wass_flow
-conda activate flow
+# Run from the GastroFusion repository root.
+mkdir -p demo_data demo_weights
+unzip /path/to/demo_data.zip -d demo_data
+unzip /path/to/demo-wass-flow-stomach.zip -d demo_weights
+```
 
-# F1 / Decay trajectory scoring and diagnostic comparisons
+The default directory structure expected by the evaluation scripts is:
+
+```text
+GastroFusion/
+├── demo_data/
+│   └── stomach/
+│       ├── <disease class A>/
+│       └── <disease class B>/
+└── demo_weights/
+    └── wass-flow-stomach/
+        ├── f1_v5_support_lstm_medical/
+        ├── new_m1/
+        ├── stomach-test-test/
+        └── otcfm_dit_L_step_265000.pt
+```
+
+If the extracted directories differ from this layout, set `DATA_ROOT` and `WEIGHT_ROOT` to their actual locations.
+
+**2. Run the evaluation scripts:**
+
+```bash
+conda activate flow
+cd /path/to/GastroFusion/wass_flow
+
+# F1 / Decay
 bash eval_f1_support_conditioned_lstm_v5_pretrain_m2_aligned_m2_dit.sh
 
-# Q2L / Q2S-Retained trajectory scoring
+# Q2L / Q2S-Retained / score-level fusion
 bash eval_q2l_q2last_q2mono_scorefuse_maxmin_testtest.sh
 ```
 
-`Q2Last` in the script names corresponds to **Q2L** in the manuscript, while `Q2Mono` corresponds to **Q2S-Retained**. Evaluation results, including predictions and summary statistics, are written to the configured `BASE_RESULT_DIR`.
+Both evaluation scripts support `DATA_ROOT` and `WEIGHT_ROOT` environment variables for custom data and checkpoint paths.
 
-For complete setup, training, and evaluation protocols, see [`wass_flow/README.md`](wass_flow/README.md). If the repository instead provides only `wass_flow/README.md`, use that filename.
+For additional training, evaluation, and configuration details, see [`wass_flow/README.md`](wass_flow/README.md).
 
 ### Demo B — GastroFusion Geometric–Semantic Fusion Inference
 
