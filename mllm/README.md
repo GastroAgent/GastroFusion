@@ -8,7 +8,6 @@ Data construction (build_sft_rl_data.py)
 → GRPO reinforcement learning (top-entropy token filtering)
 ```
 
-> **Scope:** This directory covers **training only**. Deployment and inference are handled in `mllm_fsl/` and are outside the scope of this README.
 
 ## 1. Directory Structure
 
