@@ -1,0 +1,2372 @@
+{
+  "stage": "mllm_candidate_service_full_scoremap",
+  "city": "自贡",
+  "organ": "食管",
+  "source_json": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/huaxi_mllm_fsl_agent/external9_agent831_few_way/自贡食管_agent.json",
+  "mllm_endpoint": "http://gpu35:8031/v1/vision/candidate_diseases",
+  "top_k": 5,
+  "use_teacher_forcing": true,
+  "score_softmax_temperature": 1.0,
+  "length_normalize": true,
+  "summary": {
+    "total": 24,
+    "success": 24,
+    "failure": 0,
+    "mllm_correct": 15,
+    "mllm_acc": 0.625
+  },
+  "results": [
+    {
+      "image_id": "食管__牟玉芬_20260425_14",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_14.JPG",
+      "ground_truth_name": "嗜酸食管炎",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_14.JPG",
+      "ground_truth": "嗜酸食管炎",
+      "mllm_diag": "嗜酸食管炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.003901,
+          "mean_log_prob": -0.00078,
+          "norm_prob": 0.749467,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -8.478004,
+          "mean_log_prob": -1.695601,
+          "norm_prob": 0.137626,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -5.68074,
+          "mean_log_prob": -1.89358,
+          "norm_prob": 0.112907,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "嗜酸食管炎",
+        "巴雷特食管",
+        "食管癌"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.749467,
+          "log_prob": -0.003901,
+          "mean_log_prob": -0.00078
+        },
+        {
+          "rank": 2,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.137626,
+          "log_prob": -8.478004,
+          "mean_log_prob": -1.695601
+        },
+        {
+          "rank": 3,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.112907,
+          "log_prob": -5.68074,
+          "mean_log_prob": -1.89358
+        }
+      ],
+      "mllm_visual_evidence": "食管黏膜呈现弥漫性红斑、糜烂及线状裂隙，伴有少量渗血和黏液分泌，符合嗜酸性炎症的典型内镜表现；未见明显柱状上皮化生或溃疡性病变，不支持巴雷特食管或食管癌。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"嗜酸食管炎\",\n  \"topk\": [\"嗜酸食管炎\", \"巴雷特食管\", \"食管癌\"],\n  \"visual_evidence\": \"食管黏膜呈现弥漫性红斑、糜烂及线状裂隙，伴有少量渗血和黏液分泌，符合嗜酸性炎症的典型内镜表现；未见明显柱状上皮化生或溃疡性病变，不支持巴雷特食管或食管癌。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.9749133586883545,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__牟玉芬_20260425_15",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_15.JPG",
+      "ground_truth_name": "嗜酸食管炎",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_15.JPG",
+      "ground_truth": "嗜酸食管炎",
+      "mllm_diag": "嗜酸食管炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.00637,
+          "mean_log_prob": -0.001274,
+          "norm_prob": 0.726926,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -8.121416,
+          "mean_log_prob": -1.624283,
+          "norm_prob": 0.143425,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -5.175818,
+          "mean_log_prob": -1.725273,
+          "norm_prob": 0.129648,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "嗜酸食管炎",
+        "巴雷特食管",
+        "食管癌"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.726926,
+          "log_prob": -0.00637,
+          "mean_log_prob": -0.001274
+        },
+        {
+          "rank": 2,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.143425,
+          "log_prob": -8.121416,
+          "mean_log_prob": -1.624283
+        },
+        {
+          "rank": 3,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.129648,
+          "log_prob": -5.175818,
+          "mean_log_prob": -1.725273
+        }
+      ],
+      "mllm_visual_evidence": "食管黏膜呈现弥漫性红斑、糜烂及线状裂隙，伴有少量渗血和黏液分泌，符合嗜酸性炎症的典型内镜表现；未见明显柱状上皮化生或溃疡性病变，不支持巴雷特食管或食管癌。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"嗜酸食管炎\",\n  \"topk\": [\"嗜酸食管炎\", \"巴雷特食管\", \"食管癌\"],\n  \"visual_evidence\": \"食管黏膜呈现弥漫性红斑、糜烂及线状裂隙，伴有少量渗血和黏液分泌，符合嗜酸性炎症的典型内镜表现；未见明显柱状上皮化生或溃疡性病变，不支持巴雷特食管或食管癌。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.990957021713257,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__牟玉芬_20260425_2",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_2.JPG",
+      "ground_truth_name": "嗜酸食管炎",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_2.JPG",
+      "ground_truth": "嗜酸食管炎",
+      "mllm_diag": "嗜酸食管炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.001131,
+          "mean_log_prob": -0.000226,
+          "norm_prob": 0.818847,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -10.34085,
+          "mean_log_prob": -2.06817,
+          "norm_prob": 0.10354,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -7.06916,
+          "mean_log_prob": -2.356387,
+          "norm_prob": 0.077613,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "嗜酸食管炎",
+        "巴雷特食管",
+        "食管癌"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.818847,
+          "log_prob": -0.001131,
+          "mean_log_prob": -0.000226
+        },
+        {
+          "rank": 2,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.10354,
+          "log_prob": -10.34085,
+          "mean_log_prob": -2.06817
+        },
+        {
+          "rank": 3,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.077613,
+          "log_prob": -7.06916,
+          "mean_log_prob": -2.356387
+        }
+      ],
+      "mllm_visual_evidence": "食管黏膜呈现弥漫性红斑、糜烂及白色斑块样改变，伴有明显的血管纹理紊乱和局部隆起，符合嗜酸性炎症的典型内镜表现。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"嗜酸食管炎\",\n  \"topk\": [\"嗜酸食管炎\", \"巴雷特食管\", \"食管癌\"],\n  \"visual_evidence\": \"食管黏膜呈现弥漫性红斑、糜烂及白色斑块样改变，伴有明显的血管纹理紊乱和局部隆起，符合嗜酸性炎症的典型内镜表现。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.091410160064697,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__牟玉芬_20260425_4",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_4.JPG",
+      "ground_truth_name": "嗜酸食管炎",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_4.JPG",
+      "ground_truth": "嗜酸食管炎",
+      "mllm_diag": "嗜酸食管炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.00498,
+          "mean_log_prob": -0.000996,
+          "norm_prob": 0.737182,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -8.24453,
+          "mean_log_prob": -1.648906,
+          "norm_prob": 0.141872,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -5.425445,
+          "mean_log_prob": -1.808482,
+          "norm_prob": 0.120947,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "嗜酸食管炎",
+        "巴雷特食管",
+        "食管癌"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.737182,
+          "log_prob": -0.00498,
+          "mean_log_prob": -0.000996
+        },
+        {
+          "rank": 2,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.141872,
+          "log_prob": -8.24453,
+          "mean_log_prob": -1.648906
+        },
+        {
+          "rank": 3,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.120947,
+          "log_prob": -5.425445,
+          "mean_log_prob": -1.808482
+        }
+      ],
+      "mllm_visual_evidence": "食管黏膜呈现弥漫性红斑、糜烂及白色斑块样改变，伴有明显的血管纹理紊乱和局部隆起，符合嗜酸性炎症的典型内镜表现。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"嗜酸食管炎\",\n  \"topk\": [\"嗜酸食管炎\", \"巴雷特食管\", \"食管癌\"],\n  \"visual_evidence\": \"食管黏膜呈现弥漫性红斑、糜烂及白色斑块样改变，伴有明显的血管纹理紊乱和局部隆起，符合嗜酸性炎症的典型内镜表现。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.095881700515747,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__牟玉芬_20260425_6",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_6.JPG",
+      "ground_truth_name": "嗜酸食管炎",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_6.JPG",
+      "ground_truth": "嗜酸食管炎",
+      "mllm_diag": "嗜酸食管炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.000863,
+          "mean_log_prob": -0.000173,
+          "norm_prob": 0.830091,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -10.693806,
+          "mean_log_prob": -2.138761,
+          "norm_prob": 0.097802,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -7.330655,
+          "mean_log_prob": -2.443552,
+          "norm_prob": 0.072107,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "嗜酸食管炎",
+        "巴雷特食管",
+        "食管癌"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.830091,
+          "log_prob": -0.000863,
+          "mean_log_prob": -0.000173
+        },
+        {
+          "rank": 2,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.097802,
+          "log_prob": -10.693806,
+          "mean_log_prob": -2.138761
+        },
+        {
+          "rank": 3,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.072107,
+          "log_prob": -7.330655,
+          "mean_log_prob": -2.443552
+        }
+      ],
+      "mllm_visual_evidence": "食管黏膜呈现弥漫性红斑、糜烂及白色条纹样改变，伴有明显的血管纹理紊乱和局部隆起，符合嗜酸性炎症的典型内镜表现。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"嗜酸食管炎\",\n  \"topk\": [\"嗜酸食管炎\", \"巴雷特食管\", \"食管癌\"],\n  \"visual_evidence\": \"食管黏膜呈现弥漫性红斑、糜烂及白色条纹样改变，伴有明显的血管纹理紊乱和局部隆起，符合嗜酸性炎症的典型内镜表现。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.103399753570557,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__牟玉芬_20260425_73",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_73.JPG",
+      "ground_truth_name": "嗜酸食管炎",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_73.JPG",
+      "ground_truth": "嗜酸食管炎",
+      "mllm_diag": "嗜酸食管炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.03792,
+          "mean_log_prob": -0.007584,
+          "norm_prob": 0.604589,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -5.565086,
+          "mean_log_prob": -1.113017,
+          "norm_prob": 0.20016,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -3.413525,
+          "mean_log_prob": -1.137842,
+          "norm_prob": 0.195252,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "嗜酸食管炎",
+        "巴雷特食管",
+        "食管癌"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.604589,
+          "log_prob": -0.03792,
+          "mean_log_prob": -0.007584
+        },
+        {
+          "rank": 2,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.20016,
+          "log_prob": -5.565086,
+          "mean_log_prob": -1.113017
+        },
+        {
+          "rank": 3,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.195252,
+          "log_prob": -3.413525,
+          "mean_log_prob": -1.137842
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面可见弥漫性红斑、糜烂及线状沟槽样改变，伴有局部充血和轻微水肿，符合嗜酸性炎症的典型内镜表现；未见明显柱状上皮化生或溃疡性病变，不支持巴雷特食管或食管癌。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"嗜酸食管炎\",\n  \"topk\": [\"嗜酸食管炎\", \"巴雷特食管\", \"食管癌\"],\n  \"visual_evidence\": \"黏膜表面可见弥漫性红斑、糜烂及线状沟槽样改变，伴有局部充血和轻微水肿，符合嗜酸性炎症的典型内镜表现；未见明显柱状上皮化生或溃疡性病变，不支持巴雷特食管或食管癌。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.903456449508667,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__牟玉芬_20260425_74",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_74.JPG",
+      "ground_truth_name": "嗜酸食管炎",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_74.JPG",
+      "ground_truth": "嗜酸食管炎",
+      "mllm_diag": "嗜酸食管炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.009705,
+          "mean_log_prob": -0.001941,
+          "norm_prob": 0.692898,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -7.18279,
+          "mean_log_prob": -1.436558,
+          "norm_prob": 0.165053,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -4.759944,
+          "mean_log_prob": -1.586648,
+          "norm_prob": 0.142049,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "嗜酸食管炎",
+        "巴雷特食管",
+        "食管癌"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.692898,
+          "log_prob": -0.009705,
+          "mean_log_prob": -0.001941
+        },
+        {
+          "rank": 2,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.165053,
+          "log_prob": -7.18279,
+          "mean_log_prob": -1.436558
+        },
+        {
+          "rank": 3,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.142049,
+          "log_prob": -4.759944,
+          "mean_log_prob": -1.586648
+        }
+      ],
+      "mllm_visual_evidence": "食管黏膜呈现弥漫性红斑、糜烂及线状裂隙，伴有局部隆起和白色渗出物，符合嗜酸性炎症的典型内镜表现。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"嗜酸食管炎\",\n  \"topk\": [\"嗜酸食管炎\", \"巴雷特食管\", \"食管癌\"],\n  \"visual_evidence\": \"食管黏膜呈现弥漫性红斑、糜烂及线状裂隙，伴有局部隆起和白色渗出物，符合嗜酸性炎症的典型内镜表现。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.182714462280273,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__牟玉芬_20260425_80",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_80.JPG",
+      "ground_truth_name": "嗜酸食管炎",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/嗜酸食管炎/食管__牟玉芬_20260425_80.JPG",
+      "ground_truth": "嗜酸食管炎",
+      "mllm_diag": "嗜酸食管炎",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.002986,
+          "mean_log_prob": -0.000597,
+          "norm_prob": 0.746445,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -7.825654,
+          "mean_log_prob": -1.565131,
+          "norm_prob": 0.156145,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -6.110967,
+          "mean_log_prob": -2.036989,
+          "norm_prob": 0.09741,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "嗜酸食管炎",
+        "巴雷特食管",
+        "食管癌"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.746445,
+          "log_prob": -0.002986,
+          "mean_log_prob": -0.000597
+        },
+        {
+          "rank": 2,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.156145,
+          "log_prob": -7.825654,
+          "mean_log_prob": -1.565131
+        },
+        {
+          "rank": 3,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.09741,
+          "log_prob": -6.110967,
+          "mean_log_prob": -2.036989
+        }
+      ],
+      "mllm_visual_evidence": "食管黏膜呈现弥漫性充血、糜烂及颗粒状改变，伴有大量泡沫样分泌物覆盖，符合嗜酸性炎症的典型内镜表现；未见明显柱状上皮化生或溃疡性病变，不支持巴雷特食管或食管癌。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"嗜酸食管炎\",\n  \"topk\": [\"嗜酸食管炎\", \"巴雷特食管\", \"食管癌\"],\n  \"visual_evidence\": \"食管黏膜呈现弥漫性充血、糜烂及颗粒状改变，伴有大量泡沫样分泌物覆盖，符合嗜酸性炎症的典型内镜表现；未见明显柱状上皮化生或溃疡性病变，不支持巴雷特食管或食管癌。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.830787420272827,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__20250711_66",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__20250711_66.JPG",
+      "ground_truth_name": "巴雷特食管",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__20250711_66.JPG",
+      "ground_truth": "巴雷特食管",
+      "mllm_diag": "嗜酸食管炎",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.053374,
+          "mean_log_prob": -0.010675,
+          "norm_prob": 0.561686,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -3.711143,
+          "mean_log_prob": -0.742229,
+          "norm_prob": 0.270261,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -3.652004,
+          "mean_log_prob": -1.217335,
+          "norm_prob": 0.168053,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "嗜酸食管炎",
+        "巴雷特食管",
+        "食管癌"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.561686,
+          "log_prob": -0.053374,
+          "mean_log_prob": -0.010675
+        },
+        {
+          "rank": 2,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.270261,
+          "log_prob": -3.711143,
+          "mean_log_prob": -0.742229
+        },
+        {
+          "rank": 3,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.168053,
+          "log_prob": -3.652004,
+          "mean_log_prob": -1.217335
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面可见明显的线状或环状糜烂、浅表溃疡及白色渗出物，伴有局部充血和水肿，符合嗜酸性炎症的典型内镜表现；同时未见明显柱状上皮化生或肿瘤样隆起，不支持巴雷特食管或食管癌。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"嗜酸食管炎\",\n  \"topk\": [\"嗜酸食管炎\", \"巴雷特食管\", \"食管癌\"],\n  \"visual_evidence\": \"黏膜表面可见明显的线状或环状糜烂、浅表溃疡及白色渗出物，伴有局部充血和水肿，符合嗜酸性炎症的典型内镜表现；同时未见明显柱状上皮化生或肿瘤样隆起，不支持巴雷特食管或食管癌。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 7.334336042404175,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__20250711_67",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__20250711_67.JPG",
+      "ground_truth_name": "巴雷特食管",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__20250711_67.JPG",
+      "ground_truth": "巴雷特食管",
+      "mllm_diag": "嗜酸食管炎",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.072065,
+          "mean_log_prob": -0.014413,
+          "norm_prob": 0.544247,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -3.194661,
+          "mean_log_prob": -0.638932,
+          "norm_prob": 0.291455,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -3.636402,
+          "mean_log_prob": -1.212134,
+          "norm_prob": 0.164298,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "嗜酸食管炎",
+        "巴雷特食管",
+        "食管癌"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.544247,
+          "log_prob": -0.072065,
+          "mean_log_prob": -0.014413
+        },
+        {
+          "rank": 2,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.291455,
+          "log_prob": -3.194661,
+          "mean_log_prob": -0.638932
+        },
+        {
+          "rank": 3,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.164298,
+          "log_prob": -3.636402,
+          "mean_log_prob": -1.212134
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面可见弥漫性红斑、线状或环状糜烂，伴有白色渗出物及黏膜皱襞增厚，符合嗜酸性炎症特征；未见明显柱状上皮化生或溃疡性病变，不支持巴雷特食管或食管癌。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"嗜酸食管炎\",\n  \"topk\": [\"嗜酸食管炎\", \"巴雷特食管\", \"食管癌\"],\n  \"visual_evidence\": \"黏膜表面可见弥漫性红斑、线状或环状糜烂，伴有白色渗出物及黏膜皱襞增厚，符合嗜酸性炎症特征；未见明显柱状上皮化生或溃疡性病变，不支持巴雷特食管或食管癌。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 7.216051340103149,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__20250711_69_cropped",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__20250711_69_cropped.JPG",
+      "ground_truth_name": "巴雷特食管",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__20250711_69_cropped.JPG",
+      "ground_truth": "巴雷特食管",
+      "mllm_diag": "嗜酸食管炎",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.05401,
+          "mean_log_prob": -0.010802,
+          "norm_prob": 0.561921,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -3.966694,
+          "mean_log_prob": -0.793339,
+          "norm_prob": 0.256935,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -3.428611,
+          "mean_log_prob": -1.14287,
+          "norm_prob": 0.181144,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "嗜酸食管炎",
+        "巴雷特食管",
+        "食管癌"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.561921,
+          "log_prob": -0.05401,
+          "mean_log_prob": -0.010802
+        },
+        {
+          "rank": 2,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.256935,
+          "log_prob": -3.966694,
+          "mean_log_prob": -0.793339
+        },
+        {
+          "rank": 3,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.181144,
+          "log_prob": -3.428611,
+          "mean_log_prob": -1.14287
+        }
+      ],
+      "mllm_visual_evidence": "食管黏膜呈现弥漫性充血、糜烂及线状或环状狭窄，局部可见白色斑块样渗出物，符合嗜酸性炎症特征；未见明显柱状上皮化生或溃疡性病变，不支持巴雷特食管或食管癌。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"嗜酸食管炎\",\n  \"topk\": [\"嗜酸食管炎\", \"巴雷特食管\", \"食管癌\"],\n  \"visual_evidence\": \"食管黏膜呈现弥漫性充血、糜烂及线状或环状狭窄，局部可见白色斑块样渗出物，符合嗜酸性炎症特征；未见明显柱状上皮化生或溃疡性病变，不支持巴雷特食管或食管癌。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 7.120017051696777,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__src1__食管__20250711_110_cropped",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__src1__食管__20250711_110_cropped.JPG",
+      "ground_truth_name": "巴雷特食管",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__src1__食管__20250711_110_cropped.JPG",
+      "ground_truth": "巴雷特食管",
+      "mllm_diag": "嗜酸食管炎",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.216725,
+          "mean_log_prob": -0.043345,
+          "norm_prob": 0.47791,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -3.426672,
+          "mean_log_prob": -0.685334,
+          "norm_prob": 0.251497,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -1.836459,
+          "mean_log_prob": -0.612153,
+          "norm_prob": 0.270593,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "嗜酸食管炎",
+        "巴雷特食管",
+        "食管癌"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.47791,
+          "log_prob": -0.216725,
+          "mean_log_prob": -0.043345
+        },
+        {
+          "rank": 2,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.251497,
+          "log_prob": -3.426672,
+          "mean_log_prob": -0.685334
+        },
+        {
+          "rank": 3,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.270593,
+          "log_prob": -1.836459,
+          "mean_log_prob": -0.612153
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面呈现弥漫性红斑、糜烂及线状沟槽样改变，伴有白色或灰白色斑块和不规则隆起，符合嗜酸性炎症特征；同时可见血管纹理紊乱及局部黏膜增厚，提示慢性炎症反应。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"嗜酸食管炎\",\n  \"topk\": [\"嗜酸食管炎\", \"巴雷特食管\", \"食管癌\"],\n  \"visual_evidence\": \"黏膜表面呈现弥漫性红斑、糜烂及线状沟槽样改变，伴有白色或灰白色斑块和不规则隆起，符合嗜酸性炎症特征；同时可见血管纹理紊乱及局部黏膜增厚，提示慢性炎症反应。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 6.850569009780884,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__src1__食管__20250711_4_cropped",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__src1__食管__20250711_4_cropped.JPG",
+      "ground_truth_name": "巴雷特食管",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__src1__食管__20250711_4_cropped.JPG",
+      "ground_truth": "巴雷特食管",
+      "mllm_diag": "嗜酸食管炎",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.224038,
+          "mean_log_prob": -0.044808,
+          "norm_prob": 0.469904,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -2.131895,
+          "mean_log_prob": -0.426379,
+          "norm_prob": 0.320844,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -2.561393,
+          "mean_log_prob": -0.853798,
+          "norm_prob": 0.209252,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "嗜酸食管炎",
+        "巴雷特食管",
+        "食管癌"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.469904,
+          "log_prob": -0.224038,
+          "mean_log_prob": -0.044808
+        },
+        {
+          "rank": 2,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.320844,
+          "log_prob": -2.131895,
+          "mean_log_prob": -0.426379
+        },
+        {
+          "rank": 3,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.209252,
+          "log_prob": -2.561393,
+          "mean_log_prob": -0.853798
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面可见明显的线状或环状糜烂、浅表溃疡及白色渗出物，伴有黏膜增厚和不规则纹理，符合嗜酸性炎症的典型内镜表现；同时未见明显柱状上皮化生或肿瘤样隆起，与巴雷特食管或食管癌的特征不符。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"嗜酸食管炎\",\n  \"topk\": [\"嗜酸食管炎\", \"巴雷特食管\", \"食管癌\"],\n  \"visual_evidence\": \"黏膜表面可见明显的线状或环状糜烂、浅表溃疡及白色渗出物，伴有黏膜增厚和不规则纹理，符合嗜酸性炎症的典型内镜表现；同时未见明显柱状上皮化生或肿瘤样隆起，与巴雷特食管或食管癌的特征不符。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 7.443175315856934,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__src1__食管__20250711_67_cropped",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__src1__食管__20250711_67_cropped.JPG",
+      "ground_truth_name": "巴雷特食管",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__src1__食管__20250711_67_cropped.JPG",
+      "ground_truth": "巴雷特食管",
+      "mllm_diag": "嗜酸食管炎",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.029242,
+          "mean_log_prob": -0.005848,
+          "norm_prob": 0.600218,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -4.096793,
+          "mean_log_prob": -0.819359,
+          "norm_prob": 0.266076,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -4.522482,
+          "mean_log_prob": -1.507494,
+          "norm_prob": 0.133706,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "嗜酸食管炎",
+        "巴雷特食管",
+        "食管癌"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.600218,
+          "log_prob": -0.029242,
+          "mean_log_prob": -0.005848
+        },
+        {
+          "rank": 2,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.266076,
+          "log_prob": -4.096793,
+          "mean_log_prob": -0.819359
+        },
+        {
+          "rank": 3,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.133706,
+          "log_prob": -4.522482,
+          "mean_log_prob": -1.507494
+        }
+      ],
+      "mllm_visual_evidence": "食管黏膜呈现弥漫性红斑、线状或环状糜烂，伴有白色渗出物和黏膜皱襞增厚，符合嗜酸性炎症的典型内镜表现；未见明显柱状上皮化生或溃疡性病变，不支持巴雷特食管或食管癌。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"嗜酸食管炎\",\n  \"topk\": [\"嗜酸食管炎\", \"巴雷特食管\", \"食管癌\"],\n  \"visual_evidence\": \"食管黏膜呈现弥漫性红斑、线状或环状糜烂，伴有白色渗出物和黏膜皱襞增厚，符合嗜酸性炎症的典型内镜表现；未见明显柱状上皮化生或溃疡性病变，不支持巴雷特食管或食管癌。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 7.320429801940918,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__袁凯_胃镜_20250711_110_cropped_1",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__袁凯_胃镜_20250711_110_cropped_1.JPG",
+      "ground_truth_name": "巴雷特食管",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__袁凯_胃镜_20250711_110_cropped_1.JPG",
+      "ground_truth": "巴雷特食管",
+      "mllm_diag": "嗜酸食管炎",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.216725,
+          "mean_log_prob": -0.043345,
+          "norm_prob": 0.47791,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -3.426672,
+          "mean_log_prob": -0.685334,
+          "norm_prob": 0.251497,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -1.836459,
+          "mean_log_prob": -0.612153,
+          "norm_prob": 0.270593,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "嗜酸食管炎",
+        "巴雷特食管",
+        "食管癌"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.47791,
+          "log_prob": -0.216725,
+          "mean_log_prob": -0.043345
+        },
+        {
+          "rank": 2,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.251497,
+          "log_prob": -3.426672,
+          "mean_log_prob": -0.685334
+        },
+        {
+          "rank": 3,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.270593,
+          "log_prob": -1.836459,
+          "mean_log_prob": -0.612153
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面呈现弥漫性红斑、糜烂及线状沟槽样改变，伴有白色或灰白色斑块和不规则隆起，符合嗜酸性炎症特征；同时可见血管纹理紊乱及局部黏膜增厚，提示慢性炎症反应。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"嗜酸食管炎\",\n  \"topk\": [\"嗜酸食管炎\", \"巴雷特食管\", \"食管癌\"],\n  \"visual_evidence\": \"黏膜表面呈现弥漫性红斑、糜烂及线状沟槽样改变，伴有白色或灰白色斑块和不规则隆起，符合嗜酸性炎症特征；同时可见血管纹理紊乱及局部黏膜增厚，提示慢性炎症反应。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 6.8346216678619385,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__袁凯_胃镜_20250711_131_cropped_1",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__袁凯_胃镜_20250711_131_cropped_1.JPG",
+      "ground_truth_name": "巴雷特食管",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/巴雷特食管/食管__袁凯_胃镜_20250711_131_cropped_1.JPG",
+      "ground_truth": "巴雷特食管",
+      "mllm_diag": "嗜酸食管炎",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.080755,
+          "mean_log_prob": -0.016151,
+          "norm_prob": 0.558796,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -5.033958,
+          "mean_log_prob": -1.006792,
+          "norm_prob": 0.207503,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -2.663675,
+          "mean_log_prob": -0.887892,
+          "norm_prob": 0.233701,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "嗜酸食管炎",
+        "巴雷特食管",
+        "食管癌"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.558796,
+          "log_prob": -0.080755,
+          "mean_log_prob": -0.016151
+        },
+        {
+          "rank": 2,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.207503,
+          "log_prob": -5.033958,
+          "mean_log_prob": -1.006792
+        },
+        {
+          "rank": 3,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.233701,
+          "log_prob": -2.663675,
+          "mean_log_prob": -0.887892
+        }
+      ],
+      "mllm_visual_evidence": "黏膜呈现弥漫性红斑、糜烂及线状裂隙，伴有明显的血管纹理紊乱和局部充血，符合嗜酸性炎症的典型内镜表现；未见明显柱状上皮化生或溃疡性病变，不支持巴雷特食管或食管癌。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"嗜酸食管炎\",\n  \"topk\": [\"嗜酸食管炎\", \"巴雷特食管\", \"食管癌\"],\n  \"visual_evidence\": \"黏膜呈现弥漫性红斑、糜烂及线状裂隙，伴有明显的血管纹理紊乱和局部充血，符合嗜酸性炎症的典型内镜表现；未见明显柱状上皮化生或溃疡性病变，不支持巴雷特食管或食管癌。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 7.18684720993042,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__20250711_28",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__20250711_28.JPG",
+      "ground_truth_name": "食管癌",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__20250711_28.JPG",
+      "ground_truth": "食管癌",
+      "mllm_diag": "食管癌",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -8.243824,
+          "mean_log_prob": -1.648765,
+          "norm_prob": 0.152014,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -13.104062,
+          "mean_log_prob": -2.620812,
+          "norm_prob": 0.057508,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -0.000302,
+          "mean_log_prob": -0.000101,
+          "norm_prob": 0.790478,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "嗜酸食管炎",
+        "巴雷特食管"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.790478,
+          "log_prob": -0.000302,
+          "mean_log_prob": -0.000101
+        },
+        {
+          "rank": 2,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.152014,
+          "log_prob": -8.243824,
+          "mean_log_prob": -1.648765
+        },
+        {
+          "rank": 3,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.057508,
+          "log_prob": -13.104062,
+          "mean_log_prob": -2.620812
+        }
+      ],
+      "mllm_visual_evidence": "食管黏膜呈现不规则隆起、溃疡及糜烂，伴有白色或灰黄色坏死组织覆盖，局部可见血管纹理紊乱和狭窄，符合恶性肿瘤的典型内镜表现。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"嗜酸食管炎\", \"巴雷特食管\"],\n  \"visual_evidence\": \"食管黏膜呈现不规则隆起、溃疡及糜烂，伴有白色或灰黄色坏死组织覆盖，局部可见血管纹理紊乱和狭窄，符合恶性肿瘤的典型内镜表现。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.098679542541504,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__何树君_胃镜_20250711_4_cropped",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__何树君_胃镜_20250711_4_cropped.JPG",
+      "ground_truth_name": "食管癌",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__何树君_胃镜_20250711_4_cropped.JPG",
+      "ground_truth": "食管癌",
+      "mllm_diag": "食管癌",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -3.706267,
+          "mean_log_prob": -0.741253,
+          "norm_prob": 0.299446,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -10.472249,
+          "mean_log_prob": -2.09445,
+          "norm_prob": 0.077381,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -0.025089,
+          "mean_log_prob": -0.008363,
+          "norm_prob": 0.623173,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "嗜酸食管炎",
+        "巴雷特食管"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.623173,
+          "log_prob": -0.025089,
+          "mean_log_prob": -0.008363
+        },
+        {
+          "rank": 2,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.299446,
+          "log_prob": -3.706267,
+          "mean_log_prob": -0.741253
+        },
+        {
+          "rank": 3,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.077381,
+          "log_prob": -10.472249,
+          "mean_log_prob": -2.09445
+        }
+      ],
+      "mllm_visual_evidence": "图像显示食管黏膜存在不规则溃疡、糜烂及增生性病变，伴有明显的组织破坏和坏死区域，局部可见白色或灰白色隆起与深色血痂混合，符合恶性肿瘤的典型内镜表现。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"嗜酸食管炎\", \"巴雷特食管\"],\n  \"visual_evidence\": \"图像显示食管黏膜存在不规则溃疡、糜烂及增生性病变，伴有明显的组织破坏和坏死区域，局部可见白色或灰白色隆起与深色血痂混合，符合恶性肿瘤的典型内镜表现。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.234543323516846,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__食管__20250711_10_cropped",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__食管__20250711_10_cropped.JPG",
+      "ground_truth_name": "食管癌",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__食管__20250711_10_cropped.JPG",
+      "ground_truth": "食管癌",
+      "mllm_diag": "食管癌",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -6.098877,
+          "mean_log_prob": -1.219775,
+          "norm_prob": 0.207652,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -10.295135,
+          "mean_log_prob": -2.059027,
+          "norm_prob": 0.089713,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -0.002396,
+          "mean_log_prob": -0.000799,
+          "norm_prob": 0.702636,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "嗜酸食管炎",
+        "巴雷特食管"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.702636,
+          "log_prob": -0.002396,
+          "mean_log_prob": -0.000799
+        },
+        {
+          "rank": 2,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.207652,
+          "log_prob": -6.098877,
+          "mean_log_prob": -1.219775
+        },
+        {
+          "rank": 3,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.089713,
+          "log_prob": -10.295135,
+          "mean_log_prob": -2.059027
+        }
+      ],
+      "mllm_visual_evidence": "图像显示食管黏膜表面有不规则的溃疡样缺损、坏死组织及明显出血，伴有周围组织浸润和形态异常，符合恶性肿瘤的典型内镜表现。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"嗜酸食管炎\", \"巴雷特食管\"],\n  \"visual_evidence\": \"图像显示食管黏膜表面有不规则的溃疡样缺损、坏死组织及明显出血，伴有周围组织浸润和形态异常，符合恶性肿瘤的典型内镜表现。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.096759080886841,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__食管__20250711_11_cropped",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__食管__20250711_11_cropped.JPG",
+      "ground_truth_name": "食管癌",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__食管__20250711_11_cropped.JPG",
+      "ground_truth": "食管癌",
+      "mllm_diag": "食管癌",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -6.355561,
+          "mean_log_prob": -1.271112,
+          "norm_prob": 0.199584,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -10.371589,
+          "mean_log_prob": -2.074318,
+          "norm_prob": 0.089392,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -0.001931,
+          "mean_log_prob": -0.000644,
+          "norm_prob": 0.711024,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "嗜酸食管炎",
+        "巴雷特食管"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.711024,
+          "log_prob": -0.001931,
+          "mean_log_prob": -0.000644
+        },
+        {
+          "rank": 2,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.199584,
+          "log_prob": -6.355561,
+          "mean_log_prob": -1.271112
+        },
+        {
+          "rank": 3,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.089392,
+          "log_prob": -10.371589,
+          "mean_log_prob": -2.074318
+        }
+      ],
+      "mllm_visual_evidence": "图像显示食管黏膜表面不规则隆起、颜色异常（灰白与暗红混合），伴有糜烂和出血灶，局部组织结构破坏明显，符合恶性肿瘤的典型内镜表现。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"嗜酸食管炎\", \"巴雷特食管\"],\n  \"visual_evidence\": \"图像显示食管黏膜表面不规则隆起、颜色异常（灰白与暗红混合），伴有糜烂和出血灶，局部组织结构破坏明显，符合恶性肿瘤的典型内镜表现。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.225095510482788,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__食管__20250711_14_cropped",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__食管__20250711_14_cropped.JPG",
+      "ground_truth_name": "食管癌",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__食管__20250711_14_cropped.JPG",
+      "ground_truth": "食管癌",
+      "mllm_diag": "嗜酸食管炎",
+      "mllm_correct": false,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.043131,
+          "mean_log_prob": -0.008626,
+          "norm_prob": 0.625203,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -6.917826,
+          "mean_log_prob": -1.383565,
+          "norm_prob": 0.158086,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -3.204416,
+          "mean_log_prob": -1.068139,
+          "norm_prob": 0.216711,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "嗜酸食管炎",
+        "巴雷特食管",
+        "食管癌"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.625203,
+          "log_prob": -0.043131,
+          "mean_log_prob": -0.008626
+        },
+        {
+          "rank": 2,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.158086,
+          "log_prob": -6.917826,
+          "mean_log_prob": -1.383565
+        },
+        {
+          "rank": 3,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.216711,
+          "log_prob": -3.204416,
+          "mean_log_prob": -1.068139
+        }
+      ],
+      "mllm_visual_evidence": "食管黏膜呈现弥漫性充血、糜烂及白色斑块样改变，伴有环状狭窄和表面不规则，符合嗜酸性炎症的典型内镜表现。",
+      "mllm_risk_level": "medium",
+      "mllm_raw_text": "{\n  \"diag\": \"嗜酸食管炎\",\n  \"topk\": [\"嗜酸食管炎\", \"巴雷特食管\", \"食管癌\"],\n  \"visual_evidence\": \"食管黏膜呈现弥漫性充血、糜烂及白色斑块样改变，伴有环状狭窄和表面不规则，符合嗜酸性炎症的典型内镜表现。\",\n  \"risk_level\": \"medium\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 5.073886394500732,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__食管__20250711_3_cropped",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__食管__20250711_3_cropped.JPG",
+      "ground_truth_name": "食管癌",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__食管__20250711_3_cropped.JPG",
+      "ground_truth": "食管癌",
+      "mllm_diag": "食管癌",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.850668,
+          "mean_log_prob": -0.170134,
+          "norm_prob": 0.410134,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -4.739815,
+          "mean_log_prob": -0.947963,
+          "norm_prob": 0.188416,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -0.574608,
+          "mean_log_prob": -0.191536,
+          "norm_prob": 0.40145,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "嗜酸食管炎",
+        "巴雷特食管"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.40145,
+          "log_prob": -0.574608,
+          "mean_log_prob": -0.191536
+        },
+        {
+          "rank": 2,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.410134,
+          "log_prob": -0.850668,
+          "mean_log_prob": -0.170134
+        },
+        {
+          "rank": 3,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.188416,
+          "log_prob": -4.739815,
+          "mean_log_prob": -0.947963
+        }
+      ],
+      "mllm_visual_evidence": "可见黏膜表面有不规则溃疡样缺损，边缘隆起且伴有新鲜出血，局部组织形态异常，提示恶性病变可能。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"嗜酸食管炎\", \"巴雷特食管\"],\n  \"visual_evidence\": \"可见黏膜表面有不规则溃疡样缺损，边缘隆起且伴有新鲜出血，局部组织形态异常，提示恶性病变可能。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 4.708098649978638,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__食管__20250711_9_cropped",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__食管__20250711_9_cropped.JPG",
+      "ground_truth_name": "食管癌",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__食管__20250711_9_cropped.JPG",
+      "ground_truth": "食管癌",
+      "mllm_diag": "食管癌",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -0.577908,
+          "mean_log_prob": -0.115582,
+          "norm_prob": 0.457402,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -6.040102,
+          "mean_log_prob": -1.20802,
+          "norm_prob": 0.153412,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -0.831264,
+          "mean_log_prob": -0.277088,
+          "norm_prob": 0.389186,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "嗜酸食管炎",
+        "巴雷特食管"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.389186,
+          "log_prob": -0.831264,
+          "mean_log_prob": -0.277088
+        },
+        {
+          "rank": 2,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.457402,
+          "log_prob": -0.577908,
+          "mean_log_prob": -0.115582
+        },
+        {
+          "rank": 3,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.153412,
+          "log_prob": -6.040102,
+          "mean_log_prob": -1.20802
+        }
+      ],
+      "mllm_visual_evidence": "黏膜表面可见不规则的糜烂、溃疡及血管纹理紊乱，伴有明显的充血和出血倾向，符合恶性病变的典型内镜表现。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"嗜酸食管炎\", \"巴雷特食管\"],\n  \"visual_evidence\": \"黏膜表面可见不规则的糜烂、溃疡及血管纹理紊乱，伴有明显的充血和出血倾向，符合恶性病变的典型内镜表现。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 4.651328086853027,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    },
+    {
+      "image_id": "食管__食管__20250713_25_cropped",
+      "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__食管__20250713_25_cropped.JPG",
+      "ground_truth_name": "食管癌",
+      "support_classes": [
+        {
+          "label_name": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎"
+        },
+        {
+          "label_name": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+        },
+        {
+          "label_name": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌"
+        }
+      ],
+      "image_path": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/食管/食管癌/食管__食管__20250713_25_cropped.JPG",
+      "ground_truth": "食管癌",
+      "mllm_diag": "食管癌",
+      "mllm_correct": true,
+      "mllm_score_map": {
+        "嗜酸食管炎": {
+          "log_prob": -9.217125,
+          "mean_log_prob": -1.843425,
+          "norm_prob": 0.12983,
+          "token_count": 5.0
+        },
+        "巴雷特食管": {
+          "log_prob": -13.994691,
+          "mean_log_prob": -2.798938,
+          "norm_prob": 0.049935,
+          "token_count": 5.0
+        },
+        "食管癌": {
+          "log_prob": -0.000177,
+          "mean_log_prob": -5.9e-05,
+          "norm_prob": 0.820236,
+          "token_count": 3.0
+        }
+      },
+      "candidate_diseases": [
+        "食管癌",
+        "嗜酸食管炎",
+        "巴雷特食管"
+      ],
+      "candidate_support_dirs": [
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+        "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管"
+      ],
+      "mllm_candidates_detail": [
+        {
+          "rank": 1,
+          "disease": "食管癌",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/食管癌",
+          "source": "open_generation",
+          "norm_prob": 0.820236,
+          "log_prob": -0.000177,
+          "mean_log_prob": -5.9e-05
+        },
+        {
+          "rank": 2,
+          "disease": "嗜酸食管炎",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/嗜酸食管炎",
+          "source": "open_generation",
+          "norm_prob": 0.12983,
+          "log_prob": -9.217125,
+          "mean_log_prob": -1.843425
+        },
+        {
+          "rank": 3,
+          "disease": "巴雷特食管",
+          "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/食管_1query/train/巴雷特食管",
+          "source": "open_generation",
+          "norm_prob": 0.049935,
+          "log_prob": -13.994691,
+          "mean_log_prob": -2.798938
+        }
+      ],
+      "mllm_visual_evidence": "食管腔内可见不规则的白色或灰白色隆起病变，伴有溃疡样改变和表面糜烂，部分区域呈菜花状或结节状突起，提示恶性肿瘤可能；同时存在黏膜破坏和狭窄，与良性炎症或Barrett食管的典型表现不同。",
+      "mllm_risk_level": "high",
+      "mllm_raw_text": "{\n  \"diag\": \"食管癌\",\n  \"topk\": [\"食管癌\", \"嗜酸食管炎\", \"巴雷特食管\"],\n  \"visual_evidence\": \"食管腔内可见不规则的白色或灰白色隆起病变，伴有溃疡样改变和表面糜烂，部分区域呈菜花状或结节状突起，提示恶性肿瘤可能；同时存在黏膜破坏和狭窄，与良性炎症或Barrett食管的典型表现不同。\",\n  \"risk_level\": \"high\"\n}",
+      "mllm_service_success": true,
+      "mllm_service_error": null,
+      "mllm_time_cost": 7.066018342971802,
+      "mllm_full_score_class_count": 3,
+      "mllm_candidate_count": 3,
+      "mllm_service_protocol": {
+        "candidate_diseases_used_for_fsl": false,
+        "fsl_source": "offline_full_set",
+        "score_map_scope": "full_support_classes",
+        "teacher_forcing": true,
+        "softmax_temperature": 1.0,
+        "length_normalize": true
+      }
+    }
+  ]
+}
