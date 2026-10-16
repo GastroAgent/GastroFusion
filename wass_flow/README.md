@@ -173,38 +173,63 @@ F1 trajectory generation is computationally expensive: each process holds the co
 
 ## 3. Quick Start: Evaluation
 
-Environment (`wass_flow` uses the `flow` conda environment throughout):
+Wasserstein-GastroFlow uses the `flow` Conda environment. Activate it before running the evaluation scripts:
 
 ```bash
-source /mnt/inaisfs/data/apps/cuda12.4.sh
-source /mnt/inaisfs/data/home/tansy_criait/miniconda3/bin/activate flow
+conda activate flow
+cd /path/to/GastroFusion/wass_flow
 ```
 
-Two evaluation pipelines are used routinely: F1 and Q2L / Q2S-Retained. Each has test-test and test-train protocols. The `.sh` scripts can be used as SLURM scripts or executed directly with `bash`. Evaluation settings are configured in the Python `USER CONFIG` block or via shell environment variables.
+The evaluation framework supports organ-specific experiments. The publicly released Demo A is configured for stomach data under the test-test protocol. Evaluation of other organs requires the corresponding datasets, checkpoints, and configuration adjustments.
+
+### Released Demo A: stomach test-test evaluation
+
+Download `demo_data.zip` and `demo-wass-flow-stomach.zip` from the [GastroFusion Hugging Face repository](https://huggingface.co/GastroAgent/GastroFusion). Extract them so that the evaluation scripts can access the following default directories relative to the **GastroFusion repository root**:
+
+```text
+demo_data/stomach/<disease-class>/*.jpg
+demo_weights/wass-flow-stomach/
+```
+
+The `demo_weights/wass-flow-stomach/` directory must contain the required F1/Decay, M2, Q2L, and DiT checkpoints at the paths expected by the scripts. These are extracted **directory paths**, not archive filenames. The scripts use these defaults unless `DATA_ROOT` and `WEIGHT_ROOT` are set explicitly.
+
+Additional pretrained dependencies required by the original loaders include the RAE decoder and normalization statistics, EndoViT, and DINOv3 ViT-L/16. Ensure these are available at the configured loader paths; see the repository-level README for the expected locations.
+
+Two released stomach evaluation entry points are provided:
 
 | Pipeline | Script | Description |
 | --- | --- | --- |
-| F1 (test-test) | `eval_f1_support_conditioned_lstm_v5_pretrain_m2_aligned_m2_dit.sh` | Learned decay-weighted main score + Direct / Endpoint / Uniform / Fixed-decay diagnostics |
-| F1 (test-train) | `eval_f1_support_conditioned_lstm_v5_pretrain_m2_aligned_testtrain_m2_dit.sh` | Same as above, under test-train protocol |
-| Q2L / Q2S-Retained (test-test) | `eval_q2l_q2last_q2mono_scorefuse_maxmin_testtest.sh` | Q2Last / Q2S-Retained + score fusion (`dist_sum` / `soft_vote` / `max_then_min`) |
-| Q2L / Q2S-Retained (reduced test-train) | `eval_q2l_q2last_q2mono_scorefuse_maxmin_testtrain.sh` | Same as above, under reduced test-train protocol |
+| F1 / Decay (test-test) | `eval_f1_support_conditioned_lstm_v5_pretrain_m2_aligned_m2_dit.sh` | Learned decay-weighted trajectory evaluation and related diagnostic scores. |
+| Q2L / Q2S-Retained (test-test) | `eval_q2l_q2last_q2mono_scorefuse_maxmin_testtest.sh` | Endpoint matching (`Q2Last` in code), retained-step aggregation (`Q2Mono` in code), and score-level fusion. |
 
 ```bash
+# Run from GastroFusion/wass_flow after activating the flow environment.
 bash eval_f1_support_conditioned_lstm_v5_pretrain_m2_aligned_m2_dit.sh
 bash eval_q2l_q2last_q2mono_scorefuse_maxmin_testtest.sh
 ```
 
-- **F1 pipeline:** Loads organ-specific checkpoints. `F1_*` / `M2_*` environment variables in `.sh` provide the esophagus, stomach, and duodenum F1 and M2 checkpoints (`--organ_f1_checkpoint` / `--organ_m2_checkpoint`). The test-train version also uses `--organ_support` to specify the support pool for each organ.
-- **Q2L pipeline:** The `.sh` file simply invokes the corresponding `.py` without arguments. Update the `USER CONFIG` section at the top of the Python script (`N_WAY` / `ORGAN_N_WAY` / `Q2L_CHECKPOINTS` / `SHOT_AGG`, etc.).
+To use nondefault extracted locations, set both variables before execution:
 
-Checks before running:
+```bash
+export DATA_ROOT="/absolute/path/to/stomach-class-root"
+export WEIGHT_ROOT="/absolute/path/to/checkpoint-root"
+```
 
-- **Paths:** The `ROOT` variable in the scripts still hardcodes the old repository location `/mnt/.../jmf/work/wass_flow`. Override `DATA_BASE` and checkpoint paths using environment variables or update the scripts directly as necessary.
-- **Data layout:** `DATA_BASE / hospital / organ / class / image` (e.g., `data/indomain_support_76`). Query and support come from the same hospital-organ pool, with the query image itself excluded from support.
-- **Required checkpoints:** Default paths are specified in the `.sh` / `.py` files and can be overridden with environment variables. DiT checkpoints are under `weights_dit_flow_v1/` (e.g., `vision_hint_inclass/otcfm_dit_L_step_265000.pt`); M2 and F1 checkpoints are organized by organ/protocol under `weights_metric_v1/<organ>-<protocol>/`.
-- **Outputs:** Written to each script's configured `BASE_RESULT_DIR` (CSV/JSON, including accuracy, fusion, rescue, and degradation statistics).
+Default output locations:
 
-See §4 for protocols and metric definitions.
+```text
+wass_flow/results/f1_stomach_testtest/summary_seed42.json
+wass_flow/results/q2l_stomach_testtest/fusion_q2last_q2mono/summary.csv
+wass_flow/results/q2l_stomach_testtest/fusion_q2last_q2mono/summary.json
+```
+
+The released Demo A uses a default 5-shot, 1-query, 100-episode, seed-42 evaluation configuration. For detailed options and output interpretation, consult the corresponding evaluation scripts.
+
+### Other research evaluation protocols
+
+Additional scripts in this module cover organ-specific and test-train experiments. Their dataset layouts, checkpoint paths, and configuration may differ from the released stomach Demo A. The associated scripts and Python configuration should be checked before use; they are not interchangeable with the two public Demo A entry points.
+
+See §4 for the geometric score definitions and evaluation protocols.
 
 ## 4. Evaluation Protocols
 
