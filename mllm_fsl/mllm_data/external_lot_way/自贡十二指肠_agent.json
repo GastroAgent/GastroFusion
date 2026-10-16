@@ -1,0 +1,2802 @@
+[
+  {
+    "image_id": "十二指肠降部__刘桂琼_20260427_17",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠副乳头/十二指肠降部__刘桂琼_20260427_17.JPG",
+    "ground_truth_name": "十二指肠副乳头",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__宋明芳_20260427_15",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠副乳头/十二指肠降部__宋明芳_20260427_15.JPG",
+    "ground_truth_name": "十二指肠副乳头",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__宋明芳_20260427_16",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠副乳头/十二指肠降部__宋明芳_20260427_16.JPG",
+    "ground_truth_name": "十二指肠副乳头",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__宋明芳_20260427_21",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠副乳头/十二指肠降部__宋明芳_20260427_21.JPG",
+    "ground_truth_name": "十二指肠副乳头",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__宋明芳_20260427_35",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠副乳头/十二指肠降部__宋明芳_20260427_35.JPG",
+    "ground_truth_name": "十二指肠副乳头",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__宋明芳_20260427_38",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠副乳头/十二指肠降部__宋明芳_20260427_38.JPG",
+    "ground_truth_name": "十二指肠副乳头",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__宋明芳_20260427_5",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠副乳头/十二指肠降部__宋明芳_20260427_5.JPG",
+    "ground_truth_name": "十二指肠副乳头",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__宋明芳_20260427_7",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠副乳头/十二指肠降部__宋明芳_20260427_7.JPG",
+    "ground_truth_name": "十二指肠副乳头",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__林晓燕_20260427_16",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠副乳头/十二指肠降部__林晓燕_20260427_16.JPG",
+    "ground_truth_name": "十二指肠副乳头",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__林晓燕_20260427_47",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠副乳头/十二指肠降部__林晓燕_20260427_47.JPG",
+    "ground_truth_name": "十二指肠副乳头",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__林晓燕_20260427_53",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠副乳头/十二指肠降部__林晓燕_20260427_53.JPG",
+    "ground_truth_name": "十二指肠副乳头",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__陈然贵_20260427_18",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠副乳头/十二指肠降部__陈然贵_20260427_18.JPG",
+    "ground_truth_name": "十二指肠副乳头",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__陈然贵_20260427_19",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠副乳头/十二指肠降部__陈然贵_20260427_19.JPG",
+    "ground_truth_name": "十二指肠副乳头",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__陈然贵_20260427_32",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠副乳头/十二指肠降部__陈然贵_20260427_32.JPG",
+    "ground_truth_name": "十二指肠副乳头",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__陈然贵_20260427_34",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠副乳头/十二指肠降部__陈然贵_20260427_34.JPG",
+    "ground_truth_name": "十二指肠副乳头",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__陈然贵_20260427_36",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠副乳头/十二指肠降部__陈然贵_20260427_36.JPG",
+    "ground_truth_name": "十二指肠副乳头",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__陈然贵_20260427_38",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠副乳头/十二指肠降部__陈然贵_20260427_38.JPG",
+    "ground_truth_name": "十二指肠副乳头",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__王芳_20260423_1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠憩室/十二指肠球部__王芳_20260423_1.JPG",
+    "ground_truth_name": "十二指肠憩室",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__廖正芬_20260423_1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠憩室/十二指肠降部__廖正芬_20260423_1.JPG",
+    "ground_truth_name": "十二指肠憩室",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__李群芳_20260423_1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠憩室/十二指肠降部__李群芳_20260423_1.JPG",
+    "ground_truth_name": "十二指肠憩室",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__李荣芳_20260423_1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠憩室/十二指肠降部__李荣芳_20260423_1.JPG",
+    "ground_truth_name": "十二指肠憩室",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__牟卫聪_20260423_1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠憩室/十二指肠降部__牟卫聪_20260423_1.JPG",
+    "ground_truth_name": "十二指肠憩室",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__胡水仙_20260423_1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠憩室/十二指肠降部__胡水仙_20260423_1.JPG",
+    "ground_truth_name": "十二指肠憩室",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__苏英_20260423_2",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠憩室/十二指肠降部__苏英_20260423_2.JPG",
+    "ground_truth_name": "十二指肠憩室",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__黄其圣_20260423_1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠憩室/十二指肠降部__黄其圣_20260423_1.JPG",
+    "ground_truth_name": "十二指肠憩室",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__20250711_11_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠正常/十二指肠球部__20250711_11_cropped.JPG",
+    "ground_truth_name": "十二指肠正常",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__src1__十二指肠球部__20250711_24_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠正常/十二指肠球部__src1__十二指肠球部__20250711_24_cropped.JPG",
+    "ground_truth_name": "十二指肠正常",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__src1__十二指肠球部__20250711_24_cropped_copy1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠正常/十二指肠球部__src1__十二指肠球部__20250711_24_cropped_copy1.JPG",
+    "ground_truth_name": "十二指肠正常",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__src1__十二指肠球部__20250711_28_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠正常/十二指肠球部__src1__十二指肠球部__20250711_28_cropped.JPG",
+    "ground_truth_name": "十二指肠正常",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__src1__十二指肠球部__20250711_6_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠正常/十二指肠球部__src1__十二指肠球部__20250711_6_cropped.JPG",
+    "ground_truth_name": "十二指肠正常",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__src1__彭孝吉_胃镜__20250711_8_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠正常/十二指肠球部__src1__彭孝吉_胃镜__20250711_8_cropped.JPG",
+    "ground_truth_name": "十二指肠正常",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__src1__十二指肠降部__20250711_15_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠正常/十二指肠降部__src1__十二指肠降部__20250711_15_cropped.JPG",
+    "ground_truth_name": "十二指肠正常",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__src1__十二指肠降部__20250711_15_cropped_copy1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠正常/十二指肠降部__src1__十二指肠降部__20250711_15_cropped_copy1.JPG",
+    "ground_truth_name": "十二指肠正常",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__src1__十二指肠降部__20250711_19_cropped_copy1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠正常/十二指肠降部__src1__十二指肠降部__20250711_19_cropped_copy1.JPG",
+    "ground_truth_name": "十二指肠正常",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__src1__十二指肠降部__20250711_24_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠正常/十二指肠降部__src1__十二指肠降部__20250711_24_cropped.JPG",
+    "ground_truth_name": "十二指肠正常",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__src1__十二指肠降部__20250711_26_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠正常/十二指肠降部__src1__十二指肠降部__20250711_26_cropped.JPG",
+    "ground_truth_name": "十二指肠正常",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__src1__十二指肠降部__20250711_31_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠正常/十二指肠降部__src1__十二指肠降部__20250711_31_cropped.JPG",
+    "ground_truth_name": "十二指肠正常",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__src1__十二指肠降部__20250711_34_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠正常/十二指肠降部__src1__十二指肠降部__20250711_34_cropped.JPG",
+    "ground_truth_name": "十二指肠正常",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__src1__十二指肠降部__20250711_43_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠正常/十二指肠降部__src1__十二指肠降部__20250711_43_cropped.JPG",
+    "ground_truth_name": "十二指肠正常",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__src1__十二指肠降部__20250711_4_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠正常/十二指肠降部__src1__十二指肠降部__20250711_4_cropped.JPG",
+    "ground_truth_name": "十二指肠正常",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__src1__十二指肠降部__20250711_7_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠正常/十二指肠降部__src1__十二指肠降部__20250711_7_cropped.JPG",
+    "ground_truth_name": "十二指肠正常",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__src1__十二指肠降部__20250711_7_cropped_copy1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠正常/十二指肠降部__src1__十二指肠降部__20250711_7_cropped_copy1.JPG",
+    "ground_truth_name": "十二指肠正常",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__src1__十二指肠降部__20250711_9_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠正常/十二指肠降部__src1__十二指肠降部__20250711_9_cropped.JPG",
+    "ground_truth_name": "十二指肠正常",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__src1__十二指肠球部__20250711_40_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠溃疡/十二指肠球部__src1__十二指肠球部__20250711_40_cropped.JPG",
+    "ground_truth_name": "十二指肠溃疡",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__代明文_胃镜_20250711_40_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠溃疡/十二指肠球部__代明文_胃镜_20250711_40_cropped.JPG",
+    "ground_truth_name": "十二指肠溃疡",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__何一友_胃镜_20250713_29_cropped_1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠溃疡/十二指肠球部__何一友_胃镜_20250713_29_cropped_1.JPG",
+    "ground_truth_name": "十二指肠溃疡",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__毛频_胃镜_20250711_17_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠溃疡/十二指肠球部__毛频_胃镜_20250711_17_cropped.JPG",
+    "ground_truth_name": "十二指肠溃疡",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__刘光正_胃镜_20250713_17_cropped_1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠溃疡/十二指肠降部__刘光正_胃镜_20250713_17_cropped_1.JPG",
+    "ground_truth_name": "十二指肠溃疡",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__十二指肠降部__20250711_39_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠溃疡/十二指肠降部__十二指肠降部__20250711_39_cropped.JPG",
+    "ground_truth_name": "十二指肠溃疡",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__十二指肠降部__20250711_8_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠溃疡/十二指肠降部__十二指肠降部__20250711_8_cropped.JPG",
+    "ground_truth_name": "十二指肠溃疡",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__20250711_22",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠炎/十二指肠球部__20250711_22.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__20250713_22",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠炎/十二指肠球部__20250713_22.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__src1__十二指肠球部__20250711_14_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠炎/十二指肠球部__src1__十二指肠球部__20250711_14_cropped.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__src1__十二指肠球部__20250711_55_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠炎/十二指肠球部__src1__十二指肠球部__20250711_55_cropped.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__src1__十二指肠球部__20250713_10_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠炎/十二指肠球部__src1__十二指肠球部__20250713_10_cropped.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__src1__十二指肠球部__20250713_12_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠炎/十二指肠球部__src1__十二指肠球部__20250713_12_cropped.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__src1__十二指肠球部__20250713_14_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠炎/十二指肠球部__src1__十二指肠球部__20250713_14_cropped.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__src1__十二指肠球部__20250713_5_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠炎/十二指肠球部__src1__十二指肠球部__20250713_5_cropped.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__src1__十二指肠球部__20250713_74_cropped",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠炎/十二指肠球部__src1__十二指肠球部__20250713_74_cropped.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__20250711_11",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠炎/十二指肠降部__20250711_11.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__20250713_18_1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠炎/十二指肠降部__20250713_18_1.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__20250713_25",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠炎/十二指肠降部__20250713_25.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__刘有琴_20260423_1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠钩虫/十二指肠球部__刘有琴_20260423_1.JPG",
+    "ground_truth_name": "十二指肠钩虫",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__周会英_20260427_107",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠钩虫/十二指肠球部__周会英_20260427_107.JPG",
+    "ground_truth_name": "十二指肠钩虫",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__胡淑容_20260423_1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠钩虫/十二指肠球部__胡淑容_20260423_1.JPG",
+    "ground_truth_name": "十二指肠钩虫",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__蒋树高_20260427_79",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠钩虫/十二指肠球部__蒋树高_20260427_79.JPG",
+    "ground_truth_name": "十二指肠钩虫",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__蒋树高_20260427_81",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠钩虫/十二指肠球部__蒋树高_20260427_81.JPG",
+    "ground_truth_name": "十二指肠钩虫",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__陈新桂_20260427_100",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠钩虫/十二指肠球部__陈新桂_20260427_100.JPG",
+    "ground_truth_name": "十二指肠钩虫",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__何国才_20260427_25",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠钩虫/十二指肠降部__何国才_20260427_25.JPG",
+    "ground_truth_name": "十二指肠钩虫",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__周会英_20260427_106",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠钩虫/十二指肠降部__周会英_20260427_106.JPG",
+    "ground_truth_name": "十二指肠钩虫",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__周会英_20260427_59",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠钩虫/十二指肠降部__周会英_20260427_59.JPG",
+    "ground_truth_name": "十二指肠钩虫",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__周会英_20260427_61",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠钩虫/十二指肠降部__周会英_20260427_61.JPG",
+    "ground_truth_name": "十二指肠钩虫",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__曾学荣_20260423_1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠钩虫/十二指肠降部__曾学荣_20260423_1.JPG",
+    "ground_truth_name": "十二指肠钩虫",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__李树光_20260423_1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠钩虫/十二指肠降部__李树光_20260423_1.JPG",
+    "ground_truth_name": "十二指肠钩虫",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__蒋树高_20260427_70",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠钩虫/十二指肠降部__蒋树高_20260427_70.JPG",
+    "ground_truth_name": "十二指肠钩虫",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__蒋树高_20260427_71",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠钩虫/十二指肠降部__蒋树高_20260427_71.JPG",
+    "ground_truth_name": "十二指肠钩虫",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__蒋树高_20260427_72",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠钩虫/十二指肠降部__蒋树高_20260427_72.JPG",
+    "ground_truth_name": "十二指肠钩虫",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__蒋树高_20260427_74",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠钩虫/十二指肠降部__蒋树高_20260427_74.JPG",
+    "ground_truth_name": "十二指肠钩虫",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__蒋树高_20260427_77",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠钩虫/十二指肠降部__蒋树高_20260427_77.JPG",
+    "ground_truth_name": "十二指肠钩虫",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__蒋树高_20260427_78",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/自贡/十二指肠/十二指肠钩虫/十二指肠降部__蒋树高_20260427_78.JPG",
+    "ground_truth_name": "十二指肠钩虫",
+    "support_classes": [
+      {
+        "label_name": "十二指肠副乳头",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠副乳头"
+      },
+      {
+        "label_name": "十二指肠憩室",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠憩室"
+      },
+      {
+        "label_name": "十二指肠正常",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠正常"
+      },
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      },
+      {
+        "label_name": "十二指肠球部息肉",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠球部息肉"
+      },
+      {
+        "label_name": "十二指肠钩虫",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠钩虫"
+      }
+    ]
+  }
+]

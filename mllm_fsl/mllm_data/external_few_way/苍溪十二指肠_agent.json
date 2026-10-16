@@ -1,0 +1,272 @@
+[
+  {
+    "image_id": "十二指肠球部__吴从秀_src1__十二指肠球部__32-1f374af6da7b",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠球部__吴从秀_src1__十二指肠球部__32-1f374af6da7b.JPG",
+    "ground_truth_name": "十二指肠溃疡",
+    "support_classes": [
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__吴从秀_src1__十二指肠球部__32",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠球部__吴从秀_src1__十二指肠球部__32.JPG",
+    "ground_truth_name": "十二指肠溃疡",
+    "support_classes": [
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__谭光福_53-076d4e49e4c7",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_53-076d4e49e4c7.JPG",
+    "ground_truth_name": "十二指肠溃疡",
+    "support_classes": [
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__谭光福_55-842097eb4dd7",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_55-842097eb4dd7.JPG",
+    "ground_truth_name": "十二指肠溃疡",
+    "support_classes": [
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__谭光福_src1__十二指肠降部__30-215f6e69aad1",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_src1__十二指肠降部__30-215f6e69aad1.JPG",
+    "ground_truth_name": "十二指肠溃疡",
+    "support_classes": [
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__谭光福_src1__十二指肠降部__32-48023ebf1a14",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_src1__十二指肠降部__32-48023ebf1a14.JPG",
+    "ground_truth_name": "十二指肠溃疡",
+    "support_classes": [
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__谭光福_src1__十二指肠降部__33",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠溃疡/十二指肠降部__谭光福_src1__十二指肠降部__33.JPG",
+    "ground_truth_name": "十二指肠溃疡",
+    "support_classes": [
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__十二指肠球部__34-a5bf2eb4a639",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__34-a5bf2eb4a639.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__十二指肠球部__59-56cc170f1625",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__59-56cc170f1625.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__十二指肠球部__60-c98a3ad54ba2",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__60-c98a3ad54ba2.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠球部__十二指肠球部__72-e289e55b3940",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠球部__十二指肠球部__72-e289e55b3940.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__十二指肠降部__62-93c8221a4fd2",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__62-93c8221a4fd2.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__十二指肠降部__65-18f55906c4a5",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__65-18f55906c4a5.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__十二指肠降部__66-5699787c039f",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__66-5699787c039f.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__十二指肠降部__67-29e12e248e8f",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__67-29e12e248e8f.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__十二指肠降部__68-f20756d3560f",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__68-f20756d3560f.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__十二指肠降部__69-c20f53218d23",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__69-c20f53218d23.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      }
+    ]
+  },
+  {
+    "image_id": "十二指肠降部__十二指肠降部__70-6c6d041c4eae",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/苍溪/十二指肠/十二指肠炎/十二指肠降部__十二指肠降部__70-6c6d041c4eae.JPG",
+    "ground_truth_name": "十二指肠炎",
+    "support_classes": [
+      {
+        "label_name": "十二指肠溃疡",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠溃疡"
+      },
+      {
+        "label_name": "十二指肠炎",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/十二指肠_1query/train/十二指肠炎"
+      }
+    ]
+  }
+]

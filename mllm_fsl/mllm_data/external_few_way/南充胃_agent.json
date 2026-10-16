@@ -1,0 +1,610 @@
+[
+  {
+    "image_id": "幽门__阳先华_44",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/皮革胃/幽门__阳先华_44.jpeg",
+    "ground_truth_name": "皮革胃",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__樊奇志_21",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/皮革胃/胃体__樊奇志_21.jpeg",
+    "ground_truth_name": "皮革胃",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__贾建文_13",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/皮革胃/胃体__贾建文_13.jpeg",
+    "ground_truth_name": "皮革胃",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__阳先华_13",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/皮革胃/胃体__阳先华_13.jpeg",
+    "ground_truth_name": "皮革胃",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__阳先华_42",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/皮革胃/胃体__阳先华_42.jpeg",
+    "ground_truth_name": "皮革胃",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__阳先华_46",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/皮革胃/胃体__阳先华_46.jpeg",
+    "ground_truth_name": "皮革胃",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__阳先华_49",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/皮革胃/胃体__阳先华_49.jpeg",
+    "ground_truth_name": "皮革胃",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃窦__杨邦才_22",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/皮革胃/胃窦__杨邦才_22.jpeg",
+    "ground_truth_name": "皮革胃",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃角__杨邦才_18",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/皮革胃/胃角__杨邦才_18.jpeg",
+    "ground_truth_name": "皮革胃",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃角__贾建文_29",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/皮革胃/胃角__贾建文_29.jpeg",
+    "ground_truth_name": "皮革胃",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "贲门__樊奇志_13",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/皮革胃/贲门__樊奇志_13.jpeg",
+    "ground_truth_name": "皮革胃",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__冯春萍_38",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃MALT淋巴瘤/胃体__冯春萍_38.jpeg",
+    "ground_truth_name": "胃MALT淋巴瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__杨定国1_21",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃MALT淋巴瘤/胃体__杨定国1_21.jpeg",
+    "ground_truth_name": "胃MALT淋巴瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__杨定国_10",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃MALT淋巴瘤/胃体__杨定国_10.jpeg",
+    "ground_truth_name": "胃MALT淋巴瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__杨定国_37",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃MALT淋巴瘤/胃体__杨定国_37.jpeg",
+    "ground_truth_name": "胃MALT淋巴瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__王清碧_4",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃MALT淋巴瘤/胃体__王清碧_4.jpeg",
+    "ground_truth_name": "胃MALT淋巴瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃底__沈桂兰_24",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃MALT淋巴瘤/胃底__沈桂兰_24.jpeg",
+    "ground_truth_name": "胃MALT淋巴瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃角__冯春萍_23",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃MALT淋巴瘤/胃角__冯春萍_23.jpeg",
+    "ground_truth_name": "胃MALT淋巴瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "贲门__杨定国_44",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃MALT淋巴瘤/贲门__杨定国_44.jpeg",
+    "ground_truth_name": "胃MALT淋巴瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "贲门__蔡长彬_66",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃MALT淋巴瘤/贲门__蔡长彬_66.jpeg",
+    "ground_truth_name": "胃MALT淋巴瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__何文清_31",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃神经内分泌肿瘤/胃体__何文清_31.jpeg",
+    "ground_truth_name": "胃神经内分泌肿瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__唐忠裕_32",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃神经内分泌肿瘤/胃体__唐忠裕_32.jpeg",
+    "ground_truth_name": "胃神经内分泌肿瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__唐忠裕_45",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃神经内分泌肿瘤/胃体__唐忠裕_45.jpeg",
+    "ground_truth_name": "胃神经内分泌肿瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__唐忠裕_47",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃神经内分泌肿瘤/胃体__唐忠裕_47.jpeg",
+    "ground_truth_name": "胃神经内分泌肿瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__唐忠裕_62",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃神经内分泌肿瘤/胃体__唐忠裕_62.jpeg",
+    "ground_truth_name": "胃神经内分泌肿瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__李永贞_35",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃神经内分泌肿瘤/胃体__李永贞_35.jpeg",
+    "ground_truth_name": "胃神经内分泌肿瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__李永贞_7",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃神经内分泌肿瘤/胃体__李永贞_7.jpeg",
+    "ground_truth_name": "胃神经内分泌肿瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__李辉_52",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃神经内分泌肿瘤/胃体__李辉_52.jpeg",
+    "ground_truth_name": "胃神经内分泌肿瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__李辉_54",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃神经内分泌肿瘤/胃体__李辉_54.jpeg",
+    "ground_truth_name": "胃神经内分泌肿瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__李辉_57",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃神经内分泌肿瘤/胃体__李辉_57.jpeg",
+    "ground_truth_name": "胃神经内分泌肿瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃体__蒲毕清_30",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃神经内分泌肿瘤/胃体__蒲毕清_30.jpeg",
+    "ground_truth_name": "胃神经内分泌肿瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  },
+  {
+    "image_id": "胃角__唐忠裕_24",
+    "target_image": "/mnt/inaisfs/data/home/tansy_criait/wass_flow_match_胃/data_tsy_deepemd/cross_domain_balanced/indomain_support_76/南充/胃/胃神经内分泌肿瘤/胃角__唐忠裕_24.jpeg",
+    "ground_truth_name": "胃神经内分泌肿瘤",
+    "support_classes": [
+      {
+        "label_name": "皮革胃",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/皮革胃"
+      },
+      {
+        "label_name": "胃MALT淋巴瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃MALT淋巴瘤"
+      },
+      {
+        "label_name": "胃神经内分泌肿瘤",
+        "support_dir": "/mnt/inaisfs/data/home/tansy_criait/jmf/data_tsy_827_doctor_test_split/胃_1query/train/胃神经内分泌肿瘤"
+      }
+    ]
+  }
+]
