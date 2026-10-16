@@ -59,7 +59,7 @@ if [[ ! -d "${INPUT_ROOT}" ]]; then
     exit 1
 fi
 
-fi
+
 if [[ ! -d "${RAE_FSL_RESULT_ROOT}" ]]; then
     echo "[ERROR] RAE_FSL_RESULT_ROOT does not exist: ${RAE_FSL_RESULT_ROOT}"
     exit 1
