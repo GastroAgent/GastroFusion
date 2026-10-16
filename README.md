@@ -51,7 +51,7 @@ English | [简体中文](README_CN.md)
 - **Multimodal evaluation:** GastroMLLM achieved **94.99%** accuracy on **OmniMedVQA-GI (1,537 questions)**.
 - **Fusion complementarity:** External fusion yielded numerical gains of **1.24** and **0.75 percentage points** under cohort-aligned and full-organ label spaces, respectively. A branch-selection oracle revealed complementary diagnostic coverage between geometric and semantic predictions.
 
-![GastroFusion Workflow](assets/figures/overview-ill.png)
+![GastroFusion Workflow](assets/figure/overview-ill.png)
 
 ---
 
@@ -327,11 +327,11 @@ GastroFusion/
 
 ## Visualizations
 
-![Benchmark comparison](assets/figures/dataset.png)
+![Benchmark comparison](assets/figure/dataset.png)
 
-![Long-tail performance](assets/figures/kshot-case.png)
+![Long-tail performance](assets/figure/kshot-case.png)
 
-![Workflow result](assets/figures/fsl-baseline-result.png)
+![Workflow result](assets/figure/fsl-baseline-result.png)
 
 ---
 
