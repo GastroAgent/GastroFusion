@@ -317,7 +317,7 @@ The separately trained MLLM and FSL branches are loaded, and their semantic and 
 
 ## Project Structure
 
-The following shows the main code directories. Verify the exact paths and files against the final public repository.
+The following shows the main code directories.
 
 ```text
 GastroFusion/
