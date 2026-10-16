@@ -34,12 +34,8 @@ The table below lists the currently confirmed scripts. Some scripts use the stom
 
 - **FSL-OM and PT-MAP:** These methods have already been trained on the corresponding medical datasets. Evaluation loads the medical experiment checkpoints stored in their respective directories (e.g., `FSL-OM-main/checkpoints/medical/`). Retraining is not required to run evaluations using these existing checkpoints.
 - **SimpleShot:** Reuses PT-MAP pretrained weights and does not perform separate model training.
-- **Other methods:** Generate or prepare the required checkpoints using the training entry points listed above, then evaluate them using the corresponding testing entry points. Existing trained checkpoints can also be loaded to reproduce previous experiments.
+- **Other methods:** Generate or prepare the required checkpoints using the training entry points listed above, then evaluate them using the corresponding testing entry points. 
 
-## 4. Pre-run Checklist
 
-1. Check the data root and checkpoint paths in each method's directory. Older scripts may contain absolute paths specific to the original server.
-2. Adjust the candidate class space, number of shots, and evaluation protocol for the target organ.
-3. Use the environment and dependencies required by each method, and run the confirmed `.py` or `.sh` entry points.
 
 > This document serves as an index of entry points and does not guarantee that every script can be executed without first updating paths and environment settings. For complete environment specifications, parameters, and organ-specific commands, consult the implementation files for each method.
