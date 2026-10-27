@@ -187,6 +187,24 @@ Demo A provides two stomach test-test few-shot evaluation entry points using the
 
 The default evaluation configuration is **5-shot, 1-query, 100 episodes, seed 42**.
 
+#### Evaluation protocol: test-pool support (test–test)
+
+This demo follows the internal test-pool support setting described in the paper.
+The released gastric images are organized by disease category and used to
+construct both support and query sets during inference. No separate
+training-pool support images need to be downloaded.
+
+Each episode samples one query image from this pool and constructs a
+5-shot support set for each candidate class. The query image is excluded
+from its corresponding support candidates, preventing the same image
+from appearing in both the query and support sets within an episode.
+
+The demo loads pretrained checkpoints and performs inference and evaluation
+without updating model parameters. This setting evaluates classification
+performance when a small number of locally labelled reference images
+are available.
+
+
 **1. Download and extract the Demo A archives:**
 
 ```bash
